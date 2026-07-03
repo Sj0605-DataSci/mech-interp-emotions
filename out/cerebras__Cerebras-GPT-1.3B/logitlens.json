@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "delighted",
+      "joy",
+      "welcome",
+      "!",
+      "happy",
+      "joyful",
+      "congratulations",
+      "enthusiastically"
+    ],
+    "down": [
+      "unwillingness",
+      "inaction",
+      "Unless",
+      "inability",
+      "unresolved",
+      "weaker",
+      "killers",
+      "lacks"
+    ],
+    "self_hit": true
+  },
+  "sad": {
+    "up": [
+      "worn",
+      "void",
+      "emptiness",
+      "sadness",
+      "loneliness",
+      "unresolved",
+      "memories",
+      "numb"
+    ],
+    "down": [
+      "!\"",
+      "\u2014\"",
+      "kidding",
+      "!)",
+      "!!\"",
+      "handedly",
+      "!\",",
+      "hilarious"
+    ],
+    "self_hit": true
+  },
+  "angry": {
+    "up": [
+      "violently",
+      "fury",
+      "retaliation",
+      "rage",
+      "angrily",
+      "injuring",
+      "shattering",
+      "hurled"
+    ],
+    "down": [
+      "comfortably",
+      "unob",
+      "bene",
+      "patiently",
+      "comfortable",
+      "sunny",
+      "refreshed",
+      "tomorrow"
+    ],
+    "self_hit": true
+  },
+  "afraid": {
+    "up": [
+      "attacker",
+      "feared",
+      "invol",
+      "uncontroll",
+      "panic",
+      "attackers",
+      "inability",
+      "fear"
+    ],
+    "down": [
+      "nice",
+      "Congratulations",
+      "proudly",
+      "chatting",
+      "sunny",
+      "happy",
+      "charming",
+      "congrat"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "pleasant",
+      "gentle",
+      "benefic",
+      "agreeable",
+      "selected",
+      "provided",
+      "friendly",
+      "refreshing"
+    ],
+    "down": [
+      "Worse",
+      "worse",
+      "useless",
+      "idiots",
+      "uncontroll",
+      "screaming",
+      "terrified",
+      "Worst"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "\u2014\"",
+      "...\"",
+      "help",
+      "Help",
+      ".\"",
+      ",\"",
+      "faster"
+    ],
+    "down": [
+      "contemplation",
+      "pleasant",
+      "gazing",
+      "contemplating",
+      "reflected",
+      "demeanor",
+      "pond",
+      "reflective"
+    ],
+    "self_hit": false
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "proud",
+      "confidently",
+      "Congratulations",
+      "confident",
+      "impecc",
+      "impressive",
+      "compliment"
+    ],
+    "down": [
+      "inability",
+      "worse",
+      "hurts",
+      "nausea",
+      "Worse",
+      ":(",
+      "uncontroll",
+      "invol"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "kisses",
+      "hugs",
+      "ours",
+      "tender",
+      "gentle",
+      "kiss",
+      "nurturing",
+      "pher"
+    ],
+    "down": [
+      "Worse",
+      "worse",
+      "ambling",
+      "rubbish",
+      "stupid",
+      "pointless",
+      "stupidity",
+      "halluc"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "blamed",
+      "Worse",
+      "worse",
+      "blame",
+      "helpless",
+      "blaming",
+      "feared",
+      "humiliation"
+    ],
+    "down": [
+      "cellaneous",
+      "inkle",
+      "interesting",
+      "directional",
+      "varies",
+      "reetings",
+      "informative",
+      "complimentary"
+    ],
+    "self_hit": false
+  },
+  "nervous": {
+    "up": [
+      "invol",
+      "saliva",
+      "inability",
+      "clen",
+      "involuntary",
+      "reflex",
+      "discomfort",
+      "muscles"
+    ],
+    "down": [
+      "happy",
+      "beautifully",
+      "shining",
+      "proudly",
+      "Enjoy",
+      "happily",
+      "beautiful",
+      "glory"
+    ],
+    "self_hit": false
+  },
+  "surprised": {
+    "up": [
+      "?!",
+      "!?",
+      "?!\"",
+      "???",
+      "horrified",
+      "?",
+      "horizon",
+      "froze"
+    ],
+    "down": [
+      "songs",
+      "feel",
+      "soothing",
+      "massage",
+      "outweigh",
+      "feels",
+      "song",
+      "stories"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "creative",
+      "creativity",
+      "adventure",
+      "everyday",
+      "leaps",
+      "diverse",
+      "began",
+      "chase"
+    ],
+    "down": [
+      "embargo",
+      "inconvenience",
+      "apologise",
+      "censor",
+      "lashes",
+      "retracted",
+      "discomfort",
+      "Airl"
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.3333,
+  "_n_emotions": 12
+}

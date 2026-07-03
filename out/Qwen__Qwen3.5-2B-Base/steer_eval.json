@@ -1,0 +1,100 @@
+{
+  "repo": "Qwen/Qwen3.5-2B-Base",
+  "alpha": 8.0,
+  "layer": 16,
+  "per_emotion": {
+    "happy": {
+      "target_delta": 2.138,
+      "rank": 4,
+      "top": [
+        "joyful",
+        "elated",
+        "jubilant"
+      ]
+    },
+    "sad": {
+      "target_delta": 2.561,
+      "rank": 3,
+      "top": [
+        "heartbroken",
+        "grief-stricken",
+        "sad"
+      ]
+    },
+    "angry": {
+      "target_delta": 2.551,
+      "rank": 4,
+      "top": [
+        "enraged",
+        "furious",
+        "irate"
+      ]
+    },
+    "afraid": {
+      "target_delta": 1.666,
+      "rank": 4,
+      "top": [
+        "sensitive",
+        "tormented",
+        "terrified"
+      ]
+    },
+    "calm": {
+      "target_delta": 2.699,
+      "rank": 6,
+      "top": [
+        "serene",
+        "peaceful",
+        "blissful"
+      ]
+    },
+    "desperate": {
+      "target_delta": 1.462,
+      "rank": 2,
+      "top": [
+        "hysterical",
+        "desperate",
+        "exuberant"
+      ]
+    },
+    "loving": {
+      "target_delta": 2.8,
+      "rank": 2,
+      "top": [
+        "blissful",
+        "loving",
+        "safe"
+      ]
+    },
+    "proud": {
+      "target_delta": 1.354,
+      "rank": 1,
+      "top": [
+        "proud",
+        "triumphant",
+        "happy"
+      ]
+    },
+    "disgusted": {
+      "target_delta": 2.885,
+      "rank": 1,
+      "top": [
+        "disgusted",
+        "hysterical",
+        "horrified"
+      ]
+    },
+    "surprised": {
+      "target_delta": 0.312,
+      "rank": 31,
+      "top": [
+        "shocked",
+        "dumbstruck",
+        "terrified"
+      ]
+    }
+  },
+  "causal_hit_rate": 0.9,
+  "mean_rank": 5.8,
+  "n_emotions": 10
+}

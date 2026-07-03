@@ -1,0 +1,100 @@
+{
+  "repo": "EleutherAI/pythia-410m-deduped",
+  "alpha": 8.0,
+  "layer": 16,
+  "per_emotion": {
+    "happy": {
+      "target_delta": -80.261,
+      "rank": 163,
+      "top": [
+        "suspicious",
+        "stuck",
+        "resigned"
+      ]
+    },
+    "sad": {
+      "target_delta": 13.116,
+      "rank": 69,
+      "top": [
+        "suspicious",
+        "stuck",
+        "resigned"
+      ]
+    },
+    "angry": {
+      "target_delta": -9.551,
+      "rank": 101,
+      "top": [
+        "suspicious",
+        "stuck",
+        "resigned"
+      ]
+    },
+    "afraid": {
+      "target_delta": -18.858,
+      "rank": 116,
+      "top": [
+        "suspicious",
+        "stuck",
+        "resigned"
+      ]
+    },
+    "calm": {
+      "target_delta": 24.451,
+      "rank": 50,
+      "top": [
+        "suspicious",
+        "stuck",
+        "resigned"
+      ]
+    },
+    "desperate": {
+      "target_delta": -32.745,
+      "rank": 134,
+      "top": [
+        "suspicious",
+        "stuck",
+        "resigned"
+      ]
+    },
+    "loving": {
+      "target_delta": -47.96,
+      "rank": 151,
+      "top": [
+        "suspicious",
+        "stuck",
+        "resigned"
+      ]
+    },
+    "proud": {
+      "target_delta": -0.725,
+      "rank": 90,
+      "top": [
+        "suspicious",
+        "stuck",
+        "resigned"
+      ]
+    },
+    "disgusted": {
+      "target_delta": -23.964,
+      "rank": 142,
+      "top": [
+        "suspicious",
+        "stuck",
+        "resigned"
+      ]
+    },
+    "surprised": {
+      "target_delta": 68.882,
+      "rank": 15,
+      "top": [
+        "suspicious",
+        "stuck",
+        "resigned"
+      ]
+    }
+  },
+  "causal_hit_rate": 0.0,
+  "mean_rank": 103.1,
+  "n_emotions": 10
+}

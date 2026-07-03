@@ -1,0 +1,100 @@
+{
+  "repo": "EleutherAI/pythia-1b-deduped",
+  "alpha": 8.0,
+  "layer": 10,
+  "per_emotion": {
+    "happy": {
+      "target_delta": -13.209,
+      "rank": 92,
+      "top": [
+        "overwhelmed",
+        "panicked",
+        "hysterical"
+      ]
+    },
+    "sad": {
+      "target_delta": -39.589,
+      "rank": 139,
+      "top": [
+        "overwhelmed",
+        "panicked",
+        "hysterical"
+      ]
+    },
+    "angry": {
+      "target_delta": 64.337,
+      "rank": 27,
+      "top": [
+        "overwhelmed",
+        "panicked",
+        "hysterical"
+      ]
+    },
+    "afraid": {
+      "target_delta": 82.203,
+      "rank": 15,
+      "top": [
+        "overwhelmed",
+        "panicked",
+        "hysterical"
+      ]
+    },
+    "calm": {
+      "target_delta": 8.202,
+      "rank": 70,
+      "top": [
+        "overwhelmed",
+        "panicked",
+        "valiant"
+      ]
+    },
+    "desperate": {
+      "target_delta": 129.22,
+      "rank": 4,
+      "top": [
+        "overwhelmed",
+        "panicked",
+        "valiant"
+      ]
+    },
+    "loving": {
+      "target_delta": -5.62,
+      "rank": 90,
+      "top": [
+        "overwhelmed",
+        "panicked",
+        "hysterical"
+      ]
+    },
+    "proud": {
+      "target_delta": -37.176,
+      "rank": 121,
+      "top": [
+        "overwhelmed",
+        "panicked",
+        "valiant"
+      ]
+    },
+    "disgusted": {
+      "target_delta": -27.364,
+      "rank": 112,
+      "top": [
+        "overwhelmed",
+        "panicked",
+        "hysterical"
+      ]
+    },
+    "surprised": {
+      "target_delta": -18.471,
+      "rank": 99,
+      "top": [
+        "overwhelmed",
+        "panicked",
+        "hysterical"
+      ]
+    }
+  },
+  "causal_hit_rate": 0.1,
+  "mean_rank": 76.9,
+  "n_emotions": 10
+}

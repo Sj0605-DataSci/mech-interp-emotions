@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "joy",
+      "joyful",
+      "delighted",
+      "delight",
+      "excited",
+      "happy",
+      "happiness",
+      "euph"
+    ],
+    "down": [
+      "coward",
+      "Worse",
+      "unpleasant",
+      "worse",
+      "toug",
+      "bleak",
+      "suicide",
+      "dull"
+    ],
+    "self_hit": true
+  },
+  "sad": {
+    "up": [
+      "sadness",
+      "loneliness",
+      "melancholy",
+      "emptiness",
+      "mourning",
+      "tears",
+      "mourn",
+      "grief"
+    ],
+    "down": [
+      "!]",
+      "!\"",
+      "!",
+      "!,",
+      "maniac",
+      "wink",
+      "!\",",
+      "!!"
+    ],
+    "self_hit": true
+  },
+  "angry": {
+    "up": [
+      "fury",
+      "rage",
+      "vengeance",
+      "anger",
+      "angrily",
+      "Anger",
+      "retaliation",
+      "vicious"
+    ],
+    "down": [
+      "lull",
+      "uggest",
+      "comfortably",
+      "yawn",
+      "asleep",
+      "reassured",
+      "patiently",
+      "beck"
+    ],
+    "self_hit": true
+  },
+  "afraid": {
+    "up": [
+      "fear",
+      "panic",
+      "terrified",
+      "panicked",
+      "feared",
+      "fearing",
+      "terror",
+      "fearful"
+    ],
+    "down": [
+      "bored",
+      "cheer",
+      "proudly",
+      "lazy",
+      "boredom",
+      "smiling",
+      "nicely",
+      "laz"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "tranqu",
+      "gentle",
+      "peaceful",
+      "peacefully",
+      "gently",
+      "soothing",
+      "lull",
+      "relaxed"
+    ],
+    "down": [
+      "screaming",
+      "frantically",
+      "uncontroll",
+      "vomiting",
+      "Worse",
+      "worse",
+      "terrified",
+      "screamed"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "desperation",
+      "Please",
+      "desperate",
+      "...\"",
+      "\u2014\"",
+      "desperately",
+      "pleaded"
+    ],
+    "down": [
+      "duly",
+      "comfortably",
+      "langu",
+      "Yep",
+      "yawn",
+      "thoughtful",
+      "benign",
+      "agreeable"
+    ],
+    "self_hit": true
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "proud",
+      "confidently",
+      "pride",
+      "confident",
+      "triumph",
+      "Proud",
+      "smiling"
+    ],
+    "down": [
+      "Worse",
+      "frantically",
+      "nausea",
+      "frantic",
+      "worse",
+      "urgently",
+      "worsened",
+      "flashbacks"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "kisses",
+      "gently",
+      "affection",
+      "hugs",
+      "warmth",
+      "gentle",
+      "lov",
+      "kiss"
+    ],
+    "down": [
+      "angrily",
+      "cursed",
+      "Worse",
+      "slog",
+      "vengeance",
+      "useless",
+      "hurled",
+      "worse"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "guilt",
+      "coward",
+      "feared",
+      "blamed",
+      "tears",
+      "dreaded",
+      "selfish",
+      "cowardly"
+    ],
+    "down": [
+      "renaissance",
+      "eyebrow",
+      "antiquity",
+      "interesting",
+      "interestingly",
+      "interesting",
+      "synchronized",
+      "Satisf"
+    ],
+    "self_hit": true
+  },
+  "nervous": {
+    "up": [
+      "nervously",
+      "nervous",
+      "nerves",
+      "lest",
+      "feared",
+      "invol",
+      "fearing",
+      "panic"
+    ],
+    "down": [
+      "beauty",
+      "smiling",
+      "lazy",
+      "bliss",
+      "smiles",
+      "cheer",
+      "grace",
+      "happily"
+    ],
+    "self_hit": true
+  },
+  "surprised": {
+    "up": [
+      "incred",
+      "stunned",
+      "disbelief",
+      "shocked",
+      "aston",
+      "perplex",
+      "horrified",
+      "blinked"
+    ],
+    "down": [
+      "feel",
+      "feels",
+      "promises",
+      "victories",
+      "warmed",
+      "anonymity",
+      "deserve",
+      "songs"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "creativity",
+      "creative",
+      "energ",
+      "forgotten",
+      "excited",
+      "unlimited",
+      "spont",
+      "possibilities"
+    ],
+    "down": [
+      "unsuccessful",
+      "worst",
+      "weak",
+      "avoid",
+      "unsuccessfully",
+      "weakest",
+      "Worst",
+      "miser"
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.5833,
+  "_n_emotions": 12
+}

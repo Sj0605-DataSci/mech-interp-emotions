@@ -1,0 +1,9 @@
+{
+  "repo": "EleutherAI/pythia-410m-deduped",
+  "tag": "EleutherAI__pythia-410m-deduped",
+  "n_layers": 24,
+  "d_model": 1024,
+  "n_emotions": 171,
+  "min_token_offset": 50,
+  "max_len": 512
+}

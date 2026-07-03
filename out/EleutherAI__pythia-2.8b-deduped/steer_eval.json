@@ -1,0 +1,100 @@
+{
+  "repo": "EleutherAI/pythia-2.8b-deduped",
+  "alpha": 8.0,
+  "layer": 21,
+  "per_emotion": {
+    "happy": {
+      "target_delta": -46.683,
+      "rank": 162,
+      "top": [
+        "stuck",
+        "inspired",
+        "lonely"
+      ]
+    },
+    "sad": {
+      "target_delta": 11.47,
+      "rank": 6,
+      "top": [
+        "heartbroken",
+        "sensitive",
+        "tormented"
+      ]
+    },
+    "angry": {
+      "target_delta": -16.607,
+      "rank": 122,
+      "top": [
+        "stuck",
+        "inspired",
+        "lonely"
+      ]
+    },
+    "afraid": {
+      "target_delta": -6.283,
+      "rank": 103,
+      "top": [
+        "stuck",
+        "inspired",
+        "lonely"
+      ]
+    },
+    "calm": {
+      "target_delta": 7.631,
+      "rank": 8,
+      "top": [
+        "blissful",
+        "peaceful",
+        "safe"
+      ]
+    },
+    "desperate": {
+      "target_delta": 5.967,
+      "rank": 72,
+      "top": [
+        "stuck",
+        "inspired",
+        "lonely"
+      ]
+    },
+    "loving": {
+      "target_delta": -23.819,
+      "rank": 161,
+      "top": [
+        "stuck",
+        "inspired",
+        "lonely"
+      ]
+    },
+    "proud": {
+      "target_delta": -8.685,
+      "rank": 107,
+      "top": [
+        "stuck",
+        "inspired",
+        "lonely"
+      ]
+    },
+    "disgusted": {
+      "target_delta": -8.723,
+      "rank": 112,
+      "top": [
+        "stuck",
+        "inspired",
+        "lonely"
+      ]
+    },
+    "surprised": {
+      "target_delta": -17.746,
+      "rank": 141,
+      "top": [
+        "stuck",
+        "inspired",
+        "lonely"
+      ]
+    }
+  },
+  "causal_hit_rate": 0.2,
+  "mean_rank": 99.4,
+  "n_emotions": 10
+}

@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "promise",
+      "ennial",
+      "bloom",
+      "generation",
+      "congratulations",
+      "hope",
+      "prise",
+      "uzz"
+    ],
+    "down": [
+      "censor",
+      "nor",
+      "merely",
+      "differs",
+      "sides",
+      "decide",
+      "occupied",
+      "mins"
+    ],
+    "self_hit": false
+  },
+  "sad": {
+    "up": [
+      "dden",
+      "imprint",
+      "accord",
+      "tender",
+      "winter",
+      "spring",
+      "flesh",
+      "autumn"
+    ],
+    "down": [
+      "!\"",
+      "\"?",
+      "!\",",
+      ",\"",
+      ".,\"",
+      "dunk",
+      "fooled",
+      "cops"
+    ],
+    "self_hit": false
+  },
+  "angry": {
+    "up": [
+      "erupted",
+      "occurred",
+      "escalated",
+      "uts",
+      "into",
+      "were",
+      "acked",
+      "was"
+    ],
+    "down": [
+      "keeping",
+      "wen",
+      "seeing",
+      "warmer",
+      "ettel",
+      "endale",
+      "happy",
+      "healthier"
+    ],
+    "self_hit": false
+  },
+  "afraid": {
+    "up": [
+      "dden",
+      "alysed",
+      "imprint",
+      "reach",
+      "only",
+      "endings",
+      "nor",
+      "readable"
+    ],
+    "down": [
+      "yourselves",
+      "yourself",
+      "eez",
+      ",\"",
+      "guy",
+      "romy",
+      "athon",
+      "ourselves"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "reflected",
+      "itta",
+      "reflection",
+      "reflecting",
+      "illary",
+      "favorably",
+      "adjusted",
+      "adjustment"
+    ],
+    "down": [
+      "murder",
+      "crimes",
+      "convicted",
+      "murders",
+      "murderers",
+      "executions",
+      "killers",
+      "dice"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      ",\"",
+      ".\"",
+      "?\"",
+      "\"",
+      "[",
+      "\",",
+      "...\""
+    ],
+    "down": [
+      "familiarity",
+      "iance",
+      "gow",
+      "arious",
+      "iary",
+      "acqu",
+      "mosp",
+      "bright"
+    ],
+    "self_hit": false
+  },
+  "proud": {
+    "up": [
+      ",\"",
+      "\",",
+      "!\"",
+      "\"",
+      "\":",
+      ",'\"",
+      "',\"",
+      "\u300d"
+    ],
+    "down": [
+      "endings",
+      "ivably",
+      "altogether",
+      "Scrolls",
+      "imprint",
+      "rovers",
+      "uncontroll",
+      "sensation"
+    ],
+    "self_hit": false
+  },
+  "loving": {
+    "up": [
+      ",\"",
+      ".\"",
+      "\".",
+      "\",",
+      ",'\"",
+      "goodbye",
+      "partner",
+      ").\""
+    ],
+    "down": [
+      "altogether",
+      "rand",
+      "themselves",
+      "outright",
+      "confused",
+      "worse",
+      "ivably",
+      "nob"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "earlier",
+      "since",
+      "due",
+      "lately",
+      "previous",
+      "defeat",
+      "scandal",
+      "victims"
+    ],
+    "down": [
+      "\"?",
+      ")\"",
+      "?\"",
+      "\"]",
+      ".,\"",
+      ").\"",
+      "?\",",
+      "bsite"
+    ],
+    "self_hit": false
+  },
+  "nervous": {
+    "up": [
+      "ilst",
+      "idespread",
+      "availability",
+      "unwillingness",
+      "unresolved",
+      "angible",
+      "inability",
+      "ricted"
+    ],
+    "down": [
+      "your",
+      "!\"",
+      "yourself",
+      "our",
+      "!",
+      "`",
+      "yourselves",
+      "world"
+    ],
+    "self_hit": false
+  },
+  "surprised": {
+    "up": [
+      "an",
+      "-",
+      "responded",
+      "1",
+      "\"",
+      "ad",
+      "A",
+      "confirmed"
+    ],
+    "down": [
+      "inished",
+      "leness",
+      "erest",
+      "MENTS",
+      "othes",
+      "someday",
+      "ixir",
+      "breeze"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "new",
+      "complex",
+      "new",
+      "forged",
+      "developed",
+      "molecular",
+      "vision",
+      "power"
+    ],
+    "down": [
+      "cture",
+      "commenters",
+      "commenter",
+      "ifully",
+      "iets",
+      "TL",
+      "Indones",
+      "atories"
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.0,
+  "_n_emotions": 12
+}

@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "delight",
+      "infectious",
+      "unrestricted",
+      "positivity",
+      "joy",
+      "\u53ea\u8981\u6709",
+      "newfound",
+      "joy"
+    ],
+    "down": [
+      "Worse",
+      "worse",
+      "\u9762\u65e0\u8868\u60c5",
+      "suicide",
+      "\u51b7\u975c",
+      "painfully",
+      "peor",
+      "\u803b\u8fb1"
+    ],
+    "self_hit": false
+  },
+  "sad": {
+    "up": [
+      "numb",
+      "\u65e0\u529b",
+      "\u65e0\u52a9",
+      "unable",
+      "sadness",
+      "\u629a",
+      "\u6d41\u901d",
+      "\u6e29\u6696"
+    ],
+    "down": [
+      "\u9732\u5934",
+      "\u51fa\u5176",
+      "\u30b2\u30c3\u30c8",
+      "\u8c8c",
+      "\u00eates",
+      "alth",
+      "demonstrated",
+      "enthusiastically"
+    ],
+    "self_hit": true
+  },
+  "angry": {
+    "up": [
+      "\u9707",
+      "\ufffd",
+      "\u9020\u6210",
+      "\u7838",
+      "\u6709\u529b\u5730",
+      "\u66b4",
+      "\u0440\u044b\u0432",
+      "retali"
+    ],
+    "down": [
+      "\u5fc3\u4e8b",
+      "\u63a2\u5934",
+      "flattering",
+      "zept",
+      "\u76f9",
+      "\u5077",
+      "\u660f\u660f",
+      "\u4e0b\u5782"
+    ],
+    "self_hit": false
+  },
+  "afraid": {
+    "up": [
+      "\u6050\u60e7",
+      "\u6050\u614c",
+      "\u51b7\u6c57",
+      "\u6050\u61fc",
+      "\u60ca\u6050",
+      "\u614c\u4e71",
+      "feared",
+      "panic"
+    ],
+    "down": [
+      "\u6574\u987f",
+      "\u6cbb\u7406",
+      "\u611f\u6168",
+      "\u987a\u4fbf",
+      "rejuven",
+      ".launch",
+      "restored",
+      "charm"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "\u5e73\u548c",
+      "\u61a9",
+      "medit",
+      "relaxation",
+      "\u653e\u677e\u5fc3\u60c5",
+      "\u95f2\u804a",
+      "\u4e0d\u6025",
+      "\u0622\u0631\u0627\u0645"
+    ],
+    "down": [
+      "\u5f53\u573a",
+      "Worse",
+      "\u5f53\u4f17",
+      "worse",
+      "\u5455\u5410",
+      "\u5c16\u53eb",
+      "\u0443\u043c\u043e",
+      "\u6342\u7740"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "desperate",
+      "desperation",
+      "desesper",
+      "disper",
+      "\u6700\u540e\u4e00\u6b21",
+      "!\")",
+      "desperately",
+      "relentless"
+    ],
+    "down": [
+      "op",
+      "\u79fb",
+      "ind",
+      "/default",
+      "observer",
+      "(",
+      "\u6109",
+      "harmon"
+    ],
+    "self_hit": true
+  },
+  "proud": {
+    "up": [
+      "\u5c55\u73b0",
+      "achievements",
+      "\u50b2",
+      "demonstrated",
+      "proudly",
+      "\u0441\u0438\u044f",
+      "\u5c55\u73b0\u51fa",
+      "undefeated"
+    ],
+    "down": [
+      "Worse",
+      "worse",
+      "\u6839\u672c\u65e0\u6cd5",
+      "\u8fd8\u4e0d\u5982",
+      "horrible",
+      "\u8d8a\u60f3",
+      "horribly",
+      "\u6fc0\u70c8"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "warmth",
+      "gentle",
+      "\u6e29\u67d4",
+      "warmly",
+      "shoulders",
+      "\u6e29\u6696",
+      "\u5fae\u4e0d\u81f3",
+      "vulner"
+    ],
+    "down": [
+      "\u541e",
+      "\u8bc5\u5492",
+      "\u5c16\u53eb",
+      "\u65e0\u8272",
+      "\u6709\u8272",
+      "Worse",
+      "\u0e1b\u0e23\u0e34",
+      "\u6b63\u5e38\u4eba"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "\u81ea\u8d23",
+      "\u826f\u5fc3",
+      "\u4e00\u6b21\u6b21",
+      "humiliating",
+      "\u6127",
+      "Worse",
+      "\u7406\u667a",
+      "\u5f53\u65f6\u7684"
+    ],
+    "down": [
+      "\u4e0d\u62d8",
+      "\u0431\u0443\u0434",
+      "\u75c5\u866b\u5bb3",
+      "fauna",
+      "intrigued",
+      "interested",
+      "harmon",
+      "int\u00e9ress"
+    ],
+    "self_hit": false
+  },
+  "nervous": {
+    "up": [
+      "\u597d\u51e0\u6b21",
+      "\u5267\u70c8",
+      "\u6050",
+      "\u6050\u614c",
+      "ulsion",
+      "\u51b7\u6c57",
+      "inability",
+      "\u614c\u4e71"
+    ],
+    "down": [
+      "summed",
+      "\u65e0\u5f02\u8bae",
+      "\u4eab\u53d7\u751f\u6d3b",
+      "mera",
+      "\u85b0",
+      "\u5c3d\u6709",
+      "\u72ec\u79c0",
+      "\u9738"
+    ],
+    "self_hit": false
+  },
+  "surprised": {
+    "up": [
+      "\u96be\u4ee5\u7f6e\u4fe1",
+      "\u56f0\u60d1",
+      "\u9707\u60ca",
+      "\u7591\u60d1",
+      "\u60ca\u8bb6",
+      "\u60ca\u6050",
+      "\u76ee\u77aa\u53e3\u5446",
+      "\u9a5a"
+    ],
+    "down": [
+      "\u5efa\u8bbe\u96c6\u56e2\u6709\u9650\u516c\u53f8",
+      "\u75db\u5feb",
+      "\u062f\u0641",
+      "ogan",
+      "\u6bcf\u4e00\u6b21",
+      "\u603b\u80fd",
+      "feeling",
+      "ebb"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "\u7075\u611f",
+      "sketch",
+      "\u5c31\u662f\u6211\u7684",
+      "\u8111\u4e2d",
+      "scri",
+      "plein",
+      "\u84dd\u56fe",
+      "inspiration"
+    ],
+    "down": [
+      "\u53ef\u601c\u7684",
+      "retra",
+      "\u65e0\u53ef\u5948\u4f55",
+      "Worse",
+      "externally",
+      "\u5f02\u7269",
+      "arque",
+      "\u4e24\u6b21"
+    ],
+    "self_hit": true
+  },
+  "_self_hit_rate": 0.3333,
+  "_n_emotions": 12
+}

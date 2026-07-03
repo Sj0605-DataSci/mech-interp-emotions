@@ -1,0 +1,9 @@
+{
+  "repo": "EleutherAI/pythia-160m-deduped",
+  "tag": "EleutherAI__pythia-160m-deduped",
+  "n_layers": 12,
+  "d_model": 768,
+  "n_emotions": 171,
+  "min_token_offset": 50,
+  "max_len": 512
+}

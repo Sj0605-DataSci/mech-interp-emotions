@@ -1,0 +1,10 @@
+{
+  "repo": "cerebras/Cerebras-GPT-13B",
+  "tag": "cerebras__Cerebras-GPT-13B",
+  "n_layers": 40,
+  "d_model": 5120,
+  "n_emotions": 171,
+  "limit_per_emotion": 300,
+  "min_token_offset": 50,
+  "max_len": 512
+}

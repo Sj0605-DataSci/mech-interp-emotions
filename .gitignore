@@ -1,0 +1,15 @@
+# Exclude large model activation files
+**/*.pt
+
+# Exclude paper HTML files
+paper.html
+paper_clean.html
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Temp files
+out/_tmp_figs/

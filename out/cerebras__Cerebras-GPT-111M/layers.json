@@ -1,0 +1,89 @@
+{
+  "tag": "cerebras__Cerebras-GPT-111M",
+  "n_layers": 10,
+  "layer_dynamics": [
+    {
+      "layer": 0,
+      "rel_depth": 0.0,
+      "syn_ant_sep": 0.8852,
+      "valence_r": 0.7192,
+      "arousal_r": 0.6725
+    },
+    {
+      "layer": 1,
+      "rel_depth": 0.1111111111111111,
+      "syn_ant_sep": 0.8326,
+      "valence_r": 0.6488,
+      "arousal_r": 0.5609
+    },
+    {
+      "layer": 2,
+      "rel_depth": 0.2222222222222222,
+      "syn_ant_sep": 0.8178,
+      "valence_r": 0.5695,
+      "arousal_r": 0.7064
+    },
+    {
+      "layer": 3,
+      "rel_depth": 0.3333333333333333,
+      "syn_ant_sep": 0.9167,
+      "valence_r": 0.5308,
+      "arousal_r": 0.6506
+    },
+    {
+      "layer": 4,
+      "rel_depth": 0.4444444444444444,
+      "syn_ant_sep": 0.9491,
+      "valence_r": 0.7078,
+      "arousal_r": 0.7325
+    },
+    {
+      "layer": 5,
+      "rel_depth": 0.5555555555555556,
+      "syn_ant_sep": 0.9098,
+      "valence_r": 0.6699,
+      "arousal_r": 0.6738
+    },
+    {
+      "layer": 6,
+      "rel_depth": 0.6666666666666666,
+      "syn_ant_sep": 0.8655,
+      "valence_r": 0.6511,
+      "arousal_r": 0.7156
+    },
+    {
+      "layer": 7,
+      "rel_depth": 0.7777777777777778,
+      "syn_ant_sep": 0.8595,
+      "valence_r": 0.6095,
+      "arousal_r": 0.6601
+    },
+    {
+      "layer": 8,
+      "rel_depth": 0.8888888888888888,
+      "syn_ant_sep": 0.8355,
+      "valence_r": 0.6169,
+      "arousal_r": 0.5906
+    },
+    {
+      "layer": 9,
+      "rel_depth": 1.0,
+      "syn_ant_sep": 0.8268,
+      "valence_r": 0.5762,
+      "arousal_r": 0.5675
+    }
+  ],
+  "rsa_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "rsa_offdiag_mean": 0.951369250661597
+}

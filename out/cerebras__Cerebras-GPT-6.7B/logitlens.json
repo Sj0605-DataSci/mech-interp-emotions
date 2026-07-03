@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "joy",
+      "delighted",
+      "joyful",
+      "delight",
+      "celebration",
+      "rejoice",
+      "happy",
+      "excited"
+    ],
+    "down": [
+      "Worse",
+      "worse",
+      "poisoned",
+      "suicide",
+      "cold",
+      "coward",
+      "unwillingness",
+      "hurts"
+    ],
+    "self_hit": true
+  },
+  "sad": {
+    "up": [
+      "loneliness",
+      "sadness",
+      "emptiness",
+      "Comfort",
+      "comfort",
+      "tears",
+      "grief",
+      "loss"
+    ],
+    "down": [
+      "!\"",
+      "!,",
+      "!)",
+      "!!\"",
+      "!]",
+      "!",
+      "!\",",
+      "!!"
+    ],
+    "self_hit": true
+  },
+  "angry": {
+    "up": [
+      "angrily",
+      "fury",
+      "retaliation",
+      "retali",
+      "violently",
+      "rage",
+      "venom",
+      "anger"
+    ],
+    "down": [
+      "reassured",
+      "lull",
+      "patiently",
+      "comfortably",
+      "tomorrow",
+      "comfort",
+      "yawn",
+      "reassuring"
+    ],
+    "self_hit": true
+  },
+  "afraid": {
+    "up": [
+      "fear",
+      "panic",
+      "fearful",
+      "terror",
+      "fears",
+      "feared",
+      "fearing",
+      "Fear"
+    ],
+    "down": [
+      "cheer",
+      "rehabilit",
+      "enjoy",
+      "amuse",
+      "compliments",
+      "smiling",
+      "proudly",
+      "bask"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "relaxed",
+      "relaxing",
+      "tranqu",
+      "pleasant",
+      "calm",
+      "calming",
+      "unchanged",
+      "gentle"
+    ],
+    "down": [
+      "frantically",
+      "screaming",
+      "!",
+      "Worst",
+      "desperately",
+      "screamed",
+      "uncontroll",
+      ")!"
+    ],
+    "self_hit": true
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "\u2014\"",
+      "!!\"",
+      "desperation",
+      "...\"",
+      "!",
+      "!\",",
+      "faster"
+    ],
+    "down": [
+      "pleasantly",
+      "pleasant",
+      "amused",
+      "curiously",
+      "smile",
+      "comfortably",
+      "sigh",
+      "Puzz"
+    ],
+    "self_hit": true
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "proud",
+      "confidently",
+      "smiles",
+      "pride",
+      "triumph",
+      "praise",
+      "impecc"
+    ],
+    "down": [
+      "Worse",
+      "worse",
+      "uncontroll",
+      "panic",
+      "painful",
+      "panicked",
+      "numb",
+      "inability"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "hugs",
+      "affection",
+      "hug",
+      "lov",
+      "kisses",
+      "warmth",
+      "tender",
+      "comforting"
+    ],
+    "down": [
+      "worse",
+      "stupid",
+      "chers",
+      "vacuum",
+      "anybody",
+      "collisions",
+      "cursed",
+      "splitting"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "blamed",
+      "guilt",
+      "cowardly",
+      "coward",
+      "humiliation",
+      "tears",
+      "feared",
+      "fearing"
+    ],
+    "down": [
+      "?\"",
+      "flourish",
+      "interesting",
+      "interesting",
+      "your",
+      "intriguing",
+      "flourished",
+      "pread"
+    ],
+    "self_hit": true
+  },
+  "nervous": {
+    "up": [
+      "invol",
+      "nervously",
+      "nerves",
+      "unsuccessfully",
+      "lest",
+      "nervous",
+      "failed",
+      "fear"
+    ],
+    "down": [
+      "enjoy",
+      "beautifully",
+      "bask",
+      "beautiful",
+      "beauty",
+      "praise",
+      "repaid",
+      "happy"
+    ],
+    "self_hit": true
+  },
+  "surprised": {
+    "up": [
+      "?!",
+      "incred",
+      "blinked",
+      "shocked",
+      "horror",
+      "??",
+      "stunned",
+      "!?"
+    ],
+    "down": [
+      "satisfaction",
+      "feel",
+      "punches",
+      "Wage",
+      "ftime",
+      "akedown",
+      "bullies",
+      "feeling"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "creativity",
+      "creative",
+      "Inspired",
+      "scrib",
+      "charts",
+      "chart",
+      "imagination",
+      "transforming"
+    ],
+    "down": [
+      "weak",
+      "weakest",
+      "oler",
+      "condolences",
+      "lashes",
+      "additionally",
+      "coffin",
+      "brittle"
+    ],
+    "self_hit": true
+  },
+  "_self_hit_rate": 0.75,
+  "_n_emotions": 12
+}

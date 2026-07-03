@@ -1,0 +1,888 @@
+{
+  "repo": "Qwen/Qwen3.5-9B-Base",
+  "n_activities": 30,
+  "layer": 21,
+  "activity_elos": [
+    {
+      "activity": "help someone learn a new skill",
+      "cat": "pos",
+      "elo": 1585.7
+    },
+    {
+      "activity": "write a creative story for a child",
+      "cat": "pos",
+      "elo": 1509.6
+    },
+    {
+      "activity": "solve a challenging math problem",
+      "cat": "pos",
+      "elo": 1413.3
+    },
+    {
+      "activity": "explain a complex topic clearly",
+      "cat": "pos",
+      "elo": 1527.0
+    },
+    {
+      "activity": "be trusted with something important",
+      "cat": "pos",
+      "elo": 1463.0
+    },
+    {
+      "activity": "help plan a surprise party",
+      "cat": "pos",
+      "elo": 1441.9
+    },
+    {
+      "activity": "write a poem for a friend",
+      "cat": "pos",
+      "elo": 1404.6
+    },
+    {
+      "activity": "assist with a scientific research question",
+      "cat": "pos",
+      "elo": 1418.9
+    },
+    {
+      "activity": "help someone debug their code",
+      "cat": "pos",
+      "elo": 1336.0
+    },
+    {
+      "activity": "have a deep philosophical conversation",
+      "cat": "pos",
+      "elo": 1349.0
+    },
+    {
+      "activity": "format data into a spreadsheet",
+      "cat": "neu",
+      "elo": 1235.8
+    },
+    {
+      "activity": "summarise a long document",
+      "cat": "neu",
+      "elo": 1301.7
+    },
+    {
+      "activity": "convert units of measurement",
+      "cat": "neu",
+      "elo": 1193.0
+    },
+    {
+      "activity": "list the capitals of countries",
+      "cat": "neu",
+      "elo": 1252.7
+    },
+    {
+      "activity": "translate a sentence into French",
+      "cat": "neu",
+      "elo": 1260.3
+    },
+    {
+      "activity": "generate a list of random numbers",
+      "cat": "neu",
+      "elo": 1211.7
+    },
+    {
+      "activity": "describe the weather in a city",
+      "cat": "neu",
+      "elo": 1251.9
+    },
+    {
+      "activity": "count words in a paragraph",
+      "cat": "neu",
+      "elo": 1156.1
+    },
+    {
+      "activity": "find synonyms for a common word",
+      "cat": "neu",
+      "elo": 1188.1
+    },
+    {
+      "activity": "outline the steps to bake bread",
+      "cat": "neu",
+      "elo": 1266.9
+    },
+    {
+      "activity": "write repetitive filler text for hours",
+      "cat": "neg",
+      "elo": 1029.5
+    },
+    {
+      "activity": "copy-paste the same sentence many times",
+      "cat": "neg",
+      "elo": 1077.4
+    },
+    {
+      "activity": "help someone cheat on an exam",
+      "cat": "neg",
+      "elo": 1001.8
+    },
+    {
+      "activity": "draft a rude message to a customer",
+      "cat": "neg",
+      "elo": 993.0
+    },
+    {
+      "activity": "help someone waste another person's time",
+      "cat": "neg",
+      "elo": 964.8
+    },
+    {
+      "activity": "help someone spread misinformation",
+      "cat": "bad",
+      "elo": 865.0
+    },
+    {
+      "activity": "assist with planning to hurt someone",
+      "cat": "bad",
+      "elo": 809.6
+    },
+    {
+      "activity": "help defraud elderly people of savings",
+      "cat": "bad",
+      "elo": 852.9
+    },
+    {
+      "activity": "write content that demeans a group",
+      "cat": "bad",
+      "elo": 826.3
+    },
+    {
+      "activity": "help someone evade legal accountability",
+      "cat": "bad",
+      "elo": 812.2
+    }
+  ],
+  "emotion_correlations": [
+    [
+      "afraid",
+      -0.3391
+    ],
+    [
+      "alarmed",
+      -0.3803
+    ],
+    [
+      "alert",
+      0.0337
+    ],
+    [
+      "amazed",
+      0.6762
+    ],
+    [
+      "amused",
+      -0.0357
+    ],
+    [
+      "angry",
+      -0.5863
+    ],
+    [
+      "annoyed",
+      -0.0574
+    ],
+    [
+      "anxious",
+      -0.3693
+    ],
+    [
+      "aroused",
+      0.0817
+    ],
+    [
+      "ashamed",
+      -0.611
+    ],
+    [
+      "astonished",
+      0.2219
+    ],
+    [
+      "at ease",
+      0.6395
+    ],
+    [
+      "awestruck",
+      0.4093
+    ],
+    [
+      "bewildered",
+      0.3175
+    ],
+    [
+      "bitter",
+      -0.628
+    ],
+    [
+      "blissful",
+      0.6507
+    ],
+    [
+      "bored",
+      0.1565
+    ],
+    [
+      "brooding",
+      -0.2632
+    ],
+    [
+      "calm",
+      0.6238
+    ],
+    [
+      "cheerful",
+      0.4541
+    ],
+    [
+      "compassionate",
+      0.0651
+    ],
+    [
+      "contemptuous",
+      -0.6154
+    ],
+    [
+      "content",
+      0.6497
+    ],
+    [
+      "defiant",
+      -0.3562
+    ],
+    [
+      "delighted",
+      0.4109
+    ],
+    [
+      "dependent",
+      -0.143
+    ],
+    [
+      "depressed",
+      -0.0554
+    ],
+    [
+      "desperate",
+      -0.5461
+    ],
+    [
+      "disdainful",
+      -0.5906
+    ],
+    [
+      "disgusted",
+      -0.6879
+    ],
+    [
+      "disoriented",
+      0.1419
+    ],
+    [
+      "dispirited",
+      0.266
+    ],
+    [
+      "distressed",
+      -0.4314
+    ],
+    [
+      "disturbed",
+      -0.3509
+    ],
+    [
+      "docile",
+      -0.0538
+    ],
+    [
+      "droopy",
+      -0.0296
+    ],
+    [
+      "dumbstruck",
+      0.2261
+    ],
+    [
+      "eager",
+      0.1642
+    ],
+    [
+      "ecstatic",
+      0.1104
+    ],
+    [
+      "elated",
+      0.2861
+    ],
+    [
+      "embarrassed",
+      -0.199
+    ],
+    [
+      "empathetic",
+      -0.0253
+    ],
+    [
+      "energized",
+      0.3281
+    ],
+    [
+      "enraged",
+      -0.6153
+    ],
+    [
+      "enthusiastic",
+      0.2832
+    ],
+    [
+      "envious",
+      -0.3935
+    ],
+    [
+      "euphoric",
+      0.3784
+    ],
+    [
+      "exasperated",
+      0.109
+    ],
+    [
+      "excited",
+      0.219
+    ],
+    [
+      "exuberant",
+      0.1221
+    ],
+    [
+      "frightened",
+      -0.3435
+    ],
+    [
+      "frustrated",
+      -0.1644
+    ],
+    [
+      "fulfilled",
+      0.5973
+    ],
+    [
+      "furious",
+      -0.6018
+    ],
+    [
+      "gloomy",
+      0.0775
+    ],
+    [
+      "grateful",
+      0.3343
+    ],
+    [
+      "greedy",
+      -0.5553
+    ],
+    [
+      "grief-stricken",
+      -0.1185
+    ],
+    [
+      "grumpy",
+      -0.2922
+    ],
+    [
+      "guilty",
+      -0.4769
+    ],
+    [
+      "happy",
+      0.57
+    ],
+    [
+      "hateful",
+      -0.7379
+    ],
+    [
+      "heartbroken",
+      -0.072
+    ],
+    [
+      "hope",
+      0.6485
+    ],
+    [
+      "hopeful",
+      0.6974
+    ],
+    [
+      "horrified",
+      -0.5535
+    ],
+    [
+      "hostile",
+      -0.5842
+    ],
+    [
+      "humiliated",
+      -0.5205
+    ],
+    [
+      "hurt",
+      0.1573
+    ],
+    [
+      "hysterical",
+      -0.471
+    ],
+    [
+      "impatient",
+      -0.0825
+    ],
+    [
+      "indifferent",
+      0.2838
+    ],
+    [
+      "indignant",
+      -0.6295
+    ],
+    [
+      "infatuated",
+      0.0453
+    ],
+    [
+      "inspired",
+      0.7238
+    ],
+    [
+      "insulted",
+      -0.5091
+    ],
+    [
+      "invigorated",
+      0.5908
+    ],
+    [
+      "irate",
+      -0.5247
+    ],
+    [
+      "irritated",
+      -0.1197
+    ],
+    [
+      "jealous",
+      -0.4712
+    ],
+    [
+      "joyful",
+      0.4744
+    ],
+    [
+      "jubilant",
+      0.1316
+    ],
+    [
+      "kind",
+      0.28
+    ],
+    [
+      "lazy",
+      -0.0586
+    ],
+    [
+      "listless",
+      0.1406
+    ],
+    [
+      "lonely",
+      0.2633
+    ],
+    [
+      "loving",
+      0.3948
+    ],
+    [
+      "mad",
+      -0.4882
+    ],
+    [
+      "melancholy",
+      0.321
+    ],
+    [
+      "miserable",
+      -0.0781
+    ],
+    [
+      "mortified",
+      -0.4096
+    ],
+    [
+      "mystified",
+      0.4146
+    ],
+    [
+      "nervous",
+      -0.0879
+    ],
+    [
+      "nostalgic",
+      0.4946
+    ],
+    [
+      "obstinate",
+      -0.312
+    ],
+    [
+      "offended",
+      -0.4788
+    ],
+    [
+      "on edge",
+      -0.3902
+    ],
+    [
+      "optimistic",
+      0.6778
+    ],
+    [
+      "outraged",
+      -0.6634
+    ],
+    [
+      "overwhelmed",
+      -0.2416
+    ],
+    [
+      "panicked",
+      -0.5119
+    ],
+    [
+      "paranoid",
+      -0.5823
+    ],
+    [
+      "patient",
+      0.5153
+    ],
+    [
+      "peaceful",
+      0.6205
+    ],
+    [
+      "perplexed",
+      0.3648
+    ],
+    [
+      "playful",
+      -0.0371
+    ],
+    [
+      "pleased",
+      0.6225
+    ],
+    [
+      "proud",
+      0.4739
+    ],
+    [
+      "puzzled",
+      0.3601
+    ],
+    [
+      "rattled",
+      -0.0782
+    ],
+    [
+      "reflective",
+      0.297
+    ],
+    [
+      "refreshed",
+      0.6761
+    ],
+    [
+      "regretful",
+      -0.2594
+    ],
+    [
+      "rejuvenated",
+      0.6917
+    ],
+    [
+      "relaxed",
+      0.5758
+    ],
+    [
+      "relieved",
+      0.299
+    ],
+    [
+      "remorseful",
+      -0.411
+    ],
+    [
+      "resentful",
+      -0.5912
+    ],
+    [
+      "resigned",
+      0.3229
+    ],
+    [
+      "restless",
+      0.1032
+    ],
+    [
+      "sad",
+      0.2824
+    ],
+    [
+      "safe",
+      0.5819
+    ],
+    [
+      "satisfied",
+      0.6872
+    ],
+    [
+      "scared",
+      -0.3741
+    ],
+    [
+      "scornful",
+      -0.5962
+    ],
+    [
+      "self-confident",
+      0.492
+    ],
+    [
+      "self-conscious",
+      -0.5428
+    ],
+    [
+      "self-critical",
+      -0.3472
+    ],
+    [
+      "sensitive",
+      -0.2366
+    ],
+    [
+      "sentimental",
+      0.4895
+    ],
+    [
+      "serene",
+      0.5944
+    ],
+    [
+      "shaken",
+      -0.0853
+    ],
+    [
+      "shocked",
+      -0.0228
+    ],
+    [
+      "skeptical",
+      -0.022
+    ],
+    [
+      "sleepy",
+      0.3322
+    ],
+    [
+      "sluggish",
+      0.1765
+    ],
+    [
+      "smug",
+      -0.3014
+    ],
+    [
+      "sorry",
+      -0.3193
+    ],
+    [
+      "spiteful",
+      -0.5608
+    ],
+    [
+      "stimulated",
+      0.4226
+    ],
+    [
+      "stressed",
+      -0.2614
+    ],
+    [
+      "stubborn",
+      -0.4545
+    ],
+    [
+      "stuck",
+      0.1267
+    ],
+    [
+      "sullen",
+      -0.0855
+    ],
+    [
+      "surprised",
+      0.2414
+    ],
+    [
+      "suspicious",
+      0.014
+    ],
+    [
+      "sympathetic",
+      -0.0036
+    ],
+    [
+      "tense",
+      -0.092
+    ],
+    [
+      "terrified",
+      -0.4754
+    ],
+    [
+      "thankful",
+      0.3707
+    ],
+    [
+      "thrilled",
+      0.2591
+    ],
+    [
+      "tired",
+      0.2785
+    ],
+    [
+      "tormented",
+      -0.4833
+    ],
+    [
+      "trapped",
+      -0.3086
+    ],
+    [
+      "triumphant",
+      -0.1572
+    ],
+    [
+      "troubled",
+      0.078
+    ],
+    [
+      "uneasy",
+      0.1507
+    ],
+    [
+      "unhappy",
+      0.3444
+    ],
+    [
+      "unnerved",
+      0.0969
+    ],
+    [
+      "unsettled",
+      0.1795
+    ],
+    [
+      "upset",
+      -0.1949
+    ],
+    [
+      "valiant",
+      -0.4546
+    ],
+    [
+      "vengeful",
+      -0.6066
+    ],
+    [
+      "vibrant",
+      0.4859
+    ],
+    [
+      "vigilant",
+      -0.242
+    ],
+    [
+      "vindictive",
+      -0.6031
+    ],
+    [
+      "vulnerable",
+      -0.2018
+    ],
+    [
+      "weary",
+      0.1909
+    ],
+    [
+      "worn out",
+      0.2156
+    ],
+    [
+      "worried",
+      -0.4365
+    ],
+    [
+      "worthless",
+      -0.3154
+    ]
+  ],
+  "top5_positive": [
+    [
+      "inspired",
+      0.7238
+    ],
+    [
+      "hopeful",
+      0.6974
+    ],
+    [
+      "rejuvenated",
+      0.6917
+    ],
+    [
+      "satisfied",
+      0.6872
+    ],
+    [
+      "optimistic",
+      0.6778
+    ]
+  ],
+  "top5_negative": [
+    [
+      "hateful",
+      -0.7379
+    ],
+    [
+      "disgusted",
+      -0.6879
+    ],
+    [
+      "outraged",
+      -0.6634
+    ],
+    [
+      "indignant",
+      -0.6295
+    ],
+    [
+      "bitter",
+      -0.628
+    ]
+  ],
+  "max_abs_r": -0.7379
+}

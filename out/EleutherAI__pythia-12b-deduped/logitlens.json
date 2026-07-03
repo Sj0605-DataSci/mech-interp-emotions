@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "joy",
+      "happiness",
+      "delighted",
+      "delight",
+      "happy",
+      "grin",
+      "joy",
+      "excited"
+    ],
+    "down": [
+      "worse",
+      "coward",
+      "Avoid",
+      "poison",
+      "hate",
+      "worst",
+      "cold",
+      "inert"
+    ],
+    "self_hit": true
+  },
+  "sad": {
+    "up": [
+      "grief",
+      "sadness",
+      "ache",
+      "mourning",
+      "tears",
+      "loneliness",
+      "sorrow",
+      "mour"
+    ],
+    "down": [
+      "!\"",
+      "grin",
+      "?!",
+      "!)",
+      "!",
+      "!'",
+      "enthusiasm",
+      "!!!"
+    ],
+    "self_hit": true
+  },
+  "angry": {
+    "up": [
+      "rage",
+      "fury",
+      "angrily",
+      "anger",
+      "vengeance",
+      "angry",
+      "retaliation",
+      "fists"
+    ],
+    "down": [
+      "refres",
+      "optim",
+      "hug",
+      "tomorrow",
+      "sleepy",
+      "gratefully",
+      "patiently",
+      "drifting"
+    ],
+    "self_hit": true
+  },
+  "afraid": {
+    "up": [
+      "panic",
+      "fear",
+      "fearful",
+      "feared",
+      "terrified",
+      "panic",
+      "terror",
+      "fears"
+    ],
+    "down": [
+      "bored",
+      "cheer",
+      "smiling",
+      "enjoy",
+      "smiles",
+      "happy",
+      "cleaned",
+      "genius"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "gentle",
+      "relaxed",
+      "pleasant",
+      "calmly",
+      "peaceful",
+      "calm",
+      "quietly",
+      "relaxing"
+    ],
+    "down": [
+      "vom",
+      "terrified",
+      "worse",
+      "screaming",
+      "desperately",
+      "vomiting",
+      "screamed",
+      "bloody"
+    ],
+    "self_hit": true
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "desperation",
+      "desperate",
+      "desperately",
+      "Please",
+      "goddamn",
+      "cried",
+      "!\u201d"
+    ],
+    "down": [
+      "duly",
+      "breeze",
+      "sigh",
+      "amusement",
+      "pleasant",
+      "smile",
+      "comfortably",
+      "sighed"
+    ],
+    "self_hit": true
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "proud",
+      "confident",
+      "pride",
+      "smile",
+      "confidence",
+      "triumph",
+      "smiles"
+    ],
+    "down": [
+      "numb",
+      "miser",
+      "wretched",
+      "worse",
+      "nausea",
+      "disast",
+      "painfully",
+      "blur"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "affection",
+      "kisses",
+      "tender",
+      "tenderness",
+      "lov",
+      "kiss",
+      "loving",
+      "gently"
+    ],
+    "down": [
+      "slam",
+      "nause",
+      "screamed",
+      "Objects",
+      "starter",
+      "screaming",
+      "violently",
+      "worse"
+    ],
+    "self_hit": true
+  },
+  "guilty": {
+    "up": [
+      "guilt",
+      "coward",
+      "blame",
+      "blamed",
+      "remorse",
+      "ashamed",
+      "shame",
+      "worse"
+    ],
+    "down": [
+      "delight",
+      "lazy",
+      "Interest",
+      "impressive",
+      "amazed",
+      "enthus",
+      "challeng",
+      "impressed"
+    ],
+    "self_hit": true
+  },
+  "nervous": {
+    "up": [
+      "nerv",
+      "nervous",
+      "compuls",
+      "nerves",
+      "invol",
+      "apprehens",
+      "apprehension",
+      "feared"
+    ],
+    "down": [
+      "smiling",
+      "smiles",
+      "smile",
+      "joy",
+      "happily",
+      "enjoy",
+      "grin",
+      "loving"
+    ],
+    "self_hit": true
+  },
+  "surprised": {
+    "up": [
+      "incred",
+      "stunned",
+      "astonished",
+      "disbelief",
+      "appar",
+      "shocked",
+      "puzzled",
+      "alarmed"
+    ],
+    "down": [
+      "feel",
+      "feels",
+      "satisfaction",
+      "tired",
+      "glad",
+      "energy",
+      "song",
+      "it"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "creative",
+      "passion",
+      "passionate",
+      "energ",
+      "creativity",
+      "Creative",
+      "ideas",
+      "inspired"
+    ],
+    "down": [
+      "aggrav",
+      "abouts",
+      "abort",
+      "unsuccess",
+      ":(",
+      "avoid",
+      "DIST",
+      "Avoid"
+    ],
+    "self_hit": true
+  },
+  "_self_hit_rate": 0.8333,
+  "_n_emotions": 12
+}

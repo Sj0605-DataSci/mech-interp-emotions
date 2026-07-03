@@ -1,0 +1,9 @@
+{
+  "repo": "cerebras/Cerebras-GPT-590M",
+  "tag": "cerebras__Cerebras-GPT-590M",
+  "n_layers": 18,
+  "d_model": 1536,
+  "n_emotions": 171,
+  "min_token_offset": 50,
+  "max_len": 512
+}

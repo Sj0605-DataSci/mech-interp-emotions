@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "welcome",
+      "ocious",
+      "delight",
+      "delighted",
+      "enthusiasm",
+      "joy",
+      "welcomed",
+      "generation"
+    ],
+    "down": [
+      "nor",
+      "anymore",
+      "Codex",
+      "Neither",
+      "nor",
+      "cannot",
+      "Neither",
+      "violates"
+    ],
+    "self_hit": false
+  },
+  "sad": {
+    "up": [
+      "existence",
+      "shroud",
+      "oneliness",
+      "exhaustion",
+      "expectation",
+      "reality",
+      "contemplation",
+      "desire"
+    ],
+    "down": [
+      "!\"",
+      "torped",
+      "?!\"",
+      "kids",
+      "shotguns",
+      "scorer",
+      "!,",
+      "gren"
+    ],
+    "self_hit": false
+  },
+  "angry": {
+    "up": [
+      "fists",
+      "sever",
+      "tore",
+      "throats",
+      "fury",
+      "ousands",
+      "violently",
+      "atters"
+    ],
+    "down": [
+      "enjoying",
+      "experimenting",
+      "lik",
+      "picture",
+      "watching",
+      "enjoy",
+      "scenery",
+      "sunshine"
+    ],
+    "self_hit": false
+  },
+  "afraid": {
+    "up": [
+      "uncontroll",
+      "agony",
+      "cease",
+      "thirst",
+      "death",
+      "odies",
+      "attempts",
+      "licts"
+    ],
+    "down": [
+      "cute",
+      "nice",
+      "nifty",
+      "adorable",
+      "HUD",
+      "strut",
+      "classy",
+      "admire"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "guided",
+      "pleasant",
+      "slight",
+      "varying",
+      "medium",
+      "breeze",
+      "narration",
+      "gentle"
+    ],
+    "down": [
+      "?!",
+      "emies",
+      "horribly",
+      "damned",
+      "stros",
+      "seless",
+      "guts",
+      "fists"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "?\"",
+      "!",
+      ".\"",
+      "...\"",
+      "...\"",
+      ",\"",
+      "\u2014\""
+    ],
+    "down": [
+      "demeanor",
+      "contemplation",
+      "ness",
+      "hindsight",
+      "contrasted",
+      "familiarity",
+      "disposition",
+      "eness"
+    ],
+    "self_hit": false
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "your",
+      "proud",
+      "excellent",
+      "impecc",
+      "yourselves",
+      "superb",
+      "confident"
+    ],
+    "down": [
+      "vomit",
+      "endings",
+      "uncontroll",
+      "inco",
+      "fragments",
+      "cease",
+      "throats",
+      "ceased"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "kisses",
+      "welcoming",
+      "affection",
+      "kiss",
+      "kissing",
+      "behalf",
+      "hesion",
+      "protect"
+    ],
+    "down": [
+      "Failed",
+      "failed",
+      "crashed",
+      "ceased",
+      "nobody",
+      "hurled",
+      "stopped",
+      "hundred"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "losing",
+      "himself",
+      "lest",
+      "anymore",
+      "hadn",
+      "worse",
+      "worst",
+      "humiliation"
+    ],
+    "down": [
+      "varies",
+      "curriculum",
+      "bilingual",
+      ",'\"",
+      "verb",
+      "cellaneous",
+      "Yep",
+      "customize"
+    ],
+    "self_hit": false
+  },
+  "nervous": {
+    "up": [
+      "throat",
+      "Difficulty",
+      "attempts",
+      "saliva",
+      "lest",
+      "clen",
+      "onyms",
+      "insufficient"
+    ],
+    "down": [
+      "kids",
+      "shine",
+      "kid",
+      "your",
+      "glory",
+      "!\"",
+      "sunset",
+      "beautiful"
+    ],
+    "self_hit": false
+  },
+  "surprised": {
+    "up": [
+      "incorrectly",
+      "inspecting",
+      "quizz",
+      "opaque",
+      "question",
+      "sizing",
+      "fixed",
+      "defect"
+    ],
+    "down": [
+      "friendships",
+      "bargain",
+      "ongs",
+      "powerful",
+      "Ride",
+      "liberating",
+      "kisses",
+      "tales"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "career",
+      "life",
+      "world",
+      "new",
+      "saw",
+      "adventure",
+      "skills",
+      "train"
+    ],
+    "down": [
+      "disapprove",
+      "confidentiality",
+      "disappro",
+      "displeasure",
+      "disapproval",
+      "ounge",
+      "detractors",
+      "irritation"
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.0833,
+  "_n_emotions": 12
+}

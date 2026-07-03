@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "delighted",
+      "joy",
+      "delight",
+      "excited",
+      "happy",
+      "thrilled",
+      "smiles",
+      "joy"
+    ],
+    "down": [
+      "neither",
+      "coward",
+      "worse",
+      "ulpt",
+      "insufficient",
+      "uncomfortable",
+      "ineffective",
+      "sleeping"
+    ],
+    "self_hit": true
+  },
+  "sad": {
+    "up": [
+      "loneliness",
+      "sadness",
+      "nights",
+      "night",
+      "ache",
+      "pooling",
+      "memory",
+      "resting"
+    ],
+    "down": [
+      "!\"",
+      "!'",
+      "!\u201d",
+      "actin",
+      "hilarious",
+      "!,",
+      "!--",
+      "!)"
+    ],
+    "self_hit": true
+  },
+  "angry": {
+    "up": [
+      "fury",
+      "violently",
+      "angrily",
+      "retal",
+      "venom",
+      "retaliation",
+      "nails",
+      "rage"
+    ],
+    "down": [
+      "warmer",
+      "patiently",
+      "sleepy",
+      "happy",
+      "happier",
+      "sunny",
+      "watching",
+      "safe"
+    ],
+    "self_hit": true
+  },
+  "afraid": {
+    "up": [
+      "panic",
+      "panic",
+      "fear",
+      "terror",
+      "invol",
+      "mares",
+      "fearful",
+      "attacker"
+    ],
+    "down": [
+      "beaut",
+      "sunny",
+      "cheer",
+      "vintage",
+      "cheerful",
+      "enrichment",
+      "amenities",
+      "smiling"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "relaxed",
+      "relaxing",
+      "pleasant",
+      "tranqu",
+      "leisure",
+      "meditation",
+      "gradual",
+      "gentle"
+    ],
+    "down": [
+      "screaming",
+      "scream",
+      "vom",
+      "screamed",
+      "worse",
+      "vomiting",
+      "yelling",
+      "screams"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "\u2014\"",
+      "desperation",
+      "desperate",
+      "bloody",
+      "screaming",
+      "emergencies",
+      "!\""
+    ],
+    "down": [
+      "pleasant",
+      "reflected",
+      "mir",
+      "breeze",
+      "oval",
+      "satisfied",
+      "Pac",
+      "\u201c"
+    ],
+    "self_hit": true
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "proud",
+      "confident",
+      "praise",
+      "essage",
+      "excellence",
+      "triumph",
+      "achievement"
+    ],
+    "down": [
+      "inability",
+      "panic",
+      "lod",
+      "ineffective",
+      "worse",
+      "uncomfort",
+      "painful",
+      "exacerb"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "kisses",
+      "affection",
+      "lov",
+      "tenderness",
+      "tender",
+      "kiss",
+      "warmth",
+      "sweetness"
+    ],
+    "down": [
+      "bolt",
+      "hor",
+      "rent",
+      "rage",
+      "panic",
+      "calc",
+      "stalk",
+      "refuse"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "guilt",
+      "blamed",
+      "blaming",
+      "shame",
+      "bile",
+      "emotionally",
+      "coward",
+      "blame"
+    ],
+    "down": [
+      "interesting",
+      "Footnote",
+      "interesting",
+      "usp",
+      "fefe",
+      "vintage",
+      "TypeDef",
+      "interested"
+    ],
+    "self_hit": true
+  },
+  "nervous": {
+    "up": [
+      "panic",
+      "invol",
+      "unsuccess",
+      "nerv",
+      "attempts",
+      "panic",
+      "attempt",
+      "involuntary"
+    ],
+    "down": [
+      "iversity",
+      "ielsen",
+      "smiling",
+      "gregation",
+      "enrichment",
+      "happy",
+      "cheerful",
+      "sunny"
+    ],
+    "self_hit": true
+  },
+  "surprised": {
+    "up": [
+      "gasped",
+      "comprehension",
+      "stunned",
+      "alarmed",
+      "astonished",
+      "incred",
+      "froze",
+      "saliv"
+    ],
+    "down": [
+      "feel",
+      "Feel",
+      "feels",
+      "algia",
+      "feeling",
+      "oneliness",
+      "crawl",
+      "feel"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "charts",
+      "chart",
+      "irections",
+      "ondon",
+      "flourish",
+      "nurt",
+      "structured",
+      "vibrant"
+    ],
+    "down": [
+      "inconven",
+      "inconvenience",
+      "jerk",
+      "Administ",
+      "loser",
+      "inadmissible",
+      "complain",
+      "embarrassment"
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.5833,
+  "_n_emotions": 12
+}

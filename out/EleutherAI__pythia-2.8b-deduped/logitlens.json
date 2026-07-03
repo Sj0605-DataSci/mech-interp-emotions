@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "joy",
+      "delight",
+      "delighted",
+      "happiness",
+      "joy",
+      "happy",
+      "celebration",
+      "grin"
+    ],
+    "down": [
+      "brutal",
+      "worse",
+      "pawn",
+      "bleed",
+      "unsatisfactory",
+      "coward",
+      "raped",
+      "cold"
+    ],
+    "self_hit": true
+  },
+  "sad": {
+    "up": [
+      "loneliness",
+      "tears",
+      "ache",
+      "sadness",
+      "lonely",
+      "grief",
+      "sorrow",
+      "oneliness"
+    ],
+    "down": [
+      "!\"",
+      "!\u201d",
+      "!,",
+      "!!",
+      "Class",
+      "!).",
+      "!)",
+      "!"
+    ],
+    "self_hit": true
+  },
+  "angry": {
+    "up": [
+      "rage",
+      "fury",
+      "angrily",
+      "anger",
+      "retal",
+      "retaliation",
+      "furious",
+      "wrath"
+    ],
+    "down": [
+      "sunshine",
+      "sleepy",
+      "optim",
+      "patiently",
+      "dreaming",
+      "onge",
+      "mystery",
+      "happy"
+    ],
+    "self_hit": true
+  },
+  "afraid": {
+    "up": [
+      "panic",
+      "terror",
+      "fearful",
+      "terrified",
+      "fear",
+      "panic",
+      "afraid",
+      "Terror"
+    ],
+    "down": [
+      "bored",
+      "cheer",
+      "rceil",
+      "charming",
+      "smiling",
+      "cheerful",
+      "sunshine",
+      "proudly"
+    ],
+    "self_hit": true
+  },
+  "calm": {
+    "up": [
+      "pleasant",
+      "gentle",
+      "relaxing",
+      "leisure",
+      "relaxed",
+      "gently",
+      "pleasant",
+      "gently"
+    ],
+    "down": [
+      "worse",
+      "screaming",
+      "bloody",
+      "!",
+      "desperately",
+      "screamed",
+      "horrible",
+      "shri"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "!\u201d",
+      "desperation",
+      "!\"",
+      "...\"",
+      "desperate",
+      "\u2014\"",
+      "!"
+    ],
+    "down": [
+      "welcoming",
+      "pleasant",
+      "benign",
+      "smile",
+      "expression",
+      "reflected",
+      "observer",
+      "contempl"
+    ],
+    "self_hit": true
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "proud",
+      "smile",
+      "pride",
+      "smiles",
+      "smiling",
+      "triumph",
+      "confident"
+    ],
+    "down": [
+      "worse",
+      ":(",
+      "desperately",
+      "Unable",
+      "Unable",
+      "badly",
+      "panic",
+      "inability"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "affection",
+      "warmth",
+      "gently",
+      "kisses",
+      "tender",
+      "lov",
+      "gently",
+      "gentle"
+    ],
+    "down": [
+      "worse",
+      "scree",
+      "odium",
+      "suicidal",
+      "shri",
+      "useless",
+      "halluc",
+      "murder"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "coward",
+      "worse",
+      "worst",
+      "had",
+      "failed",
+      "feared",
+      "guilt",
+      "Prevent"
+    ],
+    "down": [
+      "illin",
+      "interested",
+      "leisure",
+      "liberated",
+      "enthus",
+      "intrigued",
+      "eyebrow",
+      "intrig"
+    ],
+    "self_hit": true
+  },
+  "nervous": {
+    "up": [
+      "nerv",
+      "panic",
+      "invol",
+      "nerves",
+      "fearful",
+      "nervous",
+      "lest",
+      "involuntary"
+    ],
+    "down": [
+      "smiling",
+      "onge",
+      "sunshine",
+      "thrive",
+      "love",
+      "smiles",
+      "cline",
+      "grace"
+    ],
+    "self_hit": true
+  },
+  "surprised": {
+    "up": [
+      "stunned",
+      "astonished",
+      "incred",
+      "aston",
+      "puzzled",
+      "shocked",
+      "alarmed",
+      "perplex"
+    ],
+    "down": [
+      "feel",
+      "feeling",
+      "release",
+      "Feel",
+      "punches",
+      "warmth",
+      "feels",
+      "comfort"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "sket",
+      "pencil",
+      "creativity",
+      "creative",
+      "speed",
+      "guitar",
+      "writing",
+      "new"
+    ],
+    "down": [
+      "yourselves",
+      "artifact",
+      "weakly",
+      "lest",
+      "selves",
+      "traitor",
+      "lest",
+      "dle"
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.6667,
+  "_n_emotions": 12
+}

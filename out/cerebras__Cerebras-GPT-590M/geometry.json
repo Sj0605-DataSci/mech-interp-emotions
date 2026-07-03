@@ -1,0 +1,445 @@
+{
+  "tag": "cerebras__Cerebras-GPT-590M",
+  "n_layers": 18,
+  "d_model": 1536,
+  "probe_layer": 12,
+  "per_layer": {
+    "0": {
+      "syn_cos": 0.781,
+      "ant_cos": -0.2118,
+      "syn_ant_sep": 0.9928,
+      "cluster_sep": 0.3717,
+      "circumplex": {
+        "valence": {
+          "r": 0.7411,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7554,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2122,
+          0.1691,
+          0.1203,
+          0.0753
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "1": {
+      "syn_cos": 0.7847,
+      "ant_cos": -0.1844,
+      "syn_ant_sep": 0.9691,
+      "cluster_sep": 0.3799,
+      "circumplex": {
+        "valence": {
+          "r": 0.6799,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7421,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2108,
+          0.1544,
+          0.1237,
+          0.0791
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "2": {
+      "syn_cos": 0.7765,
+      "ant_cos": -0.1745,
+      "syn_ant_sep": 0.951,
+      "cluster_sep": 0.3751,
+      "circumplex": {
+        "valence": {
+          "r": 0.7068,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7103,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2392,
+          0.1518,
+          0.1359,
+          0.0766
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "3": {
+      "syn_cos": 0.7889,
+      "ant_cos": -0.1765,
+      "syn_ant_sep": 0.9654,
+      "cluster_sep": 0.3757,
+      "circumplex": {
+        "valence": {
+          "r": 0.7248,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7292,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2684,
+          0.1566,
+          0.1152,
+          0.0696
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "4": {
+      "syn_cos": 0.7936,
+      "ant_cos": -0.2184,
+      "syn_ant_sep": 1.012,
+      "cluster_sep": 0.3742,
+      "circumplex": {
+        "valence": {
+          "r": 0.6944,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7337,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2799,
+          0.1687,
+          0.1051,
+          0.0675
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "5": {
+      "syn_cos": 0.7959,
+      "ant_cos": -0.2095,
+      "syn_ant_sep": 1.0054,
+      "cluster_sep": 0.3763,
+      "circumplex": {
+        "valence": {
+          "r": 0.6894,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7139,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2824,
+          0.1659,
+          0.1099,
+          0.0671
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "6": {
+      "syn_cos": 0.8012,
+      "ant_cos": -0.2231,
+      "syn_ant_sep": 1.0243,
+      "cluster_sep": 0.3827,
+      "circumplex": {
+        "valence": {
+          "r": 0.6862,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7152,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2855,
+          0.1684,
+          0.1131,
+          0.0638
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "7": {
+      "syn_cos": 0.8029,
+      "ant_cos": -0.2237,
+      "syn_ant_sep": 1.0267,
+      "cluster_sep": 0.3848,
+      "circumplex": {
+        "valence": {
+          "r": 0.6638,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7345,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2816,
+          0.1676,
+          0.1093,
+          0.0672
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "8": {
+      "syn_cos": 0.8041,
+      "ant_cos": -0.1827,
+      "syn_ant_sep": 0.9868,
+      "cluster_sep": 0.3756,
+      "circumplex": {
+        "valence": {
+          "r": 0.655,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7097,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2915,
+          0.1568,
+          0.1149,
+          0.07
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "9": {
+      "syn_cos": 0.8172,
+      "ant_cos": -0.2201,
+      "syn_ant_sep": 1.0373,
+      "cluster_sep": 0.3827,
+      "circumplex": {
+        "valence": {
+          "r": 0.6433,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7128,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2952,
+          0.1703,
+          0.1038,
+          0.0726
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "10": {
+      "syn_cos": 0.8302,
+      "ant_cos": -0.2749,
+      "syn_ant_sep": 1.1051,
+      "cluster_sep": 0.3892,
+      "circumplex": {
+        "valence": {
+          "r": 0.619,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7114,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2847,
+          0.1808,
+          0.1063,
+          0.0725
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "11": {
+      "syn_cos": 0.829,
+      "ant_cos": -0.2498,
+      "syn_ant_sep": 1.0788,
+      "cluster_sep": 0.3837,
+      "circumplex": {
+        "valence": {
+          "r": 0.6331,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7181,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2822,
+          0.1792,
+          0.11,
+          0.0719
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "12": {
+      "syn_cos": 0.8251,
+      "ant_cos": -0.2464,
+      "syn_ant_sep": 1.0715,
+      "cluster_sep": 0.3799,
+      "circumplex": {
+        "valence": {
+          "r": 0.6476,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7174,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2819,
+          0.1768,
+          0.1114,
+          0.0782
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "13": {
+      "syn_cos": 0.8259,
+      "ant_cos": -0.2465,
+      "syn_ant_sep": 1.0724,
+      "cluster_sep": 0.3771,
+      "circumplex": {
+        "valence": {
+          "r": 0.6473,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7231,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2801,
+          0.1773,
+          0.1101,
+          0.0796
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "14": {
+      "syn_cos": 0.8276,
+      "ant_cos": -0.2421,
+      "syn_ant_sep": 1.0696,
+      "cluster_sep": 0.3723,
+      "circumplex": {
+        "valence": {
+          "r": 0.642,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7094,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2816,
+          0.1794,
+          0.107,
+          0.0789
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "15": {
+      "syn_cos": 0.8231,
+      "ant_cos": -0.2293,
+      "syn_ant_sep": 1.0524,
+      "cluster_sep": 0.3728,
+      "circumplex": {
+        "valence": {
+          "r": 0.673,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.718,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2706,
+          0.1801,
+          0.1084,
+          0.0821
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "16": {
+      "syn_cos": 0.8215,
+      "ant_cos": -0.237,
+      "syn_ant_sep": 1.0584,
+      "cluster_sep": 0.3714,
+      "circumplex": {
+        "valence": {
+          "r": 0.6547,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7219,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2675,
+          0.1784,
+          0.1111,
+          0.0819
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "17": {
+      "syn_cos": 0.8224,
+      "ant_cos": -0.2306,
+      "syn_ant_sep": 1.053,
+      "cluster_sep": 0.3716,
+      "circumplex": {
+        "valence": {
+          "r": 0.5899,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7289,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2554,
+          0.1819,
+          0.1096,
+          0.0884
+        ],
+        "n_emotions_matched": 171
+      }
+    }
+  },
+  "at_probe_layer": {
+    "syn_cos": 0.8251,
+    "ant_cos": -0.2464,
+    "syn_ant_sep": 1.0715,
+    "cluster_sep": 0.3799,
+    "circumplex": {
+      "valence": {
+        "r": 0.6476,
+        "pc": 2
+      },
+      "arousal": {
+        "r": -0.7174,
+        "pc": 1
+      },
+      "pc_var_ratio": [
+        0.2819,
+        0.1768,
+        0.1114,
+        0.0782
+      ],
+      "n_emotions_matched": 171
+    }
+  }
+}

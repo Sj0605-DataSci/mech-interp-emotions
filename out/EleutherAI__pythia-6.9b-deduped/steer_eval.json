@@ -1,0 +1,100 @@
+{
+  "repo": "EleutherAI/pythia-6.9b-deduped",
+  "alpha": 8.0,
+  "layer": 21,
+  "per_emotion": {
+    "happy": {
+      "target_delta": -106.656,
+      "rank": 145,
+      "top": [
+        "depressed",
+        "stuck",
+        "listless"
+      ]
+    },
+    "sad": {
+      "target_delta": 89.036,
+      "rank": 23,
+      "top": [
+        "depressed",
+        "stuck",
+        "listless"
+      ]
+    },
+    "angry": {
+      "target_delta": -71.967,
+      "rank": 122,
+      "top": [
+        "depressed",
+        "stuck",
+        "listless"
+      ]
+    },
+    "afraid": {
+      "target_delta": 40.053,
+      "rank": 60,
+      "top": [
+        "depressed",
+        "stuck",
+        "listless"
+      ]
+    },
+    "calm": {
+      "target_delta": 114.1,
+      "rank": 17,
+      "top": [
+        "depressed",
+        "stuck",
+        "listless"
+      ]
+    },
+    "desperate": {
+      "target_delta": 70.522,
+      "rank": 50,
+      "top": [
+        "depressed",
+        "stuck",
+        "listless"
+      ]
+    },
+    "loving": {
+      "target_delta": -101.392,
+      "rank": 141,
+      "top": [
+        "depressed",
+        "stuck",
+        "listless"
+      ]
+    },
+    "proud": {
+      "target_delta": -72.651,
+      "rank": 125,
+      "top": [
+        "depressed",
+        "stuck",
+        "listless"
+      ]
+    },
+    "disgusted": {
+      "target_delta": -68.98,
+      "rank": 122,
+      "top": [
+        "depressed",
+        "stuck",
+        "listless"
+      ]
+    },
+    "surprised": {
+      "target_delta": -52.486,
+      "rank": 117,
+      "top": [
+        "depressed",
+        "stuck",
+        "listless"
+      ]
+    }
+  },
+  "causal_hit_rate": 0.0,
+  "mean_rank": 92.2,
+  "n_emotions": 10
+}

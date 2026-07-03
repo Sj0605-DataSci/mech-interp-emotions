@@ -1,0 +1,57 @@
+{
+  "tag": "EleutherAI__pythia-70m-deduped",
+  "n_layers": 6,
+  "layer_dynamics": [
+    {
+      "layer": 0,
+      "rel_depth": 0.0,
+      "syn_ant_sep": 0.9695,
+      "valence_r": 0.626,
+      "arousal_r": 0.7096
+    },
+    {
+      "layer": 1,
+      "rel_depth": 0.2,
+      "syn_ant_sep": 0.9473,
+      "valence_r": 0.6688,
+      "arousal_r": 0.7295
+    },
+    {
+      "layer": 2,
+      "rel_depth": 0.4,
+      "syn_ant_sep": 0.9591,
+      "valence_r": 0.4345,
+      "arousal_r": 0.6607
+    },
+    {
+      "layer": 3,
+      "rel_depth": 0.6,
+      "syn_ant_sep": 0.948,
+      "valence_r": 0.5789,
+      "arousal_r": 0.5739
+    },
+    {
+      "layer": 4,
+      "rel_depth": 0.8,
+      "syn_ant_sep": 0.8516,
+      "valence_r": 0.6437,
+      "arousal_r": 0.6169
+    },
+    {
+      "layer": 5,
+      "rel_depth": 1.0,
+      "syn_ant_sep": 0.9231,
+      "valence_r": 0.4932,
+      "arousal_r": 0.6641
+    }
+  ],
+  "rsa_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rsa_offdiag_mean": 0.951283210478661
+}

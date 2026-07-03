@@ -1,0 +1,100 @@
+{
+  "repo": "EleutherAI/pythia-160m-deduped",
+  "alpha": 8.0,
+  "layer": 8,
+  "per_emotion": {
+    "happy": {
+      "target_delta": 0.672,
+      "rank": 39,
+      "top": [
+        "enthusiastic",
+        "desperate",
+        "dependent"
+      ]
+    },
+    "sad": {
+      "target_delta": 2.685,
+      "rank": 2,
+      "top": [
+        "heartbroken",
+        "sad",
+        "grief-stricken"
+      ]
+    },
+    "angry": {
+      "target_delta": -0.694,
+      "rank": 115,
+      "top": [
+        "sympathetic",
+        "lonely",
+        "compassionate"
+      ]
+    },
+    "afraid": {
+      "target_delta": 1.813,
+      "rank": 8,
+      "top": [
+        "sensitive",
+        "tormented",
+        "vulnerable"
+      ]
+    },
+    "calm": {
+      "target_delta": 2.039,
+      "rank": 7,
+      "top": [
+        "peaceful",
+        "serene",
+        "safe"
+      ]
+    },
+    "desperate": {
+      "target_delta": 16.11,
+      "rank": 20,
+      "top": [
+        "lonely",
+        "sympathetic",
+        "compassionate"
+      ]
+    },
+    "loving": {
+      "target_delta": 2.168,
+      "rank": 1,
+      "top": [
+        "loving",
+        "compassionate",
+        "dependent"
+      ]
+    },
+    "proud": {
+      "target_delta": 1.005,
+      "rank": 74,
+      "top": [
+        "lonely",
+        "sympathetic",
+        "compassionate"
+      ]
+    },
+    "disgusted": {
+      "target_delta": 2.609,
+      "rank": 1,
+      "top": [
+        "disgusted",
+        "nervous",
+        "anxious"
+      ]
+    },
+    "surprised": {
+      "target_delta": 1.1,
+      "rank": 5,
+      "top": [
+        "perplexed",
+        "puzzled",
+        "bewildered"
+      ]
+    }
+  },
+  "causal_hit_rate": 0.6,
+  "mean_rank": 27.2,
+  "n_emotions": 10
+}

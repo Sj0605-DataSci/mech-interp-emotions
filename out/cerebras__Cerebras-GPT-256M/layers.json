@@ -1,0 +1,121 @@
+{
+  "tag": "cerebras__Cerebras-GPT-256M",
+  "n_layers": 14,
+  "layer_dynamics": [
+    {
+      "layer": 0,
+      "rel_depth": 0.0,
+      "syn_ant_sep": 0.9652,
+      "valence_r": 0.6861,
+      "arousal_r": 0.7184
+    },
+    {
+      "layer": 1,
+      "rel_depth": 0.07692307692307693,
+      "syn_ant_sep": 0.9274,
+      "valence_r": 0.6991,
+      "arousal_r": 0.6869
+    },
+    {
+      "layer": 2,
+      "rel_depth": 0.15384615384615385,
+      "syn_ant_sep": 0.8907,
+      "valence_r": 0.6469,
+      "arousal_r": 0.6284
+    },
+    {
+      "layer": 3,
+      "rel_depth": 0.23076923076923078,
+      "syn_ant_sep": 0.8983,
+      "valence_r": 0.7269,
+      "arousal_r": 0.673
+    },
+    {
+      "layer": 4,
+      "rel_depth": 0.3076923076923077,
+      "syn_ant_sep": 0.9351,
+      "valence_r": 0.7399,
+      "arousal_r": 0.6922
+    },
+    {
+      "layer": 5,
+      "rel_depth": 0.38461538461538464,
+      "syn_ant_sep": 0.9459,
+      "valence_r": 0.6939,
+      "arousal_r": 0.6724
+    },
+    {
+      "layer": 6,
+      "rel_depth": 0.46153846153846156,
+      "syn_ant_sep": 0.9425,
+      "valence_r": 0.7089,
+      "arousal_r": 0.6738
+    },
+    {
+      "layer": 7,
+      "rel_depth": 0.5384615384615384,
+      "syn_ant_sep": 1.021,
+      "valence_r": 0.6795,
+      "arousal_r": 0.7122
+    },
+    {
+      "layer": 8,
+      "rel_depth": 0.6153846153846154,
+      "syn_ant_sep": 0.9923,
+      "valence_r": 0.6787,
+      "arousal_r": 0.6961
+    },
+    {
+      "layer": 9,
+      "rel_depth": 0.6923076923076923,
+      "syn_ant_sep": 0.9827,
+      "valence_r": 0.6469,
+      "arousal_r": 0.7034
+    },
+    {
+      "layer": 10,
+      "rel_depth": 0.7692307692307693,
+      "syn_ant_sep": 0.9595,
+      "valence_r": 0.6876,
+      "arousal_r": 0.6551
+    },
+    {
+      "layer": 11,
+      "rel_depth": 0.8461538461538461,
+      "syn_ant_sep": 0.9562,
+      "valence_r": 0.6645,
+      "arousal_r": 0.6533
+    },
+    {
+      "layer": 12,
+      "rel_depth": 0.9230769230769231,
+      "syn_ant_sep": 0.9429,
+      "valence_r": 0.6734,
+      "arousal_r": 0.645
+    },
+    {
+      "layer": 13,
+      "rel_depth": 1.0,
+      "syn_ant_sep": 0.952,
+      "valence_r": 0.6725,
+      "arousal_r": 0.6764
+    }
+  ],
+  "rsa_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "rsa_offdiag_mean": 0.967843216982353
+}

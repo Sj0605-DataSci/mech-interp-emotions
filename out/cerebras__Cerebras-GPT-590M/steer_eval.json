@@ -1,0 +1,100 @@
+{
+  "repo": "cerebras/Cerebras-GPT-590M",
+  "alpha": 8.0,
+  "layer": 12,
+  "per_emotion": {
+    "happy": {
+      "target_delta": 0.36,
+      "rank": 80,
+      "top": [
+        "desperate",
+        "enthusiastic",
+        "sympathetic"
+      ]
+    },
+    "sad": {
+      "target_delta": -3.242,
+      "rank": 110,
+      "top": [
+        "sympathetic",
+        "resigned",
+        "empathetic"
+      ]
+    },
+    "angry": {
+      "target_delta": 1.478,
+      "rank": 38,
+      "top": [
+        "hysterical",
+        "euphoric",
+        "tormented"
+      ]
+    },
+    "afraid": {
+      "target_delta": 3.585,
+      "rank": 5,
+      "top": [
+        "vulnerable",
+        "trapped",
+        "brooding"
+      ]
+    },
+    "calm": {
+      "target_delta": 2.255,
+      "rank": 34,
+      "top": [
+        "blissful",
+        "relaxed",
+        "droopy"
+      ]
+    },
+    "desperate": {
+      "target_delta": 7.125,
+      "rank": 13,
+      "top": [
+        "exuberant",
+        "elated",
+        "jubilant"
+      ]
+    },
+    "loving": {
+      "target_delta": 3.511,
+      "rank": 1,
+      "top": [
+        "loving",
+        "obstinate",
+        "dependent"
+      ]
+    },
+    "proud": {
+      "target_delta": 5.241,
+      "rank": 14,
+      "top": [
+        "happy",
+        "joyful",
+        "delighted"
+      ]
+    },
+    "disgusted": {
+      "target_delta": 6.48,
+      "rank": 1,
+      "top": [
+        "disgusted",
+        "tormented",
+        "hysterical"
+      ]
+    },
+    "surprised": {
+      "target_delta": -0.858,
+      "rank": 122,
+      "top": [
+        "droopy",
+        "blissful",
+        "loving"
+      ]
+    }
+  },
+  "causal_hit_rate": 0.3,
+  "mean_rank": 41.8,
+  "n_emotions": 10
+}

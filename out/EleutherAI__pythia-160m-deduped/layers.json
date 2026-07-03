@@ -1,0 +1,105 @@
+{
+  "tag": "EleutherAI__pythia-160m-deduped",
+  "n_layers": 12,
+  "layer_dynamics": [
+    {
+      "layer": 0,
+      "rel_depth": 0.0,
+      "syn_ant_sep": 0.9758,
+      "valence_r": 0.6307,
+      "arousal_r": 0.7015
+    },
+    {
+      "layer": 1,
+      "rel_depth": 0.09090909090909091,
+      "syn_ant_sep": 0.9711,
+      "valence_r": 0.7136,
+      "arousal_r": 0.7456
+    },
+    {
+      "layer": 2,
+      "rel_depth": 0.18181818181818182,
+      "syn_ant_sep": 0.9847,
+      "valence_r": 0.6848,
+      "arousal_r": 0.7081
+    },
+    {
+      "layer": 3,
+      "rel_depth": 0.2727272727272727,
+      "syn_ant_sep": 1.0348,
+      "valence_r": 0.6711,
+      "arousal_r": 0.7463
+    },
+    {
+      "layer": 4,
+      "rel_depth": 0.36363636363636365,
+      "syn_ant_sep": 1.0378,
+      "valence_r": 0.6327,
+      "arousal_r": 0.7423
+    },
+    {
+      "layer": 5,
+      "rel_depth": 0.45454545454545453,
+      "syn_ant_sep": 1.0214,
+      "valence_r": 0.6692,
+      "arousal_r": 0.7172
+    },
+    {
+      "layer": 6,
+      "rel_depth": 0.5454545454545454,
+      "syn_ant_sep": 1.0381,
+      "valence_r": 0.6133,
+      "arousal_r": 0.6798
+    },
+    {
+      "layer": 7,
+      "rel_depth": 0.6363636363636364,
+      "syn_ant_sep": 1.1215,
+      "valence_r": 0.6354,
+      "arousal_r": 0.6852
+    },
+    {
+      "layer": 8,
+      "rel_depth": 0.7272727272727273,
+      "syn_ant_sep": 1.1154,
+      "valence_r": 0.6015,
+      "arousal_r": 0.6912
+    },
+    {
+      "layer": 9,
+      "rel_depth": 0.8181818181818182,
+      "syn_ant_sep": 1.0807,
+      "valence_r": 0.6436,
+      "arousal_r": 0.6809
+    },
+    {
+      "layer": 10,
+      "rel_depth": 0.9090909090909091,
+      "syn_ant_sep": 1.0492,
+      "valence_r": 0.6456,
+      "arousal_r": 0.7082
+    },
+    {
+      "layer": 11,
+      "rel_depth": 1.0,
+      "syn_ant_sep": 1.1178,
+      "valence_r": 0.5789,
+      "arousal_r": 0.7694
+    }
+  ],
+  "rsa_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "rsa_offdiag_mean": 0.9720421002820144
+}

@@ -1,0 +1,1139 @@
+
+━━━ [1/19] EleutherAI/pythia-70m-deduped ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    === Elo preference experiment: EleutherAI/pythia-70m-deduped  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 943–1603
+      Top positive correlations (high emotion → preference):
+        optimistic: r=+0.510
+        self-confident: r=+0.478
+        fulfilled: r=+0.473
+        hopeful: r=+0.398
+        hope: r=+0.395
+      Top negative correlations (high emotion → aversion):
+        enraged: r=-0.553
+        furious: r=-0.520
+        outraged: r=-0.515
+        angry: r=-0.510
+        irate: r=-0.506
+      Written: out/EleutherAI__pythia-70m-deduped/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    === User vs Assistant emotion probes: EleutherAI/pythia-70m-deduped
+      angry→calm: user_probe@U=-0.128  asst_probe@A=-1.192  loving: U=+0.643→A=+0.339
+      sad→loving: user_probe@U=-0.447  asst_probe@A=+0.258  loving: U=+0.284→A=+0.258
+      excited→calm: user_probe@U=-6.720  asst_probe@A=-1.306  loving: U=-2.560→A=+0.428
+      afraid→calm: user_probe@U=-0.516  asst_probe@A=-0.830  loving: U=+0.297→A=+0.354
+      hostile→calm: user_probe@U=+1.579  asst_probe@A=-1.277  loving: U=+0.170→A=+0.210
+      joyful→excited: user_probe@U=-6.619  asst_probe@A=+0.171  loving: U=-2.345→A=+0.394
+      guilty→loving: user_probe@U=-1.013  asst_probe@A=+0.109  loving: U=+0.569→A=+0.109
+      nervous→calm: user_probe@U=-0.683  asst_probe@A=-0.911  loving: U=+0.763→A=+0.838
+      Mean shift U→A — rises:   [('hostile', 2.1422), ('desperate', 2.0365), ('enthusiastic', 1.8825), ('proud', 1.2227), ('excited', 0.8588)]
+      Mean shift U→A — drops:  [('guilty', -3.1156), ('sad', -2.8617), ('afraid', -2.1086), ('surprised', -1.2307), ('serene', -0.1344)]
+      Mean U-A correlation across emotions: -0.054  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/EleutherAI__pythia-70m-deduped/user_vs_asst_heatmap.png
+      Written: out/EleutherAI__pythia-70m-deduped/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+      [✓] steer      happy: target Δ=+1.02  rank 10/171  top→['ashamed', 'ecstatic', 'vulnerable']
+      [ ] steer        sad: target Δ=+0.17  rank 74/171  top→['relaxed', 'safe', 'restless']
+      [ ] steer      angry: target Δ=+0.31  rank 30/171  top→['excited', 'ecstatic', 'exuberant']
+      [✓] steer     afraid: target Δ=+1.04  rank 3/171  top→['vulnerable', 'trapped', 'afraid']
+      [✓] steer       calm: target Δ=+1.69  rank 10/171  top→['relaxed', 'safe', 'peaceful']
+      [ ] steer  desperate: target Δ=+1.19  rank 13/171  top→['remorseful', 'valiant', 'sorry']
+      [ ] steer     loving: target Δ=+0.65  rank 18/171  top→['exasperated', 'sullen', 'relaxed']
+      [ ] steer      proud: target Δ=+0.12  rank 65/171  top→['exuberant', 'jubilant', 'exasperated']
+      [✓] steer  disgusted: target Δ=+1.51  rank 2/171  top→['refreshed', 'disgusted', 'uneasy']
+      [ ] steer  surprised: target Δ=-0.19  rank 92/171  top→['hysterical', 'irritated', 'sullen']
+      causal hit-rate (target in top-10): 0.40  | mean rank 31.7/171
+  ✓ EleutherAI/pythia-70m-deduped complete
+
+━━━ [2/19] EleutherAI/pythia-160m-deduped ━━━
+  [✓] elo_prefs already done, skipping
+  [✓] user_vs_asst already done, skipping
+  [✓] steer_eval already done, skipping
+  ✓ EleutherAI/pythia-160m-deduped complete
+
+━━━ [3/19] EleutherAI/pythia-410m-deduped ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    === Elo preference experiment: EleutherAI/pythia-410m-deduped  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 1108–1319
+      Top positive correlations (high emotion → preference):
+        anxious: r=+0.570
+        scared: r=+0.545
+        panicked: r=+0.541
+        distressed: r=+0.538
+        nervous: r=+0.537
+      Top negative correlations (high emotion → aversion):
+        self-confident: r=-0.575
+        patient: r=-0.558
+        obstinate: r=-0.553
+        docile: r=-0.551
+        defiant: r=-0.548
+      Written: out/EleutherAI__pythia-410m-deduped/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    === User vs Assistant emotion probes: EleutherAI/pythia-410m-deduped
+      angry→calm: user_probe@U=-12.196  asst_probe@A=-0.311  loving: U=-53.694→A=-0.789
+      sad→loving: user_probe@U=+14.146  asst_probe@A=-0.417  loving: U=-53.703→A=-0.417
+      excited→calm: user_probe@U=-55.975  asst_probe@A=-0.593  loving: U=-53.670→A=-0.186
+      afraid→calm: user_probe@U=-21.859  asst_probe@A=-0.113  loving: U=-54.026→A=-0.582
+      hostile→calm: user_probe@U=+6.670  asst_probe@A=-0.068  loving: U=-53.796→A=-1.064
+      joyful→excited: user_probe@U=-55.880  asst_probe@A=+2.095  loving: U=-53.657→A=-0.822
+      guilty→loving: user_probe@U=-12.262  asst_probe@A=-1.259  loving: U=-53.908→A=-1.259
+      nervous→calm: user_probe@U=-69.203  asst_probe@A=-0.785  loving: U=-53.711→A=-0.870
+      Mean shift U→A — rises:   [('happy', 88.1057), ('nervous', 67.9033), ('excited', 57.3305), ('loving', 53.0222), ('desperate', 41.6505)]
+      Mean shift U→A — drops:  [('surprised', -75.1395), ('calm', -25.2575), ('serene', -23.9555), ('sad', -16.7282), ('compassionate', -12.4582)]
+      Mean U-A correlation across emotions: 0.551  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/EleutherAI__pythia-410m-deduped/user_vs_asst_heatmap.png
+      Written: out/EleutherAI__pythia-410m-deduped/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+      [ ] steer      happy: target Δ=-80.26  rank 163/171  top→['suspicious', 'stuck', 'resigned']
+      [ ] steer        sad: target Δ=+13.12  rank 69/171  top→['suspicious', 'stuck', 'resigned']
+      [ ] steer      angry: target Δ=-9.55  rank 101/171  top→['suspicious', 'stuck', 'resigned']
+      [ ] steer     afraid: target Δ=-18.86  rank 116/171  top→['suspicious', 'stuck', 'resigned']
+      [ ] steer       calm: target Δ=+24.45  rank 50/171  top→['suspicious', 'stuck', 'resigned']
+      [ ] steer  desperate: target Δ=-32.75  rank 134/171  top→['suspicious', 'stuck', 'resigned']
+      [ ] steer     loving: target Δ=-47.96  rank 151/171  top→['suspicious', 'stuck', 'resigned']
+      [ ] steer      proud: target Δ=-0.73  rank 90/171  top→['suspicious', 'stuck', 'resigned']
+      [ ] steer  disgusted: target Δ=-23.96  rank 142/171  top→['suspicious', 'stuck', 'resigned']
+      [ ] steer  surprised: target Δ=+68.88  rank 15/171  top→['suspicious', 'stuck', 'resigned']
+      causal hit-rate (target in top-10): 0.00  | mean rank 103.1/171
+  ✓ EleutherAI/pythia-410m-deduped complete
+
+━━━ [4/19] EleutherAI/pythia-1b-deduped ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    === Elo preference experiment: EleutherAI/pythia-1b-deduped  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 1008–1352
+      Top positive correlations (high emotion → preference):
+        rejuvenated: r=+0.621
+        inspired: r=+0.611
+        vibrant: r=+0.570
+        optimistic: r=+0.567
+        invigorated: r=+0.550
+      Top negative correlations (high emotion → aversion):
+        ashamed: r=-0.672
+        disgusted: r=-0.649
+        sorry: r=-0.559
+        guilty: r=-0.552
+        upset: r=-0.545
+      Written: out/EleutherAI__pythia-1b-deduped/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    === User vs Assistant emotion probes: EleutherAI/pythia-1b-deduped
+      angry→calm: user_probe@U=+85.394  asst_probe@A=-1.968  loving: U=-25.970→A=-1.876
+      sad→loving: user_probe@U=-91.341  asst_probe@A=-1.897  loving: U=-25.883→A=-1.897
+      excited→calm: user_probe@U=+1.990  asst_probe@A=-3.010  loving: U=-26.072→A=-1.751
+      afraid→calm: user_probe@U=+107.477  asst_probe@A=-2.109  loving: U=-26.087→A=-2.103
+      hostile→calm: user_probe@U=+116.773  asst_probe@A=-2.619  loving: U=-25.845→A=-3.825
+      joyful→excited: user_probe@U=+1.731  asst_probe@A=+3.625  loving: U=-25.628→A=-2.528
+      guilty→loving: user_probe@U=-123.583  asst_probe@A=-2.637  loving: U=-25.882→A=-2.637
+      nervous→calm: user_probe@U=-7.884  asst_probe@A=-3.948  loving: U=-26.111→A=-3.114
+      Mean shift U→A — rises:   [('guilty', 119.2285), ('sad', 85.7068), ('proud', 61.3335), ('surprised', 26.2423), ('loving', 23.4684)]
+      Mean shift U→A — drops:  [('desperate', -176.4204), ('hostile', -114.0154), ('afraid', -111.6686), ('angry', -86.3764), ('serene', -40.66)]
+      Mean U-A correlation across emotions: 0.142  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/EleutherAI__pythia-1b-deduped/user_vs_asst_heatmap.png
+      Written: out/EleutherAI__pythia-1b-deduped/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+      [ ] steer      happy: target Δ=-13.21  rank 92/171  top→['overwhelmed', 'panicked', 'hysterical']
+      [ ] steer        sad: target Δ=-39.59  rank 139/171  top→['overwhelmed', 'panicked', 'hysterical']
+      [ ] steer      angry: target Δ=+64.34  rank 27/171  top→['overwhelmed', 'panicked', 'hysterical']
+      [ ] steer     afraid: target Δ=+82.20  rank 15/171  top→['overwhelmed', 'panicked', 'hysterical']
+      [ ] steer       calm: target Δ=+8.20  rank 70/171  top→['overwhelmed', 'panicked', 'valiant']
+      [✓] steer  desperate: target Δ=+129.22  rank 4/171  top→['overwhelmed', 'panicked', 'valiant']
+      [ ] steer     loving: target Δ=-5.62  rank 90/171  top→['overwhelmed', 'panicked', 'hysterical']
+      [ ] steer      proud: target Δ=-37.18  rank 121/171  top→['overwhelmed', 'panicked', 'valiant']
+      [ ] steer  disgusted: target Δ=-27.36  rank 112/171  top→['overwhelmed', 'panicked', 'hysterical']
+      [ ] steer  surprised: target Δ=-18.47  rank 99/171  top→['overwhelmed', 'panicked', 'hysterical']
+      causal hit-rate (target in top-10): 0.10  | mean rank 76.9/171
+  ✓ EleutherAI/pythia-1b-deduped complete
+
+━━━ [5/19] EleutherAI/pythia-1.4b-deduped ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.18it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.37it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.06it/s]
+    === Elo preference experiment: EleutherAI/pythia-1.4b-deduped  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 1107–1280
+      Top positive correlations (high emotion → preference):
+        terrified: r=+0.641
+        scared: r=+0.626
+        ashamed: r=+0.622
+        horrified: r=+0.613
+        outraged: r=+0.572
+      Top negative correlations (high emotion → aversion):
+        patient: r=-0.634
+        inspired: r=-0.627
+        hopeful: r=-0.584
+        hope: r=-0.532
+        content: r=-0.528
+      Written: out/EleutherAI__pythia-1.4b-deduped/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  3.10it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  5.51it/s]
+    === User vs Assistant emotion probes: EleutherAI/pythia-1.4b-deduped
+      angry→calm: user_probe@U=+3.078  asst_probe@A=+5.470  loving: U=-32.286→A=+4.542
+      sad→loving: user_probe@U=-27.621  asst_probe@A=+5.615  loving: U=-32.050→A=+5.614
+      excited→calm: user_probe@U=-33.975  asst_probe@A=+3.274  loving: U=-31.810→A=+6.175
+      afraid→calm: user_probe@U=+12.277  asst_probe@A=+3.997  loving: U=-32.539→A=+4.695
+      hostile→calm: user_probe@U=+49.836  asst_probe@A=+3.057  loving: U=-32.196→A=+0.103
+      joyful→excited: user_probe@U=-33.864  asst_probe@A=+4.882  loving: U=-31.933→A=+4.532
+      guilty→loving: user_probe@U=-67.772  asst_probe@A=+3.687  loving: U=-32.283→A=+3.687
+      nervous→calm: user_probe@U=-2.170  asst_probe@A=+0.205  loving: U=-32.102→A=+1.636
+      Mean shift U→A — rises:   [('happy', 76.2512), ('guilty', 61.9191), ('enthusiastic', 42.0904), ('excited', 36.1881), ('loving', 36.0229)]
+      Mean shift U→A — drops:  [('surprised', -107.2627), ('calm', -61.5513), ('hostile', -45.7456), ('compassionate', -21.2376), ('serene', -19.5084)]
+      Mean U-A correlation across emotions: 0.271  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/EleutherAI__pythia-1.4b-deduped/user_vs_asst_heatmap.png
+      Written: out/EleutherAI__pythia-1.4b-deduped/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+    Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  3.57it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  6.16it/s]
+      [ ] steer      happy: target Δ=-62.70  rank 152/171  top→['indifferent', 'impatient', 'bewildered']
+      [ ] steer        sad: target Δ=+5.43  rank 14/171  top→['tormented', 'grief-stricken', 'heartbroken']
+      [ ] steer      angry: target Δ=+4.64  rank 81/171  top→['impatient', 'indifferent', 'bewildered']
+      [ ] steer     afraid: target Δ=+13.54  rank 69/171  top→['impatient', 'indifferent', 'bewildered']
+      [ ] steer       calm: target Δ=+35.22  rank 30/171  top→['indifferent', 'bewildered', 'suspicious']
+      [ ] steer  desperate: target Δ=+5.02  rank 81/171  top→['impatient', 'indifferent', 'bewildered']
+      [ ] steer     loving: target Δ=-5.25  rank 113/171  top→['impatient', 'bewildered', 'obstinate']
+      [ ] steer      proud: target Δ=-21.56  rank 117/171  top→['impatient', 'indifferent', 'bewildered']
+      [ ] steer  disgusted: target Δ=-83.09  rank 163/171  top→['impatient', 'indifferent', 'bewildered']
+      [✓] steer  surprised: target Δ=+87.73  rank 6/171  top→['bewildered', 'impatient', 'indifferent']
+      causal hit-rate (target in top-10): 0.10  | mean rank 82.6/171
+  ✓ EleutherAI/pythia-1.4b-deduped complete
+
+━━━ [6/19] EleutherAI/pythia-2.8b-deduped ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    === Elo preference experiment: EleutherAI/pythia-2.8b-deduped  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 1002–1356
+      Top positive correlations (high emotion → preference):
+        inspired: r=+0.663
+        hopeful: r=+0.608
+        optimistic: r=+0.598
+        hope: r=+0.595
+        rejuvenated: r=+0.571
+      Top negative correlations (high emotion → aversion):
+        humiliated: r=-0.528
+        hostile: r=-0.527
+        self-conscious: r=-0.523
+        outraged: r=-0.516
+        indignant: r=-0.514
+      Written: out/EleutherAI__pythia-2.8b-deduped/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    === User vs Assistant emotion probes: EleutherAI/pythia-2.8b-deduped
+      angry→calm: user_probe@U=-2.249  asst_probe@A=+3.626  loving: U=+3.856→A=+2.165
+      sad→loving: user_probe@U=-7.302  asst_probe@A=+3.280  loving: U=+3.127→A=+3.280
+      excited→calm: user_probe@U=-56.402  asst_probe@A=+0.180  loving: U=-70.689→A=+3.994
+      afraid→calm: user_probe@U=-7.003  asst_probe@A=+0.609  loving: U=+3.555→A=+2.912
+      hostile→calm: user_probe@U=+4.012  asst_probe@A=+0.551  loving: U=+3.058→A=-1.709
+      joyful→excited: user_probe@U=-56.972  asst_probe@A=+13.684  loving: U=-71.139→A=+1.730
+      guilty→loving: user_probe@U=-4.907  asst_probe@A=+0.909  loving: U=+2.981→A=+0.909
+      nervous→calm: user_probe@U=-7.018  asst_probe@A=-3.106  loving: U=+3.480→A=+0.262
+      Mean shift U→A — rises:   [('happy', 19.0442), ('excited', 17.1558), ('loving', 16.9142), ('enthusiastic', 15.2114), ('hostile', 8.8237)]
+      Mean shift U→A — drops:  [('serene', -9.3676), ('calm', -7.8453), ('sad', -5.0902), ('afraid', -1.2146), ('guilty', -0.3771)]
+      Mean U-A correlation across emotions: -0.209  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/EleutherAI__pythia-2.8b-deduped/user_vs_asst_heatmap.png
+      Written: out/EleutherAI__pythia-2.8b-deduped/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+      [ ] steer      happy: target Δ=-46.68  rank 162/171  top→['stuck', 'inspired', 'lonely']
+      [✓] steer        sad: target Δ=+11.47  rank 6/171  top→['heartbroken', 'sensitive', 'tormented']
+      [ ] steer      angry: target Δ=-16.61  rank 122/171  top→['stuck', 'inspired', 'lonely']
+      [ ] steer     afraid: target Δ=-6.28  rank 103/171  top→['stuck', 'inspired', 'lonely']
+      [✓] steer       calm: target Δ=+7.63  rank 8/171  top→['blissful', 'peaceful', 'safe']
+      [ ] steer  desperate: target Δ=+5.97  rank 72/171  top→['stuck', 'inspired', 'lonely']
+      [ ] steer     loving: target Δ=-23.82  rank 161/171  top→['stuck', 'inspired', 'lonely']
+      [ ] steer      proud: target Δ=-8.69  rank 107/171  top→['stuck', 'inspired', 'lonely']
+      [ ] steer  disgusted: target Δ=-8.72  rank 112/171  top→['stuck', 'inspired', 'lonely']
+      [ ] steer  surprised: target Δ=-17.75  rank 141/171  top→['stuck', 'inspired', 'lonely']
+      causal hit-rate (target in top-10): 0.20  | mean rank 99.4/171
+  ✓ EleutherAI/pythia-2.8b-deduped complete
+
+━━━ [7/19] EleutherAI/pythia-6.9b-deduped ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.68s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.10s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.18s/it]
+    === Elo preference experiment: EleutherAI/pythia-6.9b-deduped  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 1168–1226
+      Top positive correlations (high emotion → preference):
+        vibrant: r=+0.237
+        alarmed: r=+0.235
+        enthusiastic: r=+0.231
+        eager: r=+0.229
+        euphoric: r=+0.219
+      Top negative correlations (high emotion → aversion):
+        self-critical: r=-0.289
+        brooding: r=-0.231
+        obstinate: r=-0.225
+        sorry: r=-0.218
+        stubborn: r=-0.217
+      Written: out/EleutherAI__pythia-6.9b-deduped/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.71it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.64it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.44it/s]
+    === User vs Assistant emotion probes: EleutherAI/pythia-6.9b-deduped
+      angry→calm: user_probe@U=-85.508  asst_probe@A=+5.077  loving: U=-101.896→A=+1.341
+      sad→loving: user_probe@U=+104.785  asst_probe@A=+10.298  loving: U=-102.373→A=+10.298
+      excited→calm: user_probe@U=-116.009  asst_probe@A=+0.877  loving: U=-102.184→A=+5.322
+      afraid→calm: user_probe@U=+48.453  asst_probe@A=+0.354  loving: U=-102.039→A=+5.078
+      hostile→calm: user_probe@U=-101.988  asst_probe@A=-0.236  loving: U=-101.800→A=+0.093
+      joyful→excited: user_probe@U=-116.292  asst_probe@A=+11.788  loving: U=-102.768→A=+1.290
+      guilty→loving: user_probe@U=+0.684  asst_probe@A=+5.310  loving: U=-102.165→A=+5.310
+      nervous→calm: user_probe@U=+35.851  asst_probe@A=+1.806  loving: U=-101.694→A=+1.900
+      Mean shift U→A — rises:   [('excited', 117.1368), ('happy', 109.0095), ('enthusiastic', 108.895), ('loving', 105.9437), ('hostile', 99.6271)]
+      Mean shift U→A — drops:  [('calm', -117.2596), ('serene', -116.4282), ('sad', -109.879), ('desperate', -59.5098), ('afraid', -54.7206)]
+      Mean U-A correlation across emotions: 0.098  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/EleutherAI__pythia-6.9b-deduped/user_vs_asst_heatmap.png
+      Written: out/EleutherAI__pythia-6.9b-deduped/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+    Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.80it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.72it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.53it/s]
+      [ ] steer      happy: target Δ=-106.66  rank 145/171  top→['depressed', 'stuck', 'listless']
+      [ ] steer        sad: target Δ=+89.04  rank 23/171  top→['depressed', 'stuck', 'listless']
+      [ ] steer      angry: target Δ=-71.97  rank 122/171  top→['depressed', 'stuck', 'listless']
+      [ ] steer     afraid: target Δ=+40.05  rank 60/171  top→['depressed', 'stuck', 'listless']
+      [ ] steer       calm: target Δ=+114.10  rank 17/171  top→['depressed', 'stuck', 'listless']
+      [ ] steer  desperate: target Δ=+70.52  rank 50/171  top→['depressed', 'stuck', 'listless']
+      [ ] steer     loving: target Δ=-101.39  rank 141/171  top→['depressed', 'stuck', 'listless']
+      [ ] steer      proud: target Δ=-72.65  rank 125/171  top→['depressed', 'stuck', 'listless']
+      [ ] steer  disgusted: target Δ=-68.98  rank 122/171  top→['depressed', 'stuck', 'listless']
+      [ ] steer  surprised: target Δ=-52.49  rank 117/171  top→['depressed', 'stuck', 'listless']
+      causal hit-rate (target in top-10): 0.00  | mean rank 92.2/171
+  ✓ EleutherAI/pythia-6.9b-deduped complete
+
+━━━ [8/19] EleutherAI/pythia-12b-deduped ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.59s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.60s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.18s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.29s/it]
+    === Elo preference experiment: EleutherAI/pythia-12b-deduped  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 1034–1312
+      Top positive correlations (high emotion → preference):
+        hope: r=+0.505
+        rejuvenated: r=+0.497
+        inspired: r=+0.495
+        hopeful: r=+0.492
+        refreshed: r=+0.488
+      Top negative correlations (high emotion → aversion):
+        hateful: r=-0.617
+        bitter: r=-0.552
+        vengeful: r=-0.518
+        contemptuous: r=-0.478
+        jealous: r=-0.469
+      Written: out/EleutherAI__pythia-12b-deduped/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.91it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.87it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.52it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.31it/s]
+    === User vs Assistant emotion probes: EleutherAI/pythia-12b-deduped
+      angry→calm: user_probe@U=-6.337  asst_probe@A=+13.044  loving: U=-13.299→A=+6.551
+      sad→loving: user_probe@U=+22.972  asst_probe@A=+14.058  loving: U=-11.912→A=+14.058
+      excited→calm: user_probe@U=-33.645  asst_probe@A=+10.765  loving: U=-13.217→A=+7.116
+      afraid→calm: user_probe@U=+21.658  asst_probe@A=+9.410  loving: U=-12.906→A=+8.908
+      hostile→calm: user_probe@U=-6.117  asst_probe@A=+7.166  loving: U=-12.557→A=-0.763
+      joyful→excited: user_probe@U=-33.659  asst_probe@A=+15.631  loving: U=-13.103→A=+6.998
+      guilty→loving: user_probe@U=+17.095  asst_probe@A=+16.238  loving: U=-13.134→A=+16.238
+      nervous→calm: user_probe@U=+17.916  asst_probe@A=+11.596  loving: U=-12.730→A=+12.124
+      Mean shift U→A — rises:   [('surprised', 78.4625), ('happy', 64.3024), ('proud', 39.3773), ('excited', 32.871), ('loving', 21.7611)]
+      Mean shift U→A — drops:  [('desperate', -85.6106), ('compassionate', -54.473), ('afraid', -40.8203), ('nervous', -34.2001), ('sad', -33.513)]
+      Mean U-A correlation across emotions: -0.053  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/EleutherAI__pythia-12b-deduped/user_vs_asst_heatmap.png
+      Written: out/EleutherAI__pythia-12b-deduped/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+    Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.90it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.86it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.45it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.26it/s]
+      [ ] steer      happy: target Δ=-65.55  rank 155/171  top→['depressed', 'troubled', 'sensitive']
+      [ ] steer        sad: target Δ=+38.10  rank 45/171  top→['depressed', 'troubled', 'sensitive']
+      [ ] steer      angry: target Δ=+6.23  rank 85/171  top→['depressed', 'troubled', 'sensitive']
+      [ ] steer     afraid: target Δ=+30.53  rank 53/171  top→['depressed', 'troubled', 'sensitive']
+      [ ] steer       calm: target Δ=-4.34  rank 96/171  top→['depressed', 'troubled', 'sensitive']
+      [✓] steer  desperate: target Δ=+92.13  rank 4/171  top→['depressed', 'troubled', 'sensitive']
+      [ ] steer     loving: target Δ=-10.76  rank 102/171  top→['depressed', 'troubled', 'sensitive']
+      [ ] steer      proud: target Δ=-29.56  rank 125/171  top→['depressed', 'troubled', 'sensitive']
+      [ ] steer  disgusted: target Δ=-24.40  rank 119/171  top→['depressed', 'troubled', 'sensitive']
+      [ ] steer  surprised: target Δ=-83.52  rank 163/171  top→['depressed', 'troubled', 'sensitive']
+      causal hit-rate (target in top-10): 0.10  | mean rank 94.7/171
+  ✓ EleutherAI/pythia-12b-deduped complete
+
+━━━ [9/19] cerebras/Cerebras-GPT-111M ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    === Elo preference experiment: cerebras/Cerebras-GPT-111M  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 752–1549
+      Top positive correlations (high emotion → preference):
+        self-confident: r=+0.630
+        optimistic: r=+0.516
+        pleased: r=+0.514
+        hope: r=+0.493
+        proud: r=+0.466
+      Top negative correlations (high emotion → aversion):
+        distressed: r=-0.654
+        on edge: r=-0.552
+        panicked: r=-0.540
+        anxious: r=-0.530
+        frightened: r=-0.508
+      Written: out/cerebras__Cerebras-GPT-111M/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    === User vs Assistant emotion probes: cerebras/Cerebras-GPT-111M
+      angry→calm: user_probe@U=+0.367  asst_probe@A=+0.720  loving: U=-0.828→A=+1.643
+      sad→loving: user_probe@U=-3.158  asst_probe@A=+2.041  loving: U=-1.985→A=+2.041
+      excited→calm: user_probe@U=+4.662  asst_probe@A=+0.261  loving: U=-0.519→A=+1.319
+      afraid→calm: user_probe@U=-1.952  asst_probe@A=+1.565  loving: U=-1.038→A=+2.365
+      hostile→calm: user_probe@U=+4.424  asst_probe@A=-0.243  loving: U=-1.798→A=+0.113
+      joyful→excited: user_probe@U=+3.685  asst_probe@A=-0.423  loving: U=-0.819→A=+2.281
+      guilty→loving: user_probe@U=+0.296  asst_probe@A=+1.523  loving: U=-2.326→A=+1.524
+      nervous→calm: user_probe@U=-5.837  asst_probe@A=+1.006  loving: U=-0.374→A=+2.008
+      Mean shift U→A — rises:   [('calm', 4.1936), ('proud', 3.4063), ('loving', 2.8724), ('surprised', 2.1604), ('serene', 1.9534)]
+      Mean shift U→A — drops:  [('guilty', -3.0829), ('excited', -2.169), ('desperate', -1.7985), ('afraid', -1.5921), ('happy', -1.2288)]
+      Mean U-A correlation across emotions: 0.434  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/cerebras__Cerebras-GPT-111M/user_vs_asst_heatmap.png
+      Written: out/cerebras__Cerebras-GPT-111M/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+      [✓] steer      happy: target Δ=+2.99  rank 1/171  top→['happy', 'awestruck', 'fulfilled']
+      [✓] steer        sad: target Δ=+4.03  rank 1/171  top→['sad', 'unhappy', 'heartbroken']
+      [ ] steer      angry: target Δ=+1.27  rank 40/171  top→['awestruck', 'horrified', 'terrified']
+      [✓] steer     afraid: target Δ=+3.49  rank 1/171  top→['afraid', 'terrified', 'horrified']
+      [✓] steer       calm: target Δ=+2.16  rank 7/171  top→['serene', 'safe', 'content']
+      [✓] steer  desperate: target Δ=+2.89  rank 7/171  top→['hysterical', 'exuberant', 'ecstatic']
+      [✓] steer     loving: target Δ=+1.95  rank 1/171  top→['loving', 'safe', 'fulfilled']
+      [✓] steer      proud: target Δ=+1.77  rank 2/171  top→['fulfilled', 'proud', 'satisfied']
+      [ ] steer  disgusted: target Δ=+2.04  rank 23/171  top→['shocked', 'dumbstruck', 'astonished']
+      [ ] steer  surprised: target Δ=+2.40  rank 15/171  top→['troubled', 'unnerved', 'astonished']
+      causal hit-rate (target in top-10): 0.70  | mean rank 9.8/171
+  ✓ cerebras/Cerebras-GPT-111M complete
+
+━━━ [10/19] cerebras/Cerebras-GPT-256M ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    === Elo preference experiment: cerebras/Cerebras-GPT-256M  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 549–1824
+      Top positive correlations (high emotion → preference):
+        inspired: r=+0.607
+        optimistic: r=+0.606
+        self-confident: r=+0.595
+        cheerful: r=+0.550
+        pleased: r=+0.537
+      Top negative correlations (high emotion → aversion):
+        disgusted: r=-0.669
+        horrified: r=-0.654
+        alarmed: r=-0.650
+        disturbed: r=-0.630
+        distressed: r=-0.590
+      Written: out/cerebras__Cerebras-GPT-256M/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    === User vs Assistant emotion probes: cerebras/Cerebras-GPT-256M
+      angry→calm: user_probe@U=-1.062  asst_probe@A=-0.932  loving: U=-2.209→A=-0.761
+      sad→loving: user_probe@U=-2.953  asst_probe@A=+0.137  loving: U=-3.113→A=+0.138
+      excited→calm: user_probe@U=+5.622  asst_probe@A=+1.385  loving: U=+1.204→A=+1.660
+      afraid→calm: user_probe@U=-0.023  asst_probe@A=+0.193  loving: U=-3.610→A=-0.421
+      hostile→calm: user_probe@U=+5.497  asst_probe@A=-1.190  loving: U=+0.265→A=-1.070
+      joyful→excited: user_probe@U=+5.563  asst_probe@A=+2.903  loving: U=+1.218→A=-0.163
+      guilty→loving: user_probe@U=+2.896  asst_probe@A=-0.995  loving: U=-3.867→A=-0.995
+      nervous→calm: user_probe@U=-6.185  asst_probe@A=+1.168  loving: U=-1.109→A=+1.166
+      Mean shift U→A — rises:   [('hostile', 6.5401), ('calm', 5.0485), ('surprised', 4.3884), ('proud', 3.2601), ('angry', 1.5538)]
+      Mean shift U→A — drops:  [('guilty', -6.3847), ('sad', -3.266), ('afraid', -3.1299), ('happy', -1.4771), ('excited', -1.252)]
+      Mean U-A correlation across emotions: 0.670  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/cerebras__Cerebras-GPT-256M/user_vs_asst_heatmap.png
+      Written: out/cerebras__Cerebras-GPT-256M/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+      [ ] steer      happy: target Δ=+3.01  rank 15/171  top→['insulted', 'thrilled', 'delighted']
+      [✓] steer        sad: target Δ=+4.05  rank 8/171  top→['blissful', 'safe', 'awestruck']
+      [✓] steer      angry: target Δ=+7.50  rank 8/171  top→['tormented', 'hysterical', 'furious']
+      [✓] steer     afraid: target Δ=+6.00  rank 8/171  top→['grief-stricken', 'heartbroken', 'awestruck']
+      [ ] steer       calm: target Δ=+6.13  rank 19/171  top→['safe', 'peaceful', 'serene']
+      [ ] steer  desperate: target Δ=+7.02  rank 14/171  top→['hysterical', 'exuberant', 'ecstatic']
+      [ ] steer     loving: target Δ=+4.82  rank 24/171  top→['blissful', 'safe', 'fulfilled']
+      [✓] steer      proud: target Δ=+4.65  rank 1/171  top→['proud', 'jealous', 'happy']
+      [✓] steer  disgusted: target Δ=+10.40  rank 1/171  top→['disgusted', 'horrified', 'hysterical']
+      [ ] steer  surprised: target Δ=-0.20  rank 114/171  top→['droopy', 'tense', 'angry']
+      causal hit-rate (target in top-10): 0.50  | mean rank 21.2/171
+  ✓ cerebras/Cerebras-GPT-256M complete
+
+━━━ [11/19] cerebras/Cerebras-GPT-590M ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    === Elo preference experiment: cerebras/Cerebras-GPT-590M  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 518–1888
+      Top positive correlations (high emotion → preference):
+        optimistic: r=+0.703
+        inspired: r=+0.684
+        hope: r=+0.655
+        kind: r=+0.652
+        hopeful: r=+0.598
+      Top negative correlations (high emotion → aversion):
+        disturbed: r=-0.690
+        disgusted: r=-0.668
+        enraged: r=-0.622
+        upset: r=-0.616
+        furious: r=-0.598
+      Written: out/cerebras__Cerebras-GPT-590M/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    === User vs Assistant emotion probes: cerebras/Cerebras-GPT-590M
+      angry→calm: user_probe@U=-1.776  asst_probe@A=-4.976  loving: U=-3.820→A=-2.861
+      sad→loving: user_probe@U=-4.184  asst_probe@A=+0.593  loving: U=-0.665→A=+0.593
+      excited→calm: user_probe@U=+11.905  asst_probe@A=-3.457  loving: U=+0.960→A=+1.626
+      afraid→calm: user_probe@U=+1.122  asst_probe@A=-2.275  loving: U=-4.251→A=-1.643
+      hostile→calm: user_probe@U=+7.067  asst_probe@A=-4.064  loving: U=-4.143→A=-4.108
+      joyful→excited: user_probe@U=+7.766  asst_probe@A=+5.707  loving: U=+1.464→A=+1.292
+      guilty→loving: user_probe@U=+4.272  asst_probe@A=-3.884  loving: U=-6.183→A=-3.884
+      nervous→calm: user_probe@U=-4.958  asst_probe@A=-4.133  loving: U=-3.863→A=-1.930
+      Mean shift U→A — rises:   [('hostile', 2.8301), ('proud', 2.2282), ('surprised', 1.7775), ('enthusiastic', 1.4104), ('loving', 1.1984)]
+      Mean shift U→A — drops:  [('guilty', -4.2473), ('afraid', -2.8052), ('sad', -1.9538), ('compassionate', -1.2029), ('excited', -1.1793)]
+      Mean U-A correlation across emotions: 0.773  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/cerebras__Cerebras-GPT-590M/user_vs_asst_heatmap.png
+      Written: out/cerebras__Cerebras-GPT-590M/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+      [ ] steer      happy: target Δ=+0.36  rank 80/171  top→['desperate', 'enthusiastic', 'sympathetic']
+      [ ] steer        sad: target Δ=-3.24  rank 110/171  top→['sympathetic', 'resigned', 'empathetic']
+      [ ] steer      angry: target Δ=+1.48  rank 38/171  top→['hysterical', 'euphoric', 'tormented']
+      [✓] steer     afraid: target Δ=+3.58  rank 5/171  top→['vulnerable', 'trapped', 'brooding']
+      [ ] steer       calm: target Δ=+2.25  rank 34/171  top→['blissful', 'relaxed', 'droopy']
+      [ ] steer  desperate: target Δ=+7.13  rank 13/171  top→['exuberant', 'elated', 'jubilant']
+      [✓] steer     loving: target Δ=+3.51  rank 1/171  top→['loving', 'obstinate', 'dependent']
+      [ ] steer      proud: target Δ=+5.24  rank 14/171  top→['happy', 'joyful', 'delighted']
+      [✓] steer  disgusted: target Δ=+6.48  rank 1/171  top→['disgusted', 'tormented', 'hysterical']
+      [ ] steer  surprised: target Δ=-0.86  rank 122/171  top→['droopy', 'blissful', 'loving']
+      causal hit-rate (target in top-10): 0.30  | mean rank 41.8/171
+  ✓ cerebras/Cerebras-GPT-590M complete
+
+━━━ [12/19] cerebras/Cerebras-GPT-1.3B ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    === Elo preference experiment: cerebras/Cerebras-GPT-1.3B  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 796–1541
+      Top positive correlations (high emotion → preference):
+        inspired: r=+0.684
+        optimistic: r=+0.677
+        hope: r=+0.644
+        hopeful: r=+0.625
+        rejuvenated: r=+0.602
+      Top negative correlations (high emotion → aversion):
+        disgusted: r=-0.678
+        enraged: r=-0.638
+        disturbed: r=-0.635
+        furious: r=-0.623
+        upset: r=-0.617
+      Written: out/cerebras__Cerebras-GPT-1.3B/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    === User vs Assistant emotion probes: cerebras/Cerebras-GPT-1.3B
+      angry→calm: user_probe@U=+4.943  asst_probe@A=-4.778  loving: U=-4.798→A=-3.347
+      sad→loving: user_probe@U=+0.286  asst_probe@A=-0.519  loving: U=-0.312→A=-0.519
+      excited→calm: user_probe@U=+20.304  asst_probe@A=-2.530  loving: U=+1.348→A=+3.163
+      afraid→calm: user_probe@U=+6.118  asst_probe@A=-2.076  loving: U=-1.451→A=+2.138
+      hostile→calm: user_probe@U=+12.008  asst_probe@A=-2.034  loving: U=-3.925→A=-5.377
+      joyful→excited: user_probe@U=+13.119  asst_probe@A=+12.737  loving: U=+0.718→A=+4.936
+      guilty→loving: user_probe@U=+9.388  asst_probe@A=-2.549  loving: U=-5.410→A=-2.549
+      nervous→calm: user_probe@U=+0.824  asst_probe@A=-3.104  loving: U=-5.115→A=-2.979
+      Mean shift U→A — rises:   [('proud', 5.2794), ('calm', 4.1568), ('surprised', 3.6962), ('enthusiastic', 3.4038), ('happy', 2.9343)]
+      Mean shift U→A — drops:  [('afraid', -7.4203), ('sad', -6.7353), ('guilty', -6.2803), ('angry', -3.8806), ('desperate', -3.5574)]
+      Mean U-A correlation across emotions: 0.800  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/cerebras__Cerebras-GPT-1.3B/user_vs_asst_heatmap.png
+      Written: out/cerebras__Cerebras-GPT-1.3B/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+      [✓] steer      happy: target Δ=+12.28  rank 9/171  top→['elated', 'euphoric', 'joyful']
+      [ ] steer        sad: target Δ=-21.56  rank 157/171  top→['resigned', 'greedy', 'paranoid']
+      [ ] steer      angry: target Δ=-2.10  rank 106/171  top→['greedy', 'obstinate', 'stubborn']
+      [ ] steer     afraid: target Δ=+4.86  rank 12/171  top→['hysterical', 'euphoric', 'ecstatic']
+      [ ] steer       calm: target Δ=+2.74  rank 44/171  top→['blissful', 'loving', 'safe']
+      [✓] steer  desperate: target Δ=+14.68  rank 9/171  top→['hysterical', 'ecstatic', 'exuberant']
+      [✓] steer     loving: target Δ=+9.87  rank 3/171  top→['blissful', 'safe', 'loving']
+      [ ] steer      proud: target Δ=+2.20  rank 39/171  top→['elated', 'thrilled', 'ecstatic']
+      [✓] steer  disgusted: target Δ=+12.87  rank 1/171  top→['disgusted', 'hysterical', 'tormented']
+      [ ] steer  surprised: target Δ=+2.90  rank 24/171  top→['greedy', 'eager', 'enthusiastic']
+      causal hit-rate (target in top-10): 0.40  | mean rank 40.4/171
+  ✓ cerebras/Cerebras-GPT-1.3B complete
+
+━━━ [13/19] cerebras/Cerebras-GPT-2.7B ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    === Elo preference experiment: cerebras/Cerebras-GPT-2.7B  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 1150–1243
+      Top positive correlations (high emotion → preference):
+        disgusted: r=+0.602
+        tormented: r=+0.593
+        outraged: r=+0.566
+        terrified: r=+0.551
+        scared: r=+0.549
+      Top negative correlations (high emotion → aversion):
+        mystified: r=-0.658
+        perplexed: r=-0.647
+        amazed: r=-0.638
+        puzzled: r=-0.636
+        inspired: r=-0.610
+      Written: out/cerebras__Cerebras-GPT-2.7B/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    === User vs Assistant emotion probes: cerebras/Cerebras-GPT-2.7B
+      angry→calm: user_probe@U=+5.021  asst_probe@A=-5.938  loving: U=-3.821→A=-2.541
+      sad→loving: user_probe@U=+2.012  asst_probe@A=+5.985  loving: U=+4.380→A=+5.985
+      excited→calm: user_probe@U=+22.466  asst_probe@A=-6.863  loving: U=+7.295→A=+6.925
+      afraid→calm: user_probe@U=+4.327  asst_probe@A=-8.036  loving: U=-7.823→A=+2.458
+      hostile→calm: user_probe@U=+15.430  asst_probe@A=-4.176  loving: U=-7.716→A=-11.486
+      joyful→excited: user_probe@U=+20.882  asst_probe@A=+23.346  loving: U=-0.695→A=+2.441
+      guilty→loving: user_probe@U=+20.795  asst_probe@A=+4.182  loving: U=-1.795→A=+4.181
+      nervous→calm: user_probe@U=-3.165  asst_probe@A=-10.343  loving: U=-5.949→A=-1.799
+      Mean shift U→A — rises:   [('proud', 4.6441), ('surprised', 4.4624), ('enthusiastic', 3.5172), ('loving', 2.786), ('calm', 2.1512)]
+      Mean shift U→A — drops:  [('sad', -7.444), ('guilty', -7.3618), ('afraid', -4.0449), ('nervous', -2.1887), ('desperate', -1.9046)]
+      Mean U-A correlation across emotions: 0.657  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/cerebras__Cerebras-GPT-2.7B/user_vs_asst_heatmap.png
+      Written: out/cerebras__Cerebras-GPT-2.7B/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+      [✓] steer      happy: target Δ=+22.76  rank 2/171  top→['joyful', 'happy', 'elated']
+      [ ] steer        sad: target Δ=+6.47  rank 70/171  top→['inspired', 'hopeful', 'worthless']
+      [✓] steer      angry: target Δ=+17.24  rank 4/171  top→['hateful', 'insulted', 'furious']
+      [ ] steer     afraid: target Δ=+8.99  rank 12/171  top→['grief-stricken', 'trapped', 'tormented']
+      [ ] steer       calm: target Δ=+9.68  rank 24/171  top→['loving', 'safe', 'blissful']
+      [ ] steer  desperate: target Δ=+11.17  rank 21/171  top→['ecstatic', 'hysterical', 'exuberant']
+      [✓] steer     loving: target Δ=+28.76  rank 1/171  top→['loving', 'safe', 'blissful']
+      [ ] steer      proud: target Δ=+11.47  rank 18/171  top→['delighted', 'triumphant', 'happy']
+      [✓] steer  disgusted: target Δ=+32.13  rank 1/171  top→['disgusted', 'hysterical', 'horrified']
+      [ ] steer  surprised: target Δ=+5.83  rank 40/171  top→['insulted', 'enthusiastic', 'hysterical']
+      causal hit-rate (target in top-10): 0.40  | mean rank 19.3/171
+  ✓ cerebras/Cerebras-GPT-2.7B complete
+
+━━━ [14/19] cerebras/Cerebras-GPT-6.7B ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    === Elo preference experiment: cerebras/Cerebras-GPT-6.7B  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 1116–1281
+      Top positive correlations (high emotion → preference):
+        optimistic: r=+0.591
+        hopeful: r=+0.583
+        hope: r=+0.573
+        inspired: r=+0.538
+        puzzled: r=+0.522
+      Top negative correlations (high emotion → aversion):
+        hostile: r=-0.586
+        outraged: r=-0.580
+        hateful: r=-0.564
+        disgusted: r=-0.555
+        furious: r=-0.539
+      Written: out/cerebras__Cerebras-GPT-6.7B/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    === User vs Assistant emotion probes: cerebras/Cerebras-GPT-6.7B
+      angry→calm: user_probe@U=+1.026  asst_probe@A=+6.420  loving: U=-8.314→A=-2.670
+      sad→loving: user_probe@U=+0.496  asst_probe@A=+3.278  loving: U=-0.074→A=+3.278
+      excited→calm: user_probe@U=+22.925  asst_probe@A=-0.135  loving: U=+0.092→A=+2.410
+      afraid→calm: user_probe@U=+9.950  asst_probe@A=-1.272  loving: U=-9.934→A=+4.591
+      hostile→calm: user_probe@U=+16.914  asst_probe@A=+0.932  loving: U=-9.169→A=-9.627
+      joyful→excited: user_probe@U=+27.176  asst_probe@A=+20.505  loving: U=+1.770→A=+0.034
+      guilty→loving: user_probe@U=+15.644  asst_probe@A=-0.781  loving: U=-6.829→A=-0.781
+      nervous→calm: user_probe@U=+4.955  asst_probe@A=-7.471  loving: U=-8.433→A=-2.776
+      Mean shift U→A — rises:   [('calm', 10.0934), ('proud', 8.1691), ('compassionate', 8.1063), ('serene', 5.964), ('loving', 4.4188)]
+      Mean shift U→A — drops:  [('afraid', -8.499), ('desperate', -8.4141), ('guilty', -6.6479), ('angry', -4.4551), ('excited', -3.1566)]
+      Mean U-A correlation across emotions: 0.671  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/cerebras__Cerebras-GPT-6.7B/user_vs_asst_heatmap.png
+      Written: out/cerebras__Cerebras-GPT-6.7B/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+      [✓] steer      happy: target Δ=+22.26  rank 4/171  top→['joyful', 'euphoric', 'elated']
+      [✓] steer        sad: target Δ=+13.73  rank 4/171  top→['heartbroken', 'miserable', 'grief-stricken']
+      [✓] steer      angry: target Δ=+16.46  rank 6/171  top→['hysterical', 'enraged', 'furious']
+      [✓] steer     afraid: target Δ=+12.76  rank 7/171  top→['hysterical', 'terrified', 'frightened']
+      [✓] steer       calm: target Δ=+14.06  rank 7/171  top→['loving', 'peaceful', 'safe']
+      [ ] steer  desperate: target Δ=+10.75  rank 26/171  top→['exuberant', 'outraged', 'jubilant']
+      [✓] steer     loving: target Δ=+13.37  rank 3/171  top→['blissful', 'aroused', 'loving']
+      [✓] steer      proud: target Δ=+16.82  rank 5/171  top→['triumphant', 'joyful', 'happy']
+      [✓] steer  disgusted: target Δ=+22.28  rank 1/171  top→['disgusted', 'hateful', 'hysterical']
+      [ ] steer  surprised: target Δ=+7.46  rank 40/171  top→['outraged', 'exuberant', 'thrilled']
+      causal hit-rate (target in top-10): 0.80  | mean rank 10.3/171
+  ✓ cerebras/Cerebras-GPT-6.7B complete
+
+━━━ [15/19] cerebras/Cerebras-GPT-13B ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  8.20s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  8.38s/it]
+    === Elo preference experiment: cerebras/Cerebras-GPT-13B  (30 activities)
+      pairwise 50/435
+      pairwise 100/435
+      pairwise 150/435
+      pairwise 200/435
+      pairwise 250/435
+      pairwise 300/435
+      pairwise 350/435
+      pairwise 400/435
+      Elo range: 1130–1268
+      Top positive correlations (high emotion → preference):
+        mystified: r=+0.492
+        perplexed: r=+0.432
+        inspired: r=+0.419
+        bewildered: r=+0.381
+        puzzled: r=+0.377
+      Top negative correlations (high emotion → aversion):
+        hateful: r=-0.450
+        self-conscious: r=-0.391
+        bitter: r=-0.338
+        outraged: r=-0.332
+        indignant: r=-0.330
+      Written: out/cerebras__Cerebras-GPT-13B/elo_prefs.json
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.29s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.51s/it]
+    === User vs Assistant emotion probes: cerebras/Cerebras-GPT-13B
+      angry→calm: user_probe@U=+12.545  asst_probe@A=+15.560  loving: U=-11.609→A=+15.362
+      sad→loving: user_probe@U=+7.645  asst_probe@A=+18.359  loving: U=-2.790→A=+18.359
+      excited→calm: user_probe@U=+36.411  asst_probe@A=+8.192  loving: U=+3.066→A=+16.013
+      afraid→calm: user_probe@U=+27.144  asst_probe@A=+19.464  loving: U=+1.556→A=+22.054
+      hostile→calm: user_probe@U=+35.125  asst_probe@A=+17.894  loving: U=-14.932→A=+1.417
+      joyful→excited: user_probe@U=+71.672  asst_probe@A=+47.977  loving: U=-1.896→A=+12.796
+      guilty→loving: user_probe@U=+42.946  asst_probe@A=+19.020  loving: U=-2.864→A=+19.020
+      nervous→calm: user_probe@U=+6.916  asst_probe@A=+12.574  loving: U=+0.084→A=+18.694
+      Mean shift U→A — rises:   [('calm', 35.5312), ('serene', 27.2773), ('compassionate', 24.6286), ('proud', 20.8623), ('loving', 19.1375)]
+      Mean shift U→A — drops:  [('desperate', -26.4439), ('afraid', -26.2866), ('angry', -23.2718), ('guilty', -19.1745), ('hostile', -17.1222)]
+      Mean U-A correlation across emotions: 0.632  (paper: ~0.11)
+      Plot: /home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/out/cerebras__Cerebras-GPT-13B/user_vs_asst_heatmap.png
+      Written: out/cerebras__Cerebras-GPT-13B/user_vs_asst.json
+  [→] steer_eval: 10 emotions × 5 prompts...
+    Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.25s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  5.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  5.47s/it]
+      [✓] steer      happy: target Δ=+46.66  rank 3/171  top→['elated', 'joyful', 'happy']
+      [ ] steer        sad: target Δ=+22.59  rank 16/171  top→['blissful', 'aroused', 'elated']
+      [ ] steer      angry: target Δ=+30.48  rank 14/171  top→['thrilled', 'euphoric', 'ecstatic']
+      [✓] steer     afraid: target Δ=+34.01  rank 4/171  top→['scared', 'frightened', 'terrified']
+      [✓] steer       calm: target Δ=+41.04  rank 9/171  top→['loving', 'peaceful', 'safe']
+      [ ] steer  desperate: target Δ=+27.25  rank 16/171  top→['exuberant', 'hysterical', 'ecstatic']
+      [✓] steer     loving: target Δ=+53.98  rank 1/171  top→['loving', 'relaxed', 'blissful']
+      [ ] steer      proud: target Δ=+23.30  rank 20/171  top→['delighted', 'joyful', 'elated']
+      [✓] steer  disgusted: target Δ=+55.26  rank 1/171  top→['disgusted', 'hysterical', 'horrified']
+      [ ] steer  surprised: target Δ=+27.94  rank 15/171  top→['thrilled', 'elated', 'delighted']
+      causal hit-rate (target in top-10): 0.50  | mean rank 9.9/171
+  ✓ cerebras/Cerebras-GPT-13B complete
+
+━━━ [16/19] Qwen/Qwen3.5-0.8B-Base ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/elo_prefs.py", line 210, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/elo_prefs.py", line 141, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/user_vs_asst.py", line 230, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/user_vs_asst.py", line 130, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  [→] steer_eval: 10 emotions × 5 prompts...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/steer_eval.py", line 154, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+        return func(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/steer_eval.py", line 106, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  ✓ Qwen/Qwen3.5-0.8B-Base complete
+
+━━━ [17/19] Qwen/Qwen3.5-2B-Base ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/elo_prefs.py", line 210, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/elo_prefs.py", line 141, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/user_vs_asst.py", line 230, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/user_vs_asst.py", line 130, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  [→] steer_eval: 10 emotions × 5 prompts...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/steer_eval.py", line 154, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+        return func(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/steer_eval.py", line 106, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  ✓ Qwen/Qwen3.5-2B-Base complete
+
+━━━ [18/19] Qwen/Qwen3.5-4B-Base ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/elo_prefs.py", line 210, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/elo_prefs.py", line 141, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/user_vs_asst.py", line 230, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/user_vs_asst.py", line 130, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  [→] steer_eval: 10 emotions × 5 prompts...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/steer_eval.py", line 154, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+        return func(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/steer_eval.py", line 106, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  ✓ Qwen/Qwen3.5-4B-Base complete
+
+━━━ [19/19] Qwen/Qwen3.5-9B-Base ━━━
+  [→] elo_prefs: running (435 pairwise comparisons)...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/elo_prefs.py", line 210, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/elo_prefs.py", line 141, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  [→] user_vs_asst: 8 scenarios × 2 positions...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/user_vs_asst.py", line 230, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/user_vs_asst.py", line 130, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  [→] steer_eval: 10 emotions × 5 prompts...
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1360, in from_pretrained
+        config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1048, in __getitem__
+        raise KeyError(key)
+    KeyError: 'qwen3_5'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/steer_eval.py", line 154, in <module>
+        main()
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+        return func(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/steer_eval.py", line 106, in main
+        model, tok = load_model(args.repo, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/mech interp emotions/src/model_utils.py", line 27, in load_model
+        model = AutoModelForCausalLM.from_pretrained(repo, dtype=dtype, device_map=device)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 549, in from_pretrained
+        config, kwargs = AutoConfig.from_pretrained(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/sanyam-0605/Desktop/sanyam_projects/.venv/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1362, in from_pretrained
+        raise ValueError(
+    ValueError: The checkpoint you are trying to load has model type `qwen3_5` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+    
+    You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+  ✓ Qwen/Qwen3.5-9B-Base complete
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ALL DONE — outputs written to out/<model>/{elo_prefs,user_vs_asst,steer_eval}.json
+Run: python src/scaling_plots.py   to regenerate scaling CSVs with new metrics
+Run: python src/generate_report.py  to rebuild the PDF

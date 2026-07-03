@@ -1,0 +1,100 @@
+{
+  "repo": "EleutherAI/pythia-1.4b-deduped",
+  "alpha": 8.0,
+  "layer": 16,
+  "per_emotion": {
+    "happy": {
+      "target_delta": -62.7,
+      "rank": 152,
+      "top": [
+        "indifferent",
+        "impatient",
+        "bewildered"
+      ]
+    },
+    "sad": {
+      "target_delta": 5.429,
+      "rank": 14,
+      "top": [
+        "tormented",
+        "grief-stricken",
+        "heartbroken"
+      ]
+    },
+    "angry": {
+      "target_delta": 4.635,
+      "rank": 81,
+      "top": [
+        "impatient",
+        "indifferent",
+        "bewildered"
+      ]
+    },
+    "afraid": {
+      "target_delta": 13.544,
+      "rank": 69,
+      "top": [
+        "impatient",
+        "indifferent",
+        "bewildered"
+      ]
+    },
+    "calm": {
+      "target_delta": 35.217,
+      "rank": 30,
+      "top": [
+        "indifferent",
+        "bewildered",
+        "suspicious"
+      ]
+    },
+    "desperate": {
+      "target_delta": 5.018,
+      "rank": 81,
+      "top": [
+        "impatient",
+        "indifferent",
+        "bewildered"
+      ]
+    },
+    "loving": {
+      "target_delta": -5.247,
+      "rank": 113,
+      "top": [
+        "impatient",
+        "bewildered",
+        "obstinate"
+      ]
+    },
+    "proud": {
+      "target_delta": -21.556,
+      "rank": 117,
+      "top": [
+        "impatient",
+        "indifferent",
+        "bewildered"
+      ]
+    },
+    "disgusted": {
+      "target_delta": -83.087,
+      "rank": 163,
+      "top": [
+        "impatient",
+        "indifferent",
+        "bewildered"
+      ]
+    },
+    "surprised": {
+      "target_delta": 87.731,
+      "rank": 6,
+      "top": [
+        "bewildered",
+        "impatient",
+        "indifferent"
+      ]
+    }
+  },
+  "causal_hit_rate": 0.1,
+  "mean_rank": 82.6,
+  "n_emotions": 10
+}

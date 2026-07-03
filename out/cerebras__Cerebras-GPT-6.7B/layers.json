@@ -1,0 +1,265 @@
+{
+  "tag": "cerebras__Cerebras-GPT-6.7B",
+  "n_layers": 32,
+  "layer_dynamics": [
+    {
+      "layer": 0,
+      "rel_depth": 0.0,
+      "syn_ant_sep": 0.9434,
+      "valence_r": 0.7173,
+      "arousal_r": 0.7014
+    },
+    {
+      "layer": 1,
+      "rel_depth": 0.03225806451612903,
+      "syn_ant_sep": 0.9428,
+      "valence_r": 0.7127,
+      "arousal_r": 0.7523
+    },
+    {
+      "layer": 2,
+      "rel_depth": 0.06451612903225806,
+      "syn_ant_sep": 0.922,
+      "valence_r": 0.7123,
+      "arousal_r": 0.699
+    },
+    {
+      "layer": 3,
+      "rel_depth": 0.0967741935483871,
+      "syn_ant_sep": 0.9387,
+      "valence_r": 0.724,
+      "arousal_r": 0.7258
+    },
+    {
+      "layer": 4,
+      "rel_depth": 0.12903225806451613,
+      "syn_ant_sep": 0.9253,
+      "valence_r": 0.7197,
+      "arousal_r": 0.6891
+    },
+    {
+      "layer": 5,
+      "rel_depth": 0.16129032258064516,
+      "syn_ant_sep": 0.9553,
+      "valence_r": 0.7082,
+      "arousal_r": 0.7066
+    },
+    {
+      "layer": 6,
+      "rel_depth": 0.1935483870967742,
+      "syn_ant_sep": 0.9825,
+      "valence_r": 0.692,
+      "arousal_r": 0.7186
+    },
+    {
+      "layer": 7,
+      "rel_depth": 0.22580645161290322,
+      "syn_ant_sep": 1.0003,
+      "valence_r": 0.7002,
+      "arousal_r": 0.7316
+    },
+    {
+      "layer": 8,
+      "rel_depth": 0.25806451612903225,
+      "syn_ant_sep": 1.0168,
+      "valence_r": 0.6845,
+      "arousal_r": 0.7449
+    },
+    {
+      "layer": 9,
+      "rel_depth": 0.2903225806451613,
+      "syn_ant_sep": 1.0783,
+      "valence_r": 0.6673,
+      "arousal_r": 0.7225
+    },
+    {
+      "layer": 10,
+      "rel_depth": 0.3225806451612903,
+      "syn_ant_sep": 1.1342,
+      "valence_r": 0.6895,
+      "arousal_r": 0.7349
+    },
+    {
+      "layer": 11,
+      "rel_depth": 0.3548387096774194,
+      "syn_ant_sep": 1.1454,
+      "valence_r": 0.6934,
+      "arousal_r": 0.7407
+    },
+    {
+      "layer": 12,
+      "rel_depth": 0.3870967741935484,
+      "syn_ant_sep": 1.1553,
+      "valence_r": 0.7028,
+      "arousal_r": 0.7388
+    },
+    {
+      "layer": 13,
+      "rel_depth": 0.41935483870967744,
+      "syn_ant_sep": 1.1413,
+      "valence_r": 0.7182,
+      "arousal_r": 0.7448
+    },
+    {
+      "layer": 14,
+      "rel_depth": 0.45161290322580644,
+      "syn_ant_sep": 1.1824,
+      "valence_r": 0.7134,
+      "arousal_r": 0.7449
+    },
+    {
+      "layer": 15,
+      "rel_depth": 0.4838709677419355,
+      "syn_ant_sep": 1.185,
+      "valence_r": 0.7063,
+      "arousal_r": 0.7684
+    },
+    {
+      "layer": 16,
+      "rel_depth": 0.5161290322580645,
+      "syn_ant_sep": 1.1945,
+      "valence_r": 0.7087,
+      "arousal_r": 0.7701
+    },
+    {
+      "layer": 17,
+      "rel_depth": 0.5483870967741935,
+      "syn_ant_sep": 1.1968,
+      "valence_r": 0.6965,
+      "arousal_r": 0.7667
+    },
+    {
+      "layer": 18,
+      "rel_depth": 0.5806451612903226,
+      "syn_ant_sep": 1.1903,
+      "valence_r": 0.6977,
+      "arousal_r": 0.7605
+    },
+    {
+      "layer": 19,
+      "rel_depth": 0.6129032258064516,
+      "syn_ant_sep": 1.22,
+      "valence_r": 0.6817,
+      "arousal_r": 0.7727
+    },
+    {
+      "layer": 20,
+      "rel_depth": 0.6451612903225806,
+      "syn_ant_sep": 1.2229,
+      "valence_r": 0.6827,
+      "arousal_r": 0.7823
+    },
+    {
+      "layer": 21,
+      "rel_depth": 0.6774193548387096,
+      "syn_ant_sep": 1.2198,
+      "valence_r": 0.6668,
+      "arousal_r": 0.7921
+    },
+    {
+      "layer": 22,
+      "rel_depth": 0.7096774193548387,
+      "syn_ant_sep": 1.2497,
+      "valence_r": 0.6358,
+      "arousal_r": 0.7901
+    },
+    {
+      "layer": 23,
+      "rel_depth": 0.7419354838709677,
+      "syn_ant_sep": 1.256,
+      "valence_r": 0.6461,
+      "arousal_r": 0.7965
+    },
+    {
+      "layer": 24,
+      "rel_depth": 0.7741935483870968,
+      "syn_ant_sep": 1.2531,
+      "valence_r": 0.6501,
+      "arousal_r": 0.7994
+    },
+    {
+      "layer": 25,
+      "rel_depth": 0.8064516129032258,
+      "syn_ant_sep": 1.2514,
+      "valence_r": 0.6442,
+      "arousal_r": 0.8061
+    },
+    {
+      "layer": 26,
+      "rel_depth": 0.8387096774193549,
+      "syn_ant_sep": 1.2456,
+      "valence_r": 0.6514,
+      "arousal_r": 0.8036
+    },
+    {
+      "layer": 27,
+      "rel_depth": 0.8709677419354839,
+      "syn_ant_sep": 1.234,
+      "valence_r": 0.664,
+      "arousal_r": 0.7951
+    },
+    {
+      "layer": 28,
+      "rel_depth": 0.9032258064516129,
+      "syn_ant_sep": 1.2349,
+      "valence_r": 0.6611,
+      "arousal_r": 0.7991
+    },
+    {
+      "layer": 29,
+      "rel_depth": 0.9354838709677419,
+      "syn_ant_sep": 1.2542,
+      "valence_r": 0.6398,
+      "arousal_r": 0.8035
+    },
+    {
+      "layer": 30,
+      "rel_depth": 0.967741935483871,
+      "syn_ant_sep": 1.2515,
+      "valence_r": 0.6418,
+      "arousal_r": 0.8031
+    },
+    {
+      "layer": 31,
+      "rel_depth": 1.0,
+      "syn_ant_sep": 1.2451,
+      "valence_r": 0.6351,
+      "arousal_r": 0.7843
+    }
+  ],
+  "rsa_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "rsa_offdiag_mean": 0.965372687431728
+}

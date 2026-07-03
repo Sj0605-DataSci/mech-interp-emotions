@@ -1,0 +1,137 @@
+{
+  "tag": "EleutherAI__pythia-1b-deduped",
+  "n_layers": 16,
+  "layer_dynamics": [
+    {
+      "layer": 0,
+      "rel_depth": 0.0,
+      "syn_ant_sep": 1.0444,
+      "valence_r": 0.6701,
+      "arousal_r": 0.6588
+    },
+    {
+      "layer": 1,
+      "rel_depth": 0.06666666666666667,
+      "syn_ant_sep": 1.011,
+      "valence_r": 0.7184,
+      "arousal_r": 0.7353
+    },
+    {
+      "layer": 2,
+      "rel_depth": 0.13333333333333333,
+      "syn_ant_sep": 0.9889,
+      "valence_r": 0.6895,
+      "arousal_r": 0.7202
+    },
+    {
+      "layer": 3,
+      "rel_depth": 0.2,
+      "syn_ant_sep": 1.0715,
+      "valence_r": 0.6819,
+      "arousal_r": 0.7419
+    },
+    {
+      "layer": 4,
+      "rel_depth": 0.26666666666666666,
+      "syn_ant_sep": 1.065,
+      "valence_r": 0.7076,
+      "arousal_r": 0.7239
+    },
+    {
+      "layer": 5,
+      "rel_depth": 0.3333333333333333,
+      "syn_ant_sep": 1.0992,
+      "valence_r": 0.7088,
+      "arousal_r": 0.7066
+    },
+    {
+      "layer": 6,
+      "rel_depth": 0.4,
+      "syn_ant_sep": 1.1534,
+      "valence_r": 0.7256,
+      "arousal_r": 0.7428
+    },
+    {
+      "layer": 7,
+      "rel_depth": 0.4666666666666667,
+      "syn_ant_sep": 1.1645,
+      "valence_r": 0.7174,
+      "arousal_r": 0.7181
+    },
+    {
+      "layer": 8,
+      "rel_depth": 0.5333333333333333,
+      "syn_ant_sep": 1.1425,
+      "valence_r": 0.7326,
+      "arousal_r": 0.7273
+    },
+    {
+      "layer": 9,
+      "rel_depth": 0.6,
+      "syn_ant_sep": 1.1944,
+      "valence_r": 0.705,
+      "arousal_r": 0.7447
+    },
+    {
+      "layer": 10,
+      "rel_depth": 0.6666666666666666,
+      "syn_ant_sep": 1.1825,
+      "valence_r": 0.7201,
+      "arousal_r": 0.7538
+    },
+    {
+      "layer": 11,
+      "rel_depth": 0.7333333333333333,
+      "syn_ant_sep": 1.207,
+      "valence_r": 0.7198,
+      "arousal_r": 0.7562
+    },
+    {
+      "layer": 12,
+      "rel_depth": 0.8,
+      "syn_ant_sep": 1.181,
+      "valence_r": 0.729,
+      "arousal_r": 0.7584
+    },
+    {
+      "layer": 13,
+      "rel_depth": 0.8666666666666667,
+      "syn_ant_sep": 1.1919,
+      "valence_r": 0.7119,
+      "arousal_r": 0.7624
+    },
+    {
+      "layer": 14,
+      "rel_depth": 0.9333333333333333,
+      "syn_ant_sep": 1.204,
+      "valence_r": 0.691,
+      "arousal_r": 0.7692
+    },
+    {
+      "layer": 15,
+      "rel_depth": 1.0,
+      "syn_ant_sep": 1.2317,
+      "valence_r": 0.6468,
+      "arousal_r": 0.7907
+    }
+  ],
+  "rsa_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "rsa_offdiag_mean": 0.9803134682630635
+}

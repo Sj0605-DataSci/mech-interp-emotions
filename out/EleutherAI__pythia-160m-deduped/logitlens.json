@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "welcome",
+      "excitement",
+      "excited",
+      "hearty",
+      "joy",
+      "delight",
+      "celebrated",
+      "enthusiasm"
+    ],
+    "down": [
+      "\ufffd\ufffd",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "sad": {
+    "up": [
+      "ache",
+      "loneliness",
+      "comfort",
+      "pain",
+      "numb",
+      "felt",
+      "suffering",
+      "shadow"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "angry": {
+    "up": [
+      "violently",
+      "attacks",
+      "fury",
+      "slammed",
+      "furious",
+      "vicious",
+      "retaliation",
+      "blunt"
+    ],
+    "down": [
+      "\ufffd\ufffd",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "afraid": {
+    "up": [
+      "fear",
+      "violently",
+      "painful",
+      "pain",
+      "fears",
+      "caused",
+      "hurt",
+      "involuntary"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "breeze",
+      "contours",
+      "relaxing",
+      "pleasant",
+      "contour",
+      "soothing",
+      "intervals",
+      "interval"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "!'",
+      ".\")",
+      ",'\"",
+      "!\u201d",
+      ".\"",
+      "bloody",
+      "...\""
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "proud": {
+    "up": [
+      "proud",
+      "proudly",
+      "leadership",
+      "Leader",
+      "commissioned",
+      "excellence",
+      "decorated",
+      "hospitality"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "affection",
+      "kisses",
+      "hug",
+      "gently",
+      "friendship",
+      "kissed",
+      "loving",
+      "unconditional"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": true
+  },
+  "guilty": {
+    "up": [
+      "guilt",
+      "fears",
+      "griev",
+      "hurt",
+      "grief",
+      "worse",
+      "helpless",
+      "poor"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": true
+  },
+  "nervous": {
+    "up": [
+      "response",
+      "caused",
+      "contacting",
+      "irritation",
+      "attempts",
+      "impairment",
+      "inability",
+      "invol"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "surprised": {
+    "up": [
+      "prominently",
+      "located",
+      "apparently",
+      "puzzled",
+      "incorrectly",
+      "indicated",
+      "closely",
+      "displayed"
+    ],
+    "down": [
+      "\ufffd",
+      "\ufffd",
+      "\ufffd",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "workflow",
+      "organized",
+      "crowds",
+      "landscapes",
+      "started",
+      "skills",
+      "adventure",
+      "sprint"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.25,
+  "_n_emotions": 12
+}

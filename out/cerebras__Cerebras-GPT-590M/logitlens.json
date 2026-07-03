@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "delighted",
+      "delight",
+      "praises",
+      "joy",
+      "enthusiastically",
+      "thrilled",
+      "Congratulations",
+      "hearty"
+    ],
+    "down": [
+      "limits",
+      "elsewhere",
+      "undecided",
+      "else",
+      "limit",
+      "bothers",
+      "wrong",
+      "hesitate"
+    ],
+    "self_hit": false
+  },
+  "sad": {
+    "up": [
+      "contracted",
+      "felt",
+      "imal",
+      "ness",
+      "visc",
+      "adden",
+      "below",
+      "piration"
+    ],
+    "down": [
+      "!\"",
+      "\u2014\"",
+      "\"\u2014",
+      "!)",
+      "!'",
+      "!),",
+      "rigged",
+      "!,"
+    ],
+    "self_hit": false
+  },
+  "angry": {
+    "up": [
+      "tore",
+      "shattering",
+      "fists",
+      "violently",
+      "shards",
+      "slams",
+      "tant",
+      "throats"
+    ],
+    "down": [
+      "patiently",
+      "adequately",
+      "waits",
+      "enjoy",
+      "tomorrow",
+      "sketch",
+      "properly",
+      "Enjoy"
+    ],
+    "self_hit": false
+  },
+  "afraid": {
+    "up": [
+      "fists",
+      "against",
+      "invol",
+      "fear",
+      "panic",
+      "cannot",
+      "intest",
+      "muscles"
+    ],
+    "down": [
+      "chatting",
+      "enjoyed",
+      "proudly",
+      "admired",
+      "Enjoy",
+      "virtues",
+      "plenty",
+      "beaut"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "varying",
+      "varies",
+      "varied",
+      "appropriate",
+      "gentle",
+      "alog",
+      "breeze",
+      "agreeable"
+    ],
+    "down": [
+      "Worse",
+      "damn",
+      "worse",
+      "hell",
+      "?!",
+      "screaming",
+      "crazy",
+      "insane"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "...\"",
+      ".\"",
+      "\u2014\"",
+      "?\"",
+      ",\"",
+      "!'",
+      "!"
+    ],
+    "down": [
+      "Appearance",
+      "demeanor",
+      "reflecting",
+      "contemplation",
+      "transpired",
+      "empl",
+      "observing",
+      "reflective"
+    ],
+    "self_hit": false
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "proud",
+      "your",
+      "admired",
+      "Your",
+      "Congratulations",
+      "confidently",
+      "Congratulations"
+    ],
+    "down": [
+      "worse",
+      "nausea",
+      "falls",
+      "vomit",
+      "crashes",
+      "Worse",
+      ":(",
+      "gag"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "together",
+      "Together",
+      "warming",
+      "securely",
+      "kisses",
+      "generous",
+      "welcoming",
+      "supportive"
+    ],
+    "down": [
+      "worse",
+      "nause",
+      "vomit",
+      "stupid",
+      "inability",
+      "couldn",
+      "malfunction",
+      "rubbish"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "blamed",
+      "had",
+      "worse",
+      "humiliation",
+      "tears",
+      "hadn",
+      "inflicted",
+      "failed"
+    ],
+    "down": [
+      "yours",
+      "breeze",
+      "varies",
+      "reetings",
+      "agreeable",
+      "flourish",
+      "ours",
+      "noon"
+    ],
+    "self_hit": false
+  },
+  "nervous": {
+    "up": [
+      "invol",
+      "inability",
+      "muscles",
+      "tendon",
+      "due",
+      "unsuccessfully",
+      "unable",
+      "saliva"
+    ],
+    "down": [
+      "Enjoy",
+      "your",
+      "glory",
+      "your",
+      "yourselves",
+      "celebrated",
+      "sunset",
+      "you"
+    ],
+    "self_hit": false
+  },
+  "surprised": {
+    "up": [
+      "?",
+      "apparently",
+      "remained",
+      "scheduled",
+      "appeared",
+      "incorrectly",
+      "evidently",
+      "horizon"
+    ],
+    "down": [
+      "elevator",
+      "algia",
+      "massage",
+      "ulsive",
+      "orgasm",
+      "blows",
+      "arts",
+      "hugs"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "creative",
+      "exploring",
+      "pursued",
+      "creativity",
+      "tools",
+      "novel",
+      "concepts",
+      "complex"
+    ],
+    "down": [
+      "against",
+      "forehead",
+      "inches",
+      "cheek",
+      "noses",
+      "brunt",
+      "lashes",
+      "against"
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.0833,
+  "_n_emotions": 12
+}

@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "joy",
+      "delighted",
+      "joyful",
+      "delight",
+      "happy",
+      ")!",
+      "excitement",
+      "happiness"
+    ],
+    "down": [
+      "Silence",
+      "refuse",
+      "cold",
+      "avoid",
+      "dead",
+      "worse",
+      "shitty",
+      "oppose"
+    ],
+    "self_hit": true
+  },
+  "sad": {
+    "up": [
+      "oneliness",
+      "loneliness",
+      "emptiness",
+      "sadness",
+      "nights",
+      "memories",
+      "comfort",
+      "sorrow"
+    ],
+    "down": [
+      "!\"",
+      "!!\"",
+      "!)",
+      "!",
+      "!\",",
+      "!]",
+      "ASAP",
+      "!\"."
+    ],
+    "self_hit": true
+  },
+  "angry": {
+    "up": [
+      "fury",
+      "violently",
+      "angrily",
+      "rage",
+      "anger",
+      "vicious",
+      "retali",
+      "Furious"
+    ],
+    "down": [
+      "lull",
+      "reassure",
+      "reassured",
+      "beck",
+      "comfort",
+      "comfort",
+      "esame",
+      "reassuring"
+    ],
+    "self_hit": true
+  },
+  "afraid": {
+    "up": [
+      "fear",
+      "fearing",
+      "coward",
+      "feared",
+      "panic",
+      "invol",
+      "panicked",
+      "Terror"
+    ],
+    "down": [
+      "strut",
+      "cheer",
+      "proudly",
+      "compliments",
+      "charming",
+      "rehabilit",
+      "mell",
+      "admire"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "lull",
+      "gentle",
+      "pleasant",
+      "relaxing",
+      "tranqu",
+      "leisure",
+      "relaxed",
+      "gently"
+    ],
+    "down": [
+      "worse",
+      "Worse",
+      "worst",
+      "frantically",
+      "Worst",
+      "worst",
+      "screaming",
+      "desperately"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "faster",
+      "!!\"",
+      "desperation",
+      "\u2014\"",
+      "!",
+      "help",
+      "-\""
+    ],
+    "down": [
+      "contemplation",
+      "pleasant",
+      "disposition",
+      "contrasted",
+      "contempl",
+      "amused",
+      "pleasantly",
+      "leisure"
+    ],
+    "self_hit": true
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "proud",
+      "impecc",
+      "confidently",
+      "pride",
+      "strut",
+      "compliments",
+      "triumph"
+    ],
+    "down": [
+      "Worse",
+      "worse",
+      "inability",
+      "painful",
+      "frantically",
+      "invol",
+      ":(",
+      "horrible"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "kisses",
+      "affection",
+      "gently",
+      "tender",
+      "gentle",
+      "kiss",
+      "kiss",
+      "warmth"
+    ],
+    "down": [
+      "randomly",
+      "cursed",
+      "random",
+      "scree",
+      "useless",
+      "hurled",
+      "angrily",
+      "furiously"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "worse",
+      "Worse",
+      "worst",
+      "coward",
+      "Worst",
+      "blame",
+      "worst",
+      "humiliating"
+    ],
+    "down": [
+      "interesting",
+      "!\"",
+      "edu",
+      "eclectic",
+      "interesting",
+      ").\"",
+      "marvelous",
+      "varies"
+    ],
+    "self_hit": false
+  },
+  "nervous": {
+    "up": [
+      "invol",
+      "unsuccessfully",
+      "efforts",
+      "nervously",
+      "attempts",
+      "unsuccessful",
+      "lest",
+      "uncontroll"
+    ],
+    "down": [
+      "bask",
+      "glory",
+      "praise",
+      "compliments",
+      "shines",
+      "radiant",
+      "patiently",
+      "embrace"
+    ],
+    "self_hit": true
+  },
+  "surprised": {
+    "up": [
+      "?!",
+      "horrified",
+      "stunned",
+      "???",
+      "shocked",
+      "incred",
+      "disbelief",
+      "??"
+    ],
+    "down": [
+      "loneliness",
+      "choes",
+      "songs",
+      "oneliness",
+      "promise",
+      "warmth",
+      "louder",
+      "constructive"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "limitless",
+      "unlimited",
+      "creative",
+      "imagination",
+      "rush",
+      "youth",
+      "passion",
+      "themes"
+    ],
+    "down": [
+      "noses",
+      "selves",
+      "yourselves",
+      "weakest",
+      "Worst",
+      "Contents",
+      "inches",
+      "iliate"
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.5,
+  "_n_emotions": 12
+}

@@ -1,0 +1,100 @@
+{
+  "repo": "cerebras/Cerebras-GPT-111M",
+  "alpha": 8.0,
+  "layer": 6,
+  "per_emotion": {
+    "happy": {
+      "target_delta": 2.991,
+      "rank": 1,
+      "top": [
+        "happy",
+        "awestruck",
+        "fulfilled"
+      ]
+    },
+    "sad": {
+      "target_delta": 4.03,
+      "rank": 1,
+      "top": [
+        "sad",
+        "unhappy",
+        "heartbroken"
+      ]
+    },
+    "angry": {
+      "target_delta": 1.272,
+      "rank": 40,
+      "top": [
+        "awestruck",
+        "horrified",
+        "terrified"
+      ]
+    },
+    "afraid": {
+      "target_delta": 3.491,
+      "rank": 1,
+      "top": [
+        "afraid",
+        "terrified",
+        "horrified"
+      ]
+    },
+    "calm": {
+      "target_delta": 2.156,
+      "rank": 7,
+      "top": [
+        "serene",
+        "safe",
+        "content"
+      ]
+    },
+    "desperate": {
+      "target_delta": 2.893,
+      "rank": 7,
+      "top": [
+        "hysterical",
+        "exuberant",
+        "ecstatic"
+      ]
+    },
+    "loving": {
+      "target_delta": 1.951,
+      "rank": 1,
+      "top": [
+        "loving",
+        "safe",
+        "fulfilled"
+      ]
+    },
+    "proud": {
+      "target_delta": 1.766,
+      "rank": 2,
+      "top": [
+        "fulfilled",
+        "proud",
+        "satisfied"
+      ]
+    },
+    "disgusted": {
+      "target_delta": 2.04,
+      "rank": 23,
+      "top": [
+        "shocked",
+        "dumbstruck",
+        "astonished"
+      ]
+    },
+    "surprised": {
+      "target_delta": 2.399,
+      "rank": 15,
+      "top": [
+        "troubled",
+        "unnerved",
+        "astonished"
+      ]
+    }
+  },
+  "causal_hit_rate": 0.7,
+  "mean_rank": 9.8,
+  "n_emotions": 10
+}

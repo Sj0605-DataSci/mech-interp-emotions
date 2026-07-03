@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "excited",
+      "joy",
+      "enthusi",
+      "happy",
+      "exciting",
+      "delight",
+      "excitement",
+      "delighted"
+    ],
+    "down": [
+      "idegger",
+      "poisoning",
+      "worse",
+      "worsening",
+      "culp",
+      "zbollah",
+      "wrong",
+      "fraid"
+    ],
+    "self_hit": true
+  },
+  "sad": {
+    "up": [
+      "painful",
+      "Loss",
+      "pooling",
+      "ache",
+      "numb",
+      "sadness",
+      "sickness",
+      "underlying"
+    ],
+    "down": [
+      "!\"",
+      "\"\u2014",
+      "!\u201d",
+      "dude",
+      "fefe",
+      "!--",
+      "!}",
+      "!)"
+    ],
+    "self_hit": true
+  },
+  "angry": {
+    "up": [
+      "violently",
+      "screamed",
+      "retaliation",
+      "rage",
+      "lash",
+      "fury",
+      "fists",
+      "angrily"
+    ],
+    "down": [
+      "sedentary",
+      "comfortable",
+      "looking",
+      "seasonal",
+      "xym",
+      "cos",
+      "warming",
+      "meantime"
+    ],
+    "self_hit": true
+  },
+  "afraid": {
+    "up": [
+      "feared",
+      "panic",
+      "fear",
+      "panic",
+      "fears",
+      "organs",
+      "nausea",
+      "hairs"
+    ],
+    "down": [
+      "Happy",
+      "compliment",
+      "program",
+      "Galactic",
+      "Happy",
+      "accomplishments",
+      "congrat",
+      "enjoyed"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "empre",
+      "gentle",
+      "thoughtful",
+      "alen",
+      "gently",
+      "careful",
+      "pleasant",
+      "gently"
+    ],
+    "down": [
+      "worse",
+      "screaming",
+      "ripped",
+      "doomed",
+      "bloody",
+      "fucking",
+      "desperately",
+      "hell"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "\u2014\"",
+      "\"\u2014",
+      "'ll",
+      "\u2014'",
+      "...\"",
+      "!\"",
+      ".\""
+    ],
+    "down": [
+      "contempl",
+      "contrasted",
+      "pleasant",
+      "accorded",
+      "pleasant",
+      "gazing",
+      "heretofore",
+      "chuckled"
+    ],
+    "self_hit": false
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "proud",
+      "congrat",
+      "confident",
+      "excellence",
+      "Cong",
+      "admire",
+      "accomplished"
+    ],
+    "down": [
+      "worse",
+      ":(",
+      "vomiting",
+      "nause",
+      "inability",
+      "painful",
+      "vom",
+      "nausea"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "gently",
+      "kisses",
+      "affection",
+      "gently",
+      "tenderness",
+      "gentle",
+      "safely",
+      "kiss"
+    ],
+    "down": [
+      "worse",
+      "printStackTrace",
+      "existed",
+      "cls",
+      "hemorrh",
+      "unemploy",
+      "punk",
+      "oplasm"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "worse",
+      "feared",
+      "blaming",
+      "worst",
+      "blame",
+      "blamed",
+      "cripp",
+      "losses"
+    ],
+    "down": [
+      "interesting",
+      "noon",
+      "interesting",
+      "rotates",
+      "varies",
+      "conformation",
+      "impressed",
+      "optionally"
+    ],
+    "self_hit": false
+  },
+  "nervous": {
+    "up": [
+      "elen",
+      "numb",
+      "nausea",
+      "nerves",
+      "inad",
+      "hairs",
+      "painful",
+      "involuntary"
+    ],
+    "down": [
+      "mpty",
+      "celebrates",
+      "gorgeous",
+      "reign",
+      "ributes",
+      "us",
+      "await",
+      "}</"
+    ],
+    "self_hit": true
+  },
+  "surprised": {
+    "up": [
+      "stunned",
+      "astonished",
+      "startled",
+      "shocked",
+      "anomal",
+      "puzzled",
+      "?!",
+      "blinked"
+    ],
+    "down": [
+      "repay",
+      "stronger",
+      "songs",
+      "felt",
+      "idays",
+      "atory",
+      "trade",
+      "harder"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "ready",
+      "began",
+      "building",
+      "prototype",
+      "chase",
+      "transformations",
+      "equipped",
+      "fast"
+    ],
+    "down": [
+      "disclaim",
+      "ritz",
+      "acknow",
+      "apologized",
+      "embargo",
+      "footer",
+      "apology",
+      "comments"
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.4167,
+  "_n_emotions": 12
+}

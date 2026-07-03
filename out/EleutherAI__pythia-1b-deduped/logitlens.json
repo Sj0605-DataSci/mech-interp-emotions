@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "joy",
+      "celebration",
+      "thanks",
+      "congrat",
+      "excited",
+      "excitement",
+      "delighted",
+      "happy"
+    ],
+    "down": [
+      ":(",
+      "aday",
+      "raped",
+      "arest",
+      "raints",
+      "ambiguation",
+      "grind",
+      "withdrawn"
+    ],
+    "self_hit": true
+  },
+  "sad": {
+    "up": [
+      "loneliness",
+      "sadness",
+      "sorrow",
+      "lonely",
+      "eneath",
+      "melancholy",
+      "eternity",
+      "memories"
+    ],
+    "down": [
+      "!\"",
+      ")!",
+      "!'",
+      "!).",
+      "!(",
+      "!)",
+      "\u2014\"",
+      "!--"
+    ],
+    "self_hit": true
+  },
+  "angry": {
+    "up": [
+      "violently",
+      "angrily",
+      "fury",
+      "force",
+      "vicious",
+      "rage",
+      "retaliation",
+      "insult"
+    ],
+    "down": [
+      "\ufffd\ufffd",
+      "patiently",
+      "puzzle",
+      "Optim",
+      "Mystery",
+      "mysteries",
+      "azole",
+      "refres"
+    ],
+    "self_hit": true
+  },
+  "afraid": {
+    "up": [
+      "panic",
+      "betray",
+      "betrayal",
+      "footsteps",
+      "invol",
+      "traitor",
+      "apprehension",
+      "tok"
+    ],
+    "down": [
+      "Simplify",
+      "Enjoy",
+      "lei",
+      "proudly",
+      "iline",
+      "style",
+      "gener",
+      "Off"
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "leisure",
+      "respectful",
+      "mindful",
+      "patiently",
+      "thoughtful",
+      "gently",
+      "enthus",
+      "pleasant"
+    ],
+    "down": [
+      "worse",
+      "screaming",
+      "ugly",
+      "Failed",
+      "!",
+      "horrible",
+      "goddamn",
+      "!!!"
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "\u2014\"",
+      "desperation",
+      "desperate",
+      "!'",
+      "!\"",
+      "...\"",
+      "-\""
+    ],
+    "down": [
+      "breeze",
+      "recipient",
+      "\u201c",
+      "contempl",
+      "envy",
+      "smile",
+      "reflection",
+      "pleasant"
+    ],
+    "self_hit": true
+  },
+  "proud": {
+    "up": [
+      "proudly",
+      "proud",
+      "admired",
+      "ravo",
+      "superb",
+      "bold",
+      "eleg",
+      "excellence"
+    ],
+    "down": [
+      "inability",
+      "worse",
+      ":(",
+      "Unable",
+      "ineffective",
+      "vaguely",
+      "desperation",
+      "horrible"
+    ],
+    "self_hit": true
+  },
+  "loving": {
+    "up": [
+      "kisses",
+      "gently",
+      "warmth",
+      "kiss",
+      "kissed",
+      "reassuring",
+      "gentle",
+      "hug"
+    ],
+    "down": [
+      "worse",
+      "orse",
+      "fucking",
+      "anaerobic",
+      "waste",
+      "garbage",
+      "Fuck",
+      "pent"
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      ":(",
+      "helpless",
+      "worse",
+      "failed",
+      "bile",
+      "Failed",
+      "inadequate",
+      "humili"
+    ],
+    "down": [
+      "interesting",
+      "accord",
+      "interesting",
+      "Disk",
+      "intrig",
+      "Sounds",
+      "Study",
+      "yours"
+    ],
+    "self_hit": false
+  },
+  "nervous": {
+    "up": [
+      "invol",
+      "involuntary",
+      "apprehension",
+      "nerv",
+      "betray",
+      "rept",
+      "temples",
+      "nerves"
+    ],
+    "down": [
+      "FFIR",
+      "UMENT",
+      "etric",
+      "orte",
+      "usp",
+      "=\"\"",
+      "reign",
+      "grace"
+    ],
+    "self_hit": true
+  },
+  "surprised": {
+    "up": [
+      "?!",
+      "blinked",
+      "incred",
+      "!!",
+      "hastily",
+      "!!!!",
+      "stunned",
+      "alt"
+    ],
+    "down": [
+      "songs",
+      "atinib",
+      "constructive",
+      "freedom",
+      "rewards",
+      "enough",
+      "aiser",
+      "fights"
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "charts",
+      "chart",
+      "speed",
+      "energy",
+      "creative",
+      "beyond",
+      "fuel",
+      "new"
+    ],
+    "down": [
+      "Gmb",
+      "humiliation",
+      "humili",
+      "Protect",
+      "ictional",
+      "Eval",
+      "sov",
+      "rapper"
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.5,
+  "_n_emotions": 12
+}

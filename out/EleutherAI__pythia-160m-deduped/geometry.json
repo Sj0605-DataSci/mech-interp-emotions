@@ -1,0 +1,307 @@
+{
+  "tag": "EleutherAI__pythia-160m-deduped",
+  "n_layers": 12,
+  "d_model": 768,
+  "probe_layer": 8,
+  "per_layer": {
+    "0": {
+      "syn_cos": 0.7689,
+      "ant_cos": -0.2069,
+      "syn_ant_sep": 0.9758,
+      "cluster_sep": 0.3625,
+      "circumplex": {
+        "valence": {
+          "r": 0.6307,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7015,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2139,
+          0.1469,
+          0.1172,
+          0.0758
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "1": {
+      "syn_cos": 0.785,
+      "ant_cos": -0.1861,
+      "syn_ant_sep": 0.9711,
+      "cluster_sep": 0.3752,
+      "circumplex": {
+        "valence": {
+          "r": 0.7136,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7456,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2506,
+          0.1425,
+          0.1086,
+          0.0675
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "2": {
+      "syn_cos": 0.7882,
+      "ant_cos": -0.1965,
+      "syn_ant_sep": 0.9847,
+      "cluster_sep": 0.3865,
+      "circumplex": {
+        "valence": {
+          "r": 0.6848,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7081,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2584,
+          0.1624,
+          0.1254,
+          0.0708
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "3": {
+      "syn_cos": 0.7987,
+      "ant_cos": -0.2362,
+      "syn_ant_sep": 1.0348,
+      "cluster_sep": 0.3862,
+      "circumplex": {
+        "valence": {
+          "r": 0.6711,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7463,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2611,
+          0.1639,
+          0.125,
+          0.0658
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "4": {
+      "syn_cos": 0.8062,
+      "ant_cos": -0.2316,
+      "syn_ant_sep": 1.0378,
+      "cluster_sep": 0.3901,
+      "circumplex": {
+        "valence": {
+          "r": 0.6327,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7423,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2709,
+          0.1657,
+          0.1213,
+          0.0699
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "5": {
+      "syn_cos": 0.8034,
+      "ant_cos": -0.218,
+      "syn_ant_sep": 1.0214,
+      "cluster_sep": 0.3861,
+      "circumplex": {
+        "valence": {
+          "r": 0.6692,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7172,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2792,
+          0.1727,
+          0.1124,
+          0.0633
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "6": {
+      "syn_cos": 0.8094,
+      "ant_cos": -0.2288,
+      "syn_ant_sep": 1.0381,
+      "cluster_sep": 0.3832,
+      "circumplex": {
+        "valence": {
+          "r": 0.6133,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.6798,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2768,
+          0.1754,
+          0.1035,
+          0.0677
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "7": {
+      "syn_cos": 0.8303,
+      "ant_cos": -0.2912,
+      "syn_ant_sep": 1.1215,
+      "cluster_sep": 0.3855,
+      "circumplex": {
+        "valence": {
+          "r": 0.6354,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.6852,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2762,
+          0.1893,
+          0.0945,
+          0.0763
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "8": {
+      "syn_cos": 0.8313,
+      "ant_cos": -0.2841,
+      "syn_ant_sep": 1.1154,
+      "cluster_sep": 0.3827,
+      "circumplex": {
+        "valence": {
+          "r": 0.6015,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.6912,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2796,
+          0.1843,
+          0.1014,
+          0.0765
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "9": {
+      "syn_cos": 0.8258,
+      "ant_cos": -0.255,
+      "syn_ant_sep": 1.0807,
+      "cluster_sep": 0.3754,
+      "circumplex": {
+        "valence": {
+          "r": 0.6436,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.6809,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.284,
+          0.178,
+          0.1087,
+          0.0788
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "10": {
+      "syn_cos": 0.8189,
+      "ant_cos": -0.2303,
+      "syn_ant_sep": 1.0492,
+      "cluster_sep": 0.368,
+      "circumplex": {
+        "valence": {
+          "r": 0.6456,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7082,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2995,
+          0.1787,
+          0.1023,
+          0.0784
+        ],
+        "n_emotions_matched": 171
+      }
+    },
+    "11": {
+      "syn_cos": 0.833,
+      "ant_cos": -0.2848,
+      "syn_ant_sep": 1.1178,
+      "cluster_sep": 0.3812,
+      "circumplex": {
+        "valence": {
+          "r": 0.5789,
+          "pc": 2
+        },
+        "arousal": {
+          "r": -0.7694,
+          "pc": 1
+        },
+        "pc_var_ratio": [
+          0.2808,
+          0.1805,
+          0.1004,
+          0.0803
+        ],
+        "n_emotions_matched": 171
+      }
+    }
+  },
+  "at_probe_layer": {
+    "syn_cos": 0.8313,
+    "ant_cos": -0.2841,
+    "syn_ant_sep": 1.1154,
+    "cluster_sep": 0.3827,
+    "circumplex": {
+      "valence": {
+        "r": 0.6015,
+        "pc": 2
+      },
+      "arousal": {
+        "r": -0.6912,
+        "pc": 1
+      },
+      "pc_var_ratio": [
+        0.2796,
+        0.1843,
+        0.1014,
+        0.0765
+      ],
+      "n_emotions_matched": 171
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "repo": "cerebras/Cerebras-GPT-2.7B",
+  "tag": "cerebras__Cerebras-GPT-2.7B",
+  "n_layers": 32,
+  "d_model": 2560,
+  "n_emotions": 171,
+  "min_token_offset": 50,
+  "max_len": 512
+}

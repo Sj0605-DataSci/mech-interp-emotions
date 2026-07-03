@@ -1,0 +1,201 @@
+{
+  "tag": "Qwen__Qwen3.5-0.8B-Base",
+  "n_layers": 24,
+  "layer_dynamics": [
+    {
+      "layer": 0,
+      "rel_depth": 0.0,
+      "syn_ant_sep": 0.9783,
+      "valence_r": 0.6261,
+      "arousal_r": 0.6817
+    },
+    {
+      "layer": 1,
+      "rel_depth": 0.043478260869565216,
+      "syn_ant_sep": 0.9535,
+      "valence_r": 0.6596,
+      "arousal_r": 0.7115
+    },
+    {
+      "layer": 2,
+      "rel_depth": 0.08695652173913043,
+      "syn_ant_sep": 0.982,
+      "valence_r": 0.7085,
+      "arousal_r": 0.718
+    },
+    {
+      "layer": 3,
+      "rel_depth": 0.13043478260869565,
+      "syn_ant_sep": 1.0099,
+      "valence_r": 0.7103,
+      "arousal_r": 0.7146
+    },
+    {
+      "layer": 4,
+      "rel_depth": 0.17391304347826086,
+      "syn_ant_sep": 1.0275,
+      "valence_r": 0.7092,
+      "arousal_r": 0.6805
+    },
+    {
+      "layer": 5,
+      "rel_depth": 0.21739130434782608,
+      "syn_ant_sep": 1.0383,
+      "valence_r": 0.6814,
+      "arousal_r": 0.7255
+    },
+    {
+      "layer": 6,
+      "rel_depth": 0.2608695652173913,
+      "syn_ant_sep": 1.0648,
+      "valence_r": 0.7058,
+      "arousal_r": 0.7261
+    },
+    {
+      "layer": 7,
+      "rel_depth": 0.30434782608695654,
+      "syn_ant_sep": 1.077,
+      "valence_r": 0.6803,
+      "arousal_r": 0.7287
+    },
+    {
+      "layer": 8,
+      "rel_depth": 0.34782608695652173,
+      "syn_ant_sep": 1.1249,
+      "valence_r": 0.6483,
+      "arousal_r": 0.7317
+    },
+    {
+      "layer": 9,
+      "rel_depth": 0.391304347826087,
+      "syn_ant_sep": 1.1398,
+      "valence_r": 0.6531,
+      "arousal_r": 0.7056
+    },
+    {
+      "layer": 10,
+      "rel_depth": 0.43478260869565216,
+      "syn_ant_sep": 1.1367,
+      "valence_r": 0.6337,
+      "arousal_r": 0.7099
+    },
+    {
+      "layer": 11,
+      "rel_depth": 0.4782608695652174,
+      "syn_ant_sep": 1.1471,
+      "valence_r": 0.6469,
+      "arousal_r": 0.7244
+    },
+    {
+      "layer": 12,
+      "rel_depth": 0.5217391304347826,
+      "syn_ant_sep": 1.1933,
+      "valence_r": 0.6283,
+      "arousal_r": 0.7751
+    },
+    {
+      "layer": 13,
+      "rel_depth": 0.5652173913043478,
+      "syn_ant_sep": 1.1692,
+      "valence_r": 0.624,
+      "arousal_r": 0.7795
+    },
+    {
+      "layer": 14,
+      "rel_depth": 0.6086956521739131,
+      "syn_ant_sep": 1.1402,
+      "valence_r": 0.6471,
+      "arousal_r": 0.761
+    },
+    {
+      "layer": 15,
+      "rel_depth": 0.6521739130434783,
+      "syn_ant_sep": 1.1636,
+      "valence_r": 0.6198,
+      "arousal_r": 0.7588
+    },
+    {
+      "layer": 16,
+      "rel_depth": 0.6956521739130435,
+      "syn_ant_sep": 1.1115,
+      "valence_r": 0.6465,
+      "arousal_r": 0.7429
+    },
+    {
+      "layer": 17,
+      "rel_depth": 0.7391304347826086,
+      "syn_ant_sep": 1.1678,
+      "valence_r": 0.6273,
+      "arousal_r": 0.764
+    },
+    {
+      "layer": 18,
+      "rel_depth": 0.782608695652174,
+      "syn_ant_sep": 1.146,
+      "valence_r": 0.663,
+      "arousal_r": 0.7557
+    },
+    {
+      "layer": 19,
+      "rel_depth": 0.8260869565217391,
+      "syn_ant_sep": 1.1614,
+      "valence_r": 0.6952,
+      "arousal_r": 0.7411
+    },
+    {
+      "layer": 20,
+      "rel_depth": 0.8695652173913043,
+      "syn_ant_sep": 1.1481,
+      "valence_r": 0.6916,
+      "arousal_r": 0.7417
+    },
+    {
+      "layer": 21,
+      "rel_depth": 0.9130434782608695,
+      "syn_ant_sep": 1.153,
+      "valence_r": 0.6676,
+      "arousal_r": 0.7447
+    },
+    {
+      "layer": 22,
+      "rel_depth": 0.9565217391304348,
+      "syn_ant_sep": 1.1778,
+      "valence_r": 0.6785,
+      "arousal_r": 0.7482
+    },
+    {
+      "layer": 23,
+      "rel_depth": 1.0,
+      "syn_ant_sep": 1.1917,
+      "valence_r": 0.661,
+      "arousal_r": 0.7657
+    }
+  ],
+  "rsa_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "rsa_offdiag_mean": 0.9774607416440999
+}

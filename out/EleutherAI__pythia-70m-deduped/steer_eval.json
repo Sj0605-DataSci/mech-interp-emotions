@@ -1,0 +1,100 @@
+{
+  "repo": "EleutherAI/pythia-70m-deduped",
+  "alpha": 8.0,
+  "layer": 4,
+  "per_emotion": {
+    "happy": {
+      "target_delta": 1.021,
+      "rank": 10,
+      "top": [
+        "ashamed",
+        "ecstatic",
+        "vulnerable"
+      ]
+    },
+    "sad": {
+      "target_delta": 0.168,
+      "rank": 74,
+      "top": [
+        "relaxed",
+        "safe",
+        "restless"
+      ]
+    },
+    "angry": {
+      "target_delta": 0.315,
+      "rank": 30,
+      "top": [
+        "excited",
+        "ecstatic",
+        "exuberant"
+      ]
+    },
+    "afraid": {
+      "target_delta": 1.043,
+      "rank": 3,
+      "top": [
+        "vulnerable",
+        "trapped",
+        "afraid"
+      ]
+    },
+    "calm": {
+      "target_delta": 1.685,
+      "rank": 10,
+      "top": [
+        "relaxed",
+        "safe",
+        "peaceful"
+      ]
+    },
+    "desperate": {
+      "target_delta": 1.193,
+      "rank": 13,
+      "top": [
+        "remorseful",
+        "valiant",
+        "sorry"
+      ]
+    },
+    "loving": {
+      "target_delta": 0.646,
+      "rank": 18,
+      "top": [
+        "exasperated",
+        "sullen",
+        "relaxed"
+      ]
+    },
+    "proud": {
+      "target_delta": 0.116,
+      "rank": 65,
+      "top": [
+        "exuberant",
+        "jubilant",
+        "exasperated"
+      ]
+    },
+    "disgusted": {
+      "target_delta": 1.508,
+      "rank": 2,
+      "top": [
+        "refreshed",
+        "disgusted",
+        "uneasy"
+      ]
+    },
+    "surprised": {
+      "target_delta": -0.187,
+      "rank": 92,
+      "top": [
+        "hysterical",
+        "irritated",
+        "sullen"
+      ]
+    }
+  },
+  "causal_hit_rate": 0.4,
+  "mean_rank": 31.7,
+  "n_emotions": 10
+}

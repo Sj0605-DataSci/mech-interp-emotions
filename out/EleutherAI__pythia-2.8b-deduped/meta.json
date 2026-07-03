@@ -1,0 +1,9 @@
+{
+  "repo": "EleutherAI/pythia-2.8b-deduped",
+  "tag": "EleutherAI__pythia-2.8b-deduped",
+  "n_layers": 32,
+  "d_model": 2560,
+  "n_emotions": 171,
+  "min_token_offset": 50,
+  "max_len": 512
+}

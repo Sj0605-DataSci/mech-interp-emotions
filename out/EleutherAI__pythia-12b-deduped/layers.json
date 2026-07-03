@@ -1,0 +1,297 @@
+{
+  "tag": "EleutherAI__pythia-12b-deduped",
+  "n_layers": 36,
+  "layer_dynamics": [
+    {
+      "layer": 0,
+      "rel_depth": 0.0,
+      "syn_ant_sep": 1.0172,
+      "valence_r": 0.6997,
+      "arousal_r": 0.696
+    },
+    {
+      "layer": 1,
+      "rel_depth": 0.02857142857142857,
+      "syn_ant_sep": 0.9787,
+      "valence_r": 0.7559,
+      "arousal_r": 0.7465
+    },
+    {
+      "layer": 2,
+      "rel_depth": 0.05714285714285714,
+      "syn_ant_sep": 0.9883,
+      "valence_r": 0.7506,
+      "arousal_r": 0.7694
+    },
+    {
+      "layer": 3,
+      "rel_depth": 0.08571428571428572,
+      "syn_ant_sep": 1.0351,
+      "valence_r": 0.6957,
+      "arousal_r": 0.717
+    },
+    {
+      "layer": 4,
+      "rel_depth": 0.11428571428571428,
+      "syn_ant_sep": 1.0305,
+      "valence_r": 0.6918,
+      "arousal_r": 0.7302
+    },
+    {
+      "layer": 5,
+      "rel_depth": 0.14285714285714285,
+      "syn_ant_sep": 1.0564,
+      "valence_r": 0.6715,
+      "arousal_r": 0.7352
+    },
+    {
+      "layer": 6,
+      "rel_depth": 0.17142857142857143,
+      "syn_ant_sep": 1.0729,
+      "valence_r": 0.681,
+      "arousal_r": 0.7187
+    },
+    {
+      "layer": 7,
+      "rel_depth": 0.2,
+      "syn_ant_sep": 1.1291,
+      "valence_r": 0.7018,
+      "arousal_r": 0.7216
+    },
+    {
+      "layer": 8,
+      "rel_depth": 0.22857142857142856,
+      "syn_ant_sep": 1.1323,
+      "valence_r": 0.7134,
+      "arousal_r": 0.7198
+    },
+    {
+      "layer": 9,
+      "rel_depth": 0.2571428571428571,
+      "syn_ant_sep": 1.1673,
+      "valence_r": 0.7138,
+      "arousal_r": 0.7147
+    },
+    {
+      "layer": 10,
+      "rel_depth": 0.2857142857142857,
+      "syn_ant_sep": 1.1926,
+      "valence_r": 0.7108,
+      "arousal_r": 0.7163
+    },
+    {
+      "layer": 11,
+      "rel_depth": 0.3142857142857143,
+      "syn_ant_sep": 1.1622,
+      "valence_r": 0.7239,
+      "arousal_r": 0.7343
+    },
+    {
+      "layer": 12,
+      "rel_depth": 0.34285714285714286,
+      "syn_ant_sep": 1.1527,
+      "valence_r": 0.7193,
+      "arousal_r": 0.7343
+    },
+    {
+      "layer": 13,
+      "rel_depth": 0.37142857142857144,
+      "syn_ant_sep": 1.1533,
+      "valence_r": 0.7043,
+      "arousal_r": 0.7384
+    },
+    {
+      "layer": 14,
+      "rel_depth": 0.4,
+      "syn_ant_sep": 1.1562,
+      "valence_r": 0.692,
+      "arousal_r": 0.7388
+    },
+    {
+      "layer": 15,
+      "rel_depth": 0.42857142857142855,
+      "syn_ant_sep": 1.1794,
+      "valence_r": 0.662,
+      "arousal_r": 0.7599
+    },
+    {
+      "layer": 16,
+      "rel_depth": 0.45714285714285713,
+      "syn_ant_sep": 1.1781,
+      "valence_r": 0.6781,
+      "arousal_r": 0.7679
+    },
+    {
+      "layer": 17,
+      "rel_depth": 0.4857142857142857,
+      "syn_ant_sep": 1.1743,
+      "valence_r": 0.6816,
+      "arousal_r": 0.7758
+    },
+    {
+      "layer": 18,
+      "rel_depth": 0.5142857142857142,
+      "syn_ant_sep": 1.1999,
+      "valence_r": 0.6789,
+      "arousal_r": 0.7747
+    },
+    {
+      "layer": 19,
+      "rel_depth": 0.5428571428571428,
+      "syn_ant_sep": 1.1931,
+      "valence_r": 0.6774,
+      "arousal_r": 0.7856
+    },
+    {
+      "layer": 20,
+      "rel_depth": 0.5714285714285714,
+      "syn_ant_sep": 1.193,
+      "valence_r": 0.68,
+      "arousal_r": 0.7919
+    },
+    {
+      "layer": 21,
+      "rel_depth": 0.6,
+      "syn_ant_sep": 1.1884,
+      "valence_r": 0.6746,
+      "arousal_r": 0.8004
+    },
+    {
+      "layer": 22,
+      "rel_depth": 0.6285714285714286,
+      "syn_ant_sep": 1.1944,
+      "valence_r": 0.6645,
+      "arousal_r": 0.7934
+    },
+    {
+      "layer": 23,
+      "rel_depth": 0.6571428571428571,
+      "syn_ant_sep": 1.1909,
+      "valence_r": 0.6631,
+      "arousal_r": 0.7946
+    },
+    {
+      "layer": 24,
+      "rel_depth": 0.6857142857142857,
+      "syn_ant_sep": 1.191,
+      "valence_r": 0.6623,
+      "arousal_r": 0.7899
+    },
+    {
+      "layer": 25,
+      "rel_depth": 0.7142857142857143,
+      "syn_ant_sep": 1.1961,
+      "valence_r": 0.6627,
+      "arousal_r": 0.7999
+    },
+    {
+      "layer": 26,
+      "rel_depth": 0.7428571428571429,
+      "syn_ant_sep": 1.2058,
+      "valence_r": 0.652,
+      "arousal_r": 0.803
+    },
+    {
+      "layer": 27,
+      "rel_depth": 0.7714285714285715,
+      "syn_ant_sep": 1.2085,
+      "valence_r": 0.6524,
+      "arousal_r": 0.8003
+    },
+    {
+      "layer": 28,
+      "rel_depth": 0.8,
+      "syn_ant_sep": 1.211,
+      "valence_r": 0.6563,
+      "arousal_r": 0.8
+    },
+    {
+      "layer": 29,
+      "rel_depth": 0.8285714285714286,
+      "syn_ant_sep": 1.2109,
+      "valence_r": 0.6598,
+      "arousal_r": 0.7981
+    },
+    {
+      "layer": 30,
+      "rel_depth": 0.8571428571428571,
+      "syn_ant_sep": 1.2181,
+      "valence_r": 0.6546,
+      "arousal_r": 0.7945
+    },
+    {
+      "layer": 31,
+      "rel_depth": 0.8857142857142857,
+      "syn_ant_sep": 1.221,
+      "valence_r": 0.6522,
+      "arousal_r": 0.7978
+    },
+    {
+      "layer": 32,
+      "rel_depth": 0.9142857142857143,
+      "syn_ant_sep": 1.2232,
+      "valence_r": 0.6475,
+      "arousal_r": 0.7964
+    },
+    {
+      "layer": 33,
+      "rel_depth": 0.9428571428571428,
+      "syn_ant_sep": 1.2247,
+      "valence_r": 0.6403,
+      "arousal_r": 0.7991
+    },
+    {
+      "layer": 34,
+      "rel_depth": 0.9714285714285714,
+      "syn_ant_sep": 1.2264,
+      "valence_r": 0.6395,
+      "arousal_r": 0.7964
+    },
+    {
+      "layer": 35,
+      "rel_depth": 1.0,
+      "syn_ant_sep": 1.2141,
+      "valence_r": 0.6322,
+      "arousal_r": 0.7801
+    }
+  ],
+  "rsa_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "rsa_offdiag_mean": 0.9774313484381485
+}

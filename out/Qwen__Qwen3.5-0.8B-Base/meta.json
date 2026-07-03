@@ -1,0 +1,9 @@
+{
+  "repo": "Qwen/Qwen3.5-0.8B-Base",
+  "tag": "Qwen__Qwen3.5-0.8B-Base",
+  "n_layers": 24,
+  "d_model": 1024,
+  "n_emotions": 171,
+  "min_token_offset": 50,
+  "max_len": 512
+}

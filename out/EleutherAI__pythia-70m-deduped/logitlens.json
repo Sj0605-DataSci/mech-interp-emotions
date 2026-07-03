@@ -1,0 +1,280 @@
+{
+  "happy": {
+    "up": [
+      "delight",
+      "breeze",
+      "joy",
+      "welcome",
+      "thrilling",
+      "flourish",
+      "excitement",
+      "burst"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "sad": {
+    "up": [
+      "beneath",
+      "memory",
+      "uncertain",
+      "horizon",
+      "reflect",
+      "under",
+      "reflected",
+      "memories"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "angry": {
+    "up": [
+      "fists",
+      "violently",
+      "raged",
+      "victims",
+      "fist",
+      "toll",
+      "against",
+      "causing"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "afraid": {
+    "up": [
+      "death",
+      "against",
+      "bodies",
+      "defenses",
+      "necrosis",
+      "victims",
+      "movements",
+      "attackers"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "calm": {
+    "up": [
+      "seasonal",
+      "reflect",
+      "reflected",
+      "softly",
+      "gentle",
+      "flow",
+      "steady",
+      "gently"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "desperate": {
+    "up": [
+      "!\"",
+      "!\"",
+      "\".\"",
+      ",'\"",
+      "...\"",
+      ",\"",
+      ".\"",
+      "!'"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "proud": {
+    "up": [
+      ",\"",
+      "!\"",
+      "trusted",
+      ".\")",
+      "sir",
+      "built",
+      ".\"",
+      "?\""
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "loving": {
+    "up": [
+      "welcome",
+      "await",
+      "kiss",
+      ",\u201d",
+      "\"</",
+      "farewell",
+      "ensure",
+      ".\u201d"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "guilty": {
+    "up": [
+      "inflicted",
+      "badly",
+      "worse",
+      "blame",
+      "shame",
+      "revenge",
+      "humili",
+      "blaming"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "nervous": {
+    "up": [
+      "muscles",
+      "movements",
+      "exhaustion",
+      "diaphragm",
+      "frequency",
+      "longer",
+      "=>",
+      "inhib"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "surprised": {
+    "up": [
+      "Population",
+      "GMT",
+      "differed",
+      "(**",
+      "agle",
+      "ensis",
+      "consisted",
+      "Islands"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "inspired": {
+    "up": [
+      "patterns",
+      "developed",
+      "sciences",
+      "pulsed",
+      "cluster",
+      "filled",
+      "flow",
+      "burg"
+    ],
+    "down": [
+      "",
+      "",
+      "",
+      "",
+      "\ufffd",
+      "<|padding|>",
+      "",
+      ""
+    ],
+    "self_hit": false
+  },
+  "_self_hit_rate": 0.0,
+  "_n_emotions": 12
+}

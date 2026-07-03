@@ -1,0 +1,9 @@
+{
+  "repo": "cerebras/Cerebras-GPT-111M",
+  "tag": "cerebras__Cerebras-GPT-111M",
+  "n_layers": 10,
+  "d_model": 768,
+  "n_emotions": 171,
+  "min_token_offset": 50,
+  "max_len": 512
+}
